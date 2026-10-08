@@ -1,0 +1,1754 @@
+[INFO] [launch]: All log files can be found below /home/abc/.ros/log/2026-10-07-23-26-24-589881-123-220564
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [220567]
+[INFO] [gzserver-2]: process started with pid [220569]
+[robot_state_publisher-1] [WARN] [1791386784.725182646] [kdl_parser]: The root link base_footprint has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-1] [INFO] [1791386784.725240600] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-1] [INFO] [1791386784.725276815] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-1] [INFO] [1791386784.725280146] [robot_state_publisher]: got segment camera_Link
+[robot_state_publisher-1] [INFO] [1791386784.725282607] [robot_state_publisher]: got segment deco_cover_Link
+[robot_state_publisher-1] [INFO] [1791386784.725285108] [robot_state_publisher]: got segment left_front_wheel_Link
+[robot_state_publisher-1] [INFO] [1791386784.725287594] [robot_state_publisher]: got segment left_rear_wheel_Link
+[robot_state_publisher-1] [INFO] [1791386784.725289914] [robot_state_publisher]: got segment lidar_Link
+[robot_state_publisher-1] [INFO] [1791386784.725293297] [robot_state_publisher]: got segment right_front_wheel_Link
+[robot_state_publisher-1] [INFO] [1791386784.725295644] [robot_state_publisher]: got segment right_rear_wheel_Link
+[gzserver-2] Gazebo multi-robot simulator, version 11.10.2
+[gzserver-2] Copyright (C) 2012 Open Source Robotics Foundation.
+[gzserver-2] Released under the Apache 2 License.
+[gzserver-2] http://gazebosim.org
+[gzserver-2] 
+[gzserver-2] [1;33m[Wrn] [gazebo_ros_init.cpp:178] [0m[1;33m
+[gzserver-2] #     # ####### ####### ###  #####  #######
+[gzserver-2] ##    # #     #    #     #  #     # #
+[gzserver-2] # #   # #     #    #     #  #       #
+[gzserver-2] #  #  # #     #    #     #  #       #####
+[gzserver-2] #   # # #     #    #     #  #       #
+[gzserver-2] #    ## #     #    #     #  #     # #
+[gzserver-2] #     # #######    #    ###  #####  #######
+[gzserver-2] 
+[gzserver-2] This version of Gazebo, now called Gazebo classic, reaches end-of-life
+[gzserver-2] in January 2025. Users are highly encouraged to migrate to the new Gazebo
+[gzserver-2] using our migration guides (https://gazebosim.org/docs/latest/gazebo_classic_migration?utm_source=gazebo_ros_pkgs&utm_medium=cli)
+[gzserver-2] 
+[gzserver-2] [0m[1;33m
+[INFO] [spawn_entity.py-3]: process started with pid [220854]
+[spawn_entity.py-3] [INFO] [1791386788.040107652] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-3] [INFO] [1791386788.040294542] [spawn_entity]: Loading entity published on topic robot_description
+[spawn_entity.py-3] [INFO] [1791386788.041188833] [spawn_entity]: Waiting for entity xml on robot_description
+[spawn_entity.py-3] [INFO] [1791386788.051979747] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-3] [INFO] [1791386788.052139538] [spawn_entity]: Waiting for service /spawn_entity
+[spawn_entity.py-3] [INFO] [1791386788.053847400] [spawn_entity]: Calling service /spawn_entity
+[spawn_entity.py-3] [INFO] [1791386788.242017550] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [auto_mower]
+[gzserver-2] [1;32m[Msg] [0m[1;32mWaiting for master.[0m[1;32m
+[gzserver-2] [0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mConnected to gazebo master @ [0m[1;32mhttp://127.0.0.1:11410[0m[1;32m
+[gzserver-2] [0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mPublicized address: [0m[1;32m192.168.177.7[0m[1;32m
+[gzserver-2] [0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mLoading world file [[0m[1;32m/home/abc/auto_mower_nav_backup_4-11（复件）/论文输出/实验/scripts/worlds/lawn_world_rtf2.world[0m[1;32m][0m[1;32m
+[gzserver-2] [0m[1;33m[0m[1;33m[0m[1;33m[Wrn] [Event.cc:61] [0m[1;33mWarning: Deleting a connection right after creation. [0m[1;33mMake sure to save the ConnectionPtr from a Connect call
+[INFO] [spawn_entity.py-3]: process has finished cleanly [pid 220854]
+[gzserver-2] [0m[INFO] [1791386788.366899078] [camera_controller]: Publishing camera info to [/camera/camera_info]
+[gzserver-2] [1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::body_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::body_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::head_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::head_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg1_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg1_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg2_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg2_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg3_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg3_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg4_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg4_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::tail_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::tail_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[INFO] [1791386788.451033864] [diff_drive]: Wheel pair 1 separation set to [0.526460m]
+[gzserver-2] [INFO] [1791386788.451065173] [diff_drive]: Wheel pair 1 diameter set to [0.176000m]
+[gzserver-2] [INFO] [1791386788.451700356] [diff_drive]: Subscribed to [/cmd_vel]
+[gzserver-2] [INFO] [1791386788.452787916] [diff_drive]: Advertise odometry on [/odom]
+[gzserver-2] [INFO] [1791386788.454018718] [diff_drive]: Publishing odom transforms between [odom] and [base_footprint]
+[gzserver-2] [INFO] [1791386788.459310959] [joint_state_publisher]: Going to publish joint [joint_left_front_wheel_Link]
+[gzserver-2] [INFO] [1791386788.459327979] [joint_state_publisher]: Going to publish joint [joint_right_front_wheel_Link]
+[gzserver-2] [INFO] [1791386788.459332329] [joint_state_publisher]: Going to publish joint [joint_left_rear_wheel_Link]
+[gzserver-2] [INFO] [1791386788.459335730] [joint_state_publisher]: Going to publish joint [joint_right_rear_wheel_Link]
+[gzserver-2] [INFO] [1791386788.459338873] [joint_state_publisher]: Going to publish joint [joint_camera_Link]
+[INFO] [async_slam_toolbox_node-4]: process started with pid [220950]
+[async_slam_toolbox_node-4] [INFO] [1791386791.070032690] [slam_toolbox]: Node using stack size 40000000
+[async_slam_toolbox_node-4] [INFO] [1791386791.088508251] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-4] [INFO] [1791386791.088614507] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[async_slam_toolbox_node-4] Registering sensor: [Custom Described Lidar]
+[INFO] [yolo_detector-5]: process started with pid [221004]
+[yolo_detector-5] [INFO] [1791386792.254517533] [yolo_detector]: YOLO检测器初始化中...
+[yolo_detector-5] [INFO] [1791386792.254740592] [yolo_detector]: 🎯 目标检测类别: ['bottle', 'cup']
+[yolo_detector-5] [INFO] [1791386792.254904209] [yolo_detector]: 📊 置信度阈值: 0.3
+[INFO] [python3-6]: process started with pid [221092]
+[INFO] [python3-7]: process started with pid [221097]
+[python3-6] [INFO] [1791386793.377761758] [coverage_planner]: 🌱 CoveragePlanner 已启动
+[python3-6] [INFO] [1791386793.377975041] [coverage_planner]:    边界记录模式: 启动后自动记录 odom，走完后发布 /record_boundary False 即可
+[python3-6] [INFO] [1791386793.379558028] [coverage_planner]: 🧪 实验变体启动: strategy=multi one_pass=True use_vision=True boundary_constraint=True 边界顶点数=4
+[python3-7] [INFO] [1791386793.406483137] [metrics_recorder]: 📼 记录器启动, out_dir=/home/abc/auto_mower_nav_backup_4-11（复件）/论文输出/实验/data/sciB_main_rect6_fusion_r2
+[python3-6] [INFO] [1791386794.069875271] [coverage_planner]: 等待 SLAM 地图 ...
+[python3-6] [INFO] [1791386794.269648146] [coverage_planner]: 等待 SLAM 地图 ...
+[python3-6] [INFO] [1791386800.275497392] [coverage_planner]: 🧪 注入边界多边形: 121 点
+[python3-6] [INFO] [1791386800.275820822] [coverage_planner]: 处理边界轨迹，原始点 121 个
+[python3-6] [INFO] [1791386800.276145198] [coverage_planner]: 简化后 121 个点
+[python3-6] [INFO] [1791386800.276433615] [coverage_planner]: 首尾距离: 0.00m
+[python3-6] [INFO] [1791386800.276720274] [coverage_planner]: 已闭合多边形
+[python3-6] [INFO] [1791386800.277017259] [coverage_planner]: ✅ 边界完成: 122 个顶点, x=-3.0~3.0, y=-3.0~3.0
+[python3-6] [INFO] [1791386800.286871293] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-6] [INFO] [1791386800.294058523] [coverage_planner]: 方向 0.0°: 143 航点, 连接代价 5.7m
+[python3-6] [INFO] [1791386800.294694897] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-6] [INFO] [1791386800.304829828] [coverage_planner]: 方向 30.0°: 146 航点, 连接代价 13.7m
+[python3-6] [INFO] [1791386800.305308504] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-6] [INFO] [1791386800.317610297] [coverage_planner]: 方向 60.0°: 146 航点, 连接代价 13.9m
+[python3-6] [INFO] [1791386800.318057305] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-6] [INFO] [1791386800.323812391] [coverage_planner]: 方向 90.0°: 143 航点, 连接代价 5.4m
+[python3-6] [INFO] [1791386800.324227384] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-6] [INFO] [1791386800.334803091] [coverage_planner]: 方向 120.0°: 146 航点, 连接代价 10.3m
+[python3-6] [INFO] [1791386800.335262115] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-6] [INFO] [1791386800.348165096] [coverage_planner]: 方向 150.0°: 146 航点, 连接代价 10.3m
+[python3-6] [INFO] [1791386800.348343573] [coverage_planner]: ✅ [strategy=multi] 选定条纹方向: 90.0° (连接代价 5.4m)
+[python3-6] [INFO] [1791386800.359882408] [coverage_planner]: 🚀 开始覆盖导航，共 143 个航点，从航点0出发
+[python3-6] [INFO] [1791386800.360644371] [coverage_planner]: 🧪 真值障碍过滤航点: 143 -> 123
+[python3-7] [INFO] [1791386800.373526766] [metrics_recorder]: 📼 覆盖开始: 123 个规划航点, t=28.1
+[python3-6] [INFO] [1791386800.374191968] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-6] [INFO] [1791386800.376502900] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-6] [INFO] [1791386800.427314711] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-6] [INFO] [1791386800.477557288] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-6] [INFO] [1791386800.527815321] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-6] [INFO] [1791386800.578040665] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-6] [INFO] [1791386800.627375030] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-6] [INFO] [1791386800.678805767] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-6] [INFO] [1791386800.728079142] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-6] [INFO] [1791386800.777187753] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-6] [INFO] [1791386800.825783444] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-6] [INFO] [1791386800.876365298] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-6] [INFO] [1791386800.926631286] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-6] [INFO] [1791386800.976540020] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-6] [INFO] [1791386801.027772955] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-6] [INFO] [1791386801.079618679] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-6] [INFO] [1791386801.127731962] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-6] [INFO] [1791386801.131646558] [coverage_planner]: 🌀 航点0航线被挡，插入14个绕障圆弧航点
+[python3-6] [INFO] [1791386801.177081064] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386801.227547087] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386801.277694289] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386801.328507389] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386801.379340836] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386801.429583542] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386801.479373184] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386801.527834661] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386801.580547590] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386801.628679222] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386801.680849597] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386801.729338460] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386801.779316559] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386801.831606334] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386801.881059696] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386801.929114740] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386801.979178183] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386802.028219755] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386802.079139281] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386802.128127098] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386802.179387385] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386802.229563504] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386802.279426213] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386802.329844316] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386802.378641298] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386802.429516297] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386802.479154506] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386802.529865706] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386802.579403388] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386802.628789082] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386802.680019205] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386802.729172782] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386802.779475963] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386802.829543675] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386802.879251617] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386802.929541507] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386802.979240902] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386803.029540387] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386803.078980773] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386803.129665725] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386803.180457734] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386803.229903511] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386803.280029788] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386803.331727113] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386803.380684920] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386803.429509666] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386803.479813200] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386803.530530838] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386803.579828331] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386803.629686818] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386803.679545728] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386803.730694622] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386803.779915147] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386803.830827630] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386803.880997882] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386803.931819695] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386803.981509316] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386804.031196447] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386804.080518774] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386804.131245279] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386804.181072412] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386804.230897333] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386804.280244690] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386804.331158617] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-6] [INFO] [1791386804.380530910] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386804.429956895] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386804.480577427] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386804.530539345] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386804.581576514] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386804.631088874] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386804.680580816] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386804.731700456] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386804.780159103] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386804.831631590] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386804.881781247] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386804.931323294] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386804.981539233] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386805.032265530] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386805.082806237] [coverage_planner]: 状态:MOVE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386805.131515937] [coverage_planner]: 状态:MOVE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386805.181588249] [coverage_planner]: 状态:MOVE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386805.231825791] [coverage_planner]: 状态:MOVE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386805.281978530] [coverage_planner]: 状态:MOVE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386805.334970093] [coverage_planner]: 状态:MOVE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386805.384149214] [coverage_planner]: 状态:MOVE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386805.432330052] [coverage_planner]: 状态:MOVE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386805.480960945] [coverage_planner]: 状态:MOVE 目标1:(-1.4,-0.9)
+[python3-6] [INFO] [1791386805.532385237] [coverage_planner]: 状态:MOVE 目标2:(-1.6,-0.9)
+[python3-6] [INFO] [1791386805.582525709] [coverage_planner]: 状态:MOVE 目标2:(-1.6,-0.9)
+[python3-6] [INFO] [1791386805.634211137] [coverage_planner]: 状态:MOVE 目标2:(-1.6,-0.9)
+[python3-6] [INFO] [1791386805.683304562] [coverage_planner]: 状态:MOVE 目标2:(-1.6,-0.9)
+[python3-6] [INFO] [1791386805.732969586] [coverage_planner]: 状态:MOVE 目标2:(-1.6,-0.9)
+[python3-6] [INFO] [1791386805.782538739] [coverage_planner]: 状态:MOVE 目标2:(-1.6,-0.9)
+[python3-6] [INFO] [1791386805.834316741] [coverage_planner]: 状态:MOVE 目标2:(-1.6,-0.9)
+[python3-6] [INFO] [1791386805.881906528] [coverage_planner]: 状态:MOVE 目标2:(-1.6,-0.9)
+[python3-6] [INFO] [1791386805.932385225] [coverage_planner]: 状态:MOVE 目标2:(-1.6,-0.9)
+[python3-6] [INFO] [1791386805.982274441] [coverage_planner]: 状态:MOVE 目标2:(-1.6,-0.9)
+[python3-6] [INFO] [1791386806.032723651] [coverage_planner]: 状态:MOVE 目标2:(-1.6,-0.9)
+[python3-6] [INFO] [1791386806.083153139] [coverage_planner]: 状态:MOVE 目标2:(-1.6,-0.9)
+[python3-6] [INFO] [1791386806.132105575] [coverage_planner]: 状态:MOVE 目标2:(-1.6,-0.9)
+[python3-6] [INFO] [1791386806.180906430] [coverage_planner]: 状态:MOVE 目标2:(-1.6,-0.9)
+[python3-6] [WARN] [1791386822.246053692] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空0.41右空2.94
+[python3-6] [INFO] [1791386822.246258111] [coverage_planner]: 航点13第1次失败
+[python3-6] [INFO] [1791386822.246417583] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [INFO] [1791386822.246717004] [coverage_planner]: 离边界0.39m，side_dist限制为0.20m
+[python3-6] [WARN] [1791386822.247118533] [coverage_planner]: 路径在安全边界外，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386822.346661427] [coverage_planner]: 触发避障!激光:True(前0.28m) 视觉:False 左空0.40右空2.94
+[python3-6] [INFO] [1791386822.346957715] [coverage_planner]: 航点13第2次失败
+[python3-6] [INFO] [1791386822.347210560] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [INFO] [1791386822.347710176] [coverage_planner]: 离边界0.38m，side_dist限制为0.20m
+[python3-6] [INFO] [1791386822.347941270] [coverage_planner]: 侧向激光约束: 绕行方向空间0.40m，side_dist限制为0.20m
+[python3-6] [WARN] [1791386822.348154343] [coverage_planner]: 侧向空间不足(0.40m)，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386823.351043329] [coverage_planner]: 触发避障!激光:True(前0.37m) 视觉:False 左空0.43右空2.98
+[python3-6] [INFO] [1791386823.351775292] [coverage_planner]: 航点14第1次失败
+[python3-6] [INFO] [1791386823.352377204] [coverage_planner]: 连续避障第3次，保持向左绕行
+[python3-6] [INFO] [1791386823.354412562] [coverage_planner]: 离边界0.31m，side_dist限制为0.20m
+[python3-6] [INFO] [1791386823.356765797] [coverage_planner]: 开始绕行: (-2.75, -2.15)
+[python3-6] [WARN] [1791386825.501603318] [coverage_planner]: 前方仍有障碍，跳过航点 14
+[python3-6] [WARN] [1791386826.005332987] [coverage_planner]: 触发避障!激光:True(前0.43m) 视觉:False 左空2.71右空0.37
+[python3-6] [INFO] [1791386826.006311737] [coverage_planner]: 航点15第1次失败
+[python3-6] [INFO] [1791386826.007175007] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [INFO] [1791386826.008403281] [coverage_planner]: 离边界0.32m，side_dist限制为0.20m
+[python3-6] [INFO] [1791386826.009817580] [coverage_planner]: 路径/点超出安全边界，缩小到 60%: side_dist=0.12m
+[python3-6] [INFO] [1791386826.010659397] [coverage_planner]: 开始绕行: (-2.79, -2.69)
+[python3-6] [INFO] [1791386826.349845721] [coverage_planner]: 绕行完成，回到航点 15
+[python3-6] [WARN] [1791386827.352376428] [coverage_planner]: 触发避障!激光:True(前0.41m) 视觉:False 左空2.73右空0.34
+[python3-6] [INFO] [1791386827.352827703] [coverage_planner]: 航点15第2次失败
+[python3-6] [INFO] [1791386827.353194530] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [INFO] [1791386827.353797388] [coverage_planner]: 离边界0.35m，side_dist限制为0.20m
+[python3-6] [INFO] [1791386827.354632126] [coverage_planner]: 路径/点超出安全边界，缩小到 80%: side_dist=0.16m
+[python3-6] [INFO] [1791386827.355337863] [coverage_planner]: 开始绕行: (-2.79, -2.73)
+[python3-6] [WARN] [1791386827.652805032] [coverage_planner]: 前方仍有障碍，跳过航点 15
+[python3-6] [WARN] [1791386828.903688532] [coverage_planner]: 触发避障!激光:True(前0.41m) 视觉:False 左空2.75右空0.32
+[python3-6] [INFO] [1791386828.904089120] [coverage_planner]: 航点16第1次失败
+[python3-6] [INFO] [1791386828.904401840] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [INFO] [1791386828.904938803] [coverage_planner]: 离边界0.37m，side_dist限制为0.20m
+[python3-6] [INFO] [1791386828.905618573] [coverage_planner]: 路径/点超出安全边界，缩小到 80%: side_dist=0.16m
+[python3-6] [INFO] [1791386828.906057902] [coverage_planner]: 开始绕行: (-2.77, -2.76)
+[python3-6] [WARN] [1791386829.205379372] [coverage_planner]: 前方仍有障碍，跳过航点 16
+[python3-6] [WARN] [1791386831.006147957] [coverage_planner]: 触发避障!激光:True(前0.44m) 视觉:False 左空2.76右空0.32
+[python3-6] [INFO] [1791386831.006564068] [coverage_planner]: 航点17第1次失败
+[python3-6] [INFO] [1791386831.006895132] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [INFO] [1791386831.007558426] [coverage_planner]: 离边界0.36m，side_dist限制为0.20m
+[python3-6] [WARN] [1791386831.008375676] [coverage_planner]: 路径在安全边界外，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386831.055336875] [coverage_planner]: 触发避障!激光:True(前0.42m) 视觉:False 左空2.75右空0.33
+[python3-6] [INFO] [1791386831.055658550] [coverage_planner]: 航点17第2次失败
+[python3-6] [INFO] [1791386831.055929551] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [INFO] [1791386831.056428811] [coverage_planner]: 离边界0.36m，side_dist限制为0.20m
+[python3-6] [WARN] [1791386831.057111365] [coverage_planner]: 路径在安全边界外，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386831.104866401] [coverage_planner]: 触发避障!激光:True(前0.43m) 视觉:False 左空2.75右空0.32
+[python3-6] [INFO] [1791386831.105147944] [coverage_planner]: 航点17第3次失败
+[python3-6] [WARN] [1791386831.105434234] [coverage_planner]: 🚨 航点17失败3次，跳过
+[python3-6] [WARN] [1791386833.106206551] [coverage_planner]: 触发避障!激光:True(前0.49m) 视觉:False 左空2.75右空0.31
+[python3-6] [INFO] [1791386833.106440954] [coverage_planner]: 航点18第1次失败
+[python3-6] [INFO] [1791386833.106647473] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [INFO] [1791386833.106976173] [coverage_planner]: 离边界0.36m，side_dist限制为0.20m
+[python3-6] [WARN] [1791386833.107454062] [coverage_planner]: 路径在安全边界外，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386833.158615783] [coverage_planner]: 触发避障!激光:True(前0.48m) 视觉:False 左空2.74右空0.32
+[python3-6] [INFO] [1791386833.159211065] [coverage_planner]: 航点18第2次失败
+[python3-6] [INFO] [1791386833.159760846] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [INFO] [1791386833.160632062] [coverage_planner]: 离边界0.36m，side_dist限制为0.20m
+[python3-6] [WARN] [1791386833.161768396] [coverage_planner]: 路径在安全边界外，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386833.208944320] [coverage_planner]: 触发避障!激光:True(前0.50m) 视觉:False 左空2.75右空0.32
+[python3-6] [INFO] [1791386833.210215646] [coverage_planner]: 航点18第3次失败
+[python3-6] [WARN] [1791386833.211530907] [coverage_planner]: 🚨 航点18失败3次，跳过
+[python3-6] [WARN] [1791386835.160960003] [coverage_planner]: 触发避障!激光:True(前0.55m) 视觉:False 左空2.75右空0.34
+[python3-6] [INFO] [1791386835.161594320] [coverage_planner]: 航点19第1次失败
+[python3-6] [INFO] [1791386835.162121550] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [INFO] [1791386835.163053814] [coverage_planner]: 离边界0.28m，side_dist限制为0.20m
+[python3-6] [WARN] [1791386835.164353097] [coverage_planner]: 路径在安全边界外，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386835.210311286] [coverage_planner]: 触发避障!激光:True(前0.55m) 视觉:False 左空2.74右空0.33
+[python3-6] [INFO] [1791386835.210938069] [coverage_planner]: 航点19第2次失败
+[python3-6] [INFO] [1791386835.211459904] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [INFO] [1791386835.212328020] [coverage_planner]: 离边界0.28m，side_dist限制为0.20m
+[python3-6] [WARN] [1791386835.213361709] [coverage_planner]: 路径在安全边界外，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386835.260405980] [coverage_planner]: 触发避障!激光:True(前0.56m) 视觉:False 左空2.75右空0.35
+[python3-6] [INFO] [1791386835.260916633] [coverage_planner]: 航点19第3次失败
+[python3-6] [WARN] [1791386835.261441509] [coverage_planner]: 🚨 航点19失败3次，跳过
+[python3-6] [WARN] [1791386835.860945792] [coverage_planner]: 触发避障!激光:True(前0.45m) 视觉:False 左空2.79右空0.55
+[python3-6] [INFO] [1791386835.861531862] [coverage_planner]: 航点20第1次失败
+[python3-6] [INFO] [1791386835.862004531] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386835.862733064] [coverage_planner]: 离边界仅0.13m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386835.910253063] [coverage_planner]: 触发避障!激光:True(前0.47m) 视觉:False 左空2.79右空0.53
+[python3-6] [INFO] [1791386835.910771153] [coverage_planner]: 航点20第2次失败
+[python3-6] [INFO] [1791386835.911223122] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386835.912019491] [coverage_planner]: 离边界仅0.13m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386835.961204586] [coverage_planner]: 触发避障!激光:True(前0.47m) 视觉:False 左空2.78右空0.55
+[python3-6] [INFO] [1791386835.961833875] [coverage_planner]: 航点20第3次失败
+[python3-6] [WARN] [1791386835.962454696] [coverage_planner]: 🚨 航点20失败3次，跳过
+[python3-6] [WARN] [1791386836.361869148] [coverage_planner]: 触发避障!激光:True(前0.46m) 视觉:False 左空2.81右空0.90
+[python3-6] [INFO] [1791386836.362539754] [coverage_planner]: 航点21第1次失败
+[python3-6] [INFO] [1791386836.363108432] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386836.364045012] [coverage_planner]: 离边界仅-0.02m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386836.412101171] [coverage_planner]: 触发避障!激光:True(前0.45m) 视觉:False 左空2.81右空0.93
+[python3-6] [INFO] [1791386836.412760820] [coverage_planner]: 航点21第2次失败
+[python3-6] [INFO] [1791386836.413325729] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386836.414336492] [coverage_planner]: 离边界仅-0.03m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386836.462392599] [coverage_planner]: 触发避障!激光:True(前0.44m) 视觉:False 左空2.83右空0.96
+[python3-6] [INFO] [1791386836.463047196] [coverage_planner]: 航点21第3次失败
+[python3-6] [WARN] [1791386836.463721386] [coverage_planner]: 🚨 航点21失败3次，跳过
+[python3-6] [WARN] [1791386836.610900449] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.55,-3.16)
+[python3-6] [WARN] [1791386836.660908134] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.55,-3.18)
+[python3-6] [WARN] [1791386836.711161975] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.54,-3.18)
+[python3-6] [WARN] [1791386836.759628629] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.54,-3.18)
+[python3-6] [WARN] [1791386836.810706499] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.54,-3.18)
+[python3-6] [WARN] [1791386836.860816322] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.53,-3.18)
+[python3-6] [WARN] [1791386836.911308360] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.53,-3.18)
+[python3-6] [WARN] [1791386836.961211810] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.53,-3.18)
+[python3-6] [WARN] [1791386837.010485143] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.52,-3.18)
+[python3-6] [WARN] [1791386837.060554628] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.52,-3.18)
+[python3-6] [WARN] [1791386837.062397541] [coverage_planner]: 触发避障!激光:True(前0.57m) 视觉:False 左空2.86右空5.57
+[python3-6] [INFO] [1791386837.062962879] [coverage_planner]: 航点22第1次失败
+[python3-6] [INFO] [1791386837.063499804] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386837.064371186] [coverage_planner]: 离边界仅-0.18m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386837.110941015] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.52,-3.19)
+[python3-6] [WARN] [1791386837.112649091] [coverage_planner]: 触发避障!激光:True(前0.57m) 视觉:False 左空2.87右空5.56
+[python3-6] [INFO] [1791386837.113138456] [coverage_planner]: 航点22第2次失败
+[python3-6] [INFO] [1791386837.113626797] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386837.114401182] [coverage_planner]: 离边界仅-0.19m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386837.161508490] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.52,-3.21)
+[python3-6] [WARN] [1791386837.163491374] [coverage_planner]: 触发避障!激光:True(前0.57m) 视觉:False 左空2.86右空5.57
+[python3-6] [INFO] [1791386837.164094116] [coverage_planner]: 航点22第3次失败
+[python3-6] [WARN] [1791386837.164729064] [coverage_planner]: 🚨 航点22失败3次，跳过
+[python3-6] [WARN] [1791386837.211234164] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.52,-3.25)
+[python3-6] [WARN] [1791386837.260579669] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.51,-3.30)
+[python3-6] [WARN] [1791386837.310595824] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.51,-3.32)
+[python3-6] [WARN] [1791386837.361103272] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.51,-3.33)
+[python3-6] [WARN] [1791386837.410548952] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.50,-3.34)
+[python3-6] [WARN] [1791386837.460552135] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.50,-3.34)
+[python3-6] [WARN] [1791386837.513342545] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.50,-3.34)
+[python3-6] [WARN] [1791386837.563043594] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.50,-3.34)
+[python3-6] [WARN] [1791386837.611311863] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.49,-3.33)
+[python3-6] [WARN] [1791386837.660806529] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.49,-3.33)
+[python3-6] [WARN] [1791386837.662411788] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386837.711420673] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.49,-3.33)
+[python3-6] [WARN] [1791386837.713050032] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386837.761489322] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.49,-3.30)
+[python3-6] [WARN] [1791386837.763188790] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386837.811807931] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.49,-3.26)
+[python3-6] [WARN] [1791386837.813363409] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386837.862180315] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.49,-3.21)
+[python3-6] [WARN] [1791386837.863915121] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.2)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386837.912182990] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.49,-3.16)
+[python3-6] [WARN] [1791386837.914035566] [coverage_planner]: 触发避障!激光:True(前0.58m) 视觉:False 左空2.90右空5.55
+[python3-6] [INFO] [1791386837.914588766] [coverage_planner]: 航点23第1次失败
+[python3-6] [INFO] [1791386837.915104713] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386837.915919964] [coverage_planner]: 离边界仅-0.16m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386837.962930856] [coverage_planner]: 触发避障!激光:True(前0.52m) 视觉:False 左空2.89右空5.52
+[python3-6] [INFO] [1791386837.963525963] [coverage_planner]: 航点23第2次失败
+[python3-6] [INFO] [1791386837.964043165] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386837.964926213] [coverage_planner]: 离边界仅-0.11m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386838.012573553] [coverage_planner]: 触发避障!激光:True(前0.49m) 视觉:False 左空2.87右空5.50
+[python3-6] [INFO] [1791386838.013041468] [coverage_planner]: 航点23第3次失败
+[python3-6] [WARN] [1791386838.013517464] [coverage_planner]: 🚨 航点23失败3次，跳过
+[python3-6] [WARN] [1791386838.112859047] [coverage_planner]: 触发避障!激光:True(前0.46m) 视觉:False 左空2.90右空5.48
+[python3-6] [INFO] [1791386838.113367040] [coverage_planner]: 航点24第1次失败
+[python3-6] [INFO] [1791386838.113797038] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386838.114532882] [coverage_planner]: 离边界仅-0.08m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386838.163996224] [coverage_planner]: 触发避障!激光:True(前0.46m) 视觉:False 左空2.90右空5.50
+[python3-6] [INFO] [1791386838.164621948] [coverage_planner]: 航点24第2次失败
+[python3-6] [INFO] [1791386838.165138387] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386838.165961669] [coverage_planner]: 离边界仅-0.09m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386838.212232758] [coverage_planner]: 触发避障!激光:True(前0.46m) 视觉:False 左空2.90右空5.49
+[python3-6] [INFO] [1791386838.212719721] [coverage_planner]: 航点24第3次失败
+[python3-6] [WARN] [1791386838.213220060] [coverage_planner]: 🚨 航点24失败3次，跳过
+[python3-6] [WARN] [1791386838.262873473] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.49,-3.16)
+[python3-6] [WARN] [1791386838.310858002] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.48,-3.20)
+[python3-6] [WARN] [1791386838.311980418] [coverage_planner]: 触发避障!激光:True(前0.55m) 视觉:False 左空2.89右空5.53
+[python3-6] [INFO] [1791386838.312384216] [coverage_planner]: 航点25第1次失败
+[python3-6] [INFO] [1791386838.312739229] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386838.313344105] [coverage_planner]: 离边界仅-0.20m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386838.361977473] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.48,-3.23)
+[python3-6] [WARN] [1791386838.363985763] [coverage_planner]: 触发避障!激光:True(前0.58m) 视觉:False 左空2.90右空5.53
+[python3-6] [INFO] [1791386838.364537591] [coverage_planner]: 航点25第2次失败
+[python3-6] [INFO] [1791386838.364951275] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386838.365755107] [coverage_planner]: 离边界仅-0.23m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386838.412285155] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.47,-3.28)
+[python3-6] [WARN] [1791386838.413909180] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386838.461196082] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.46,-3.33)
+[python3-6] [WARN] [1791386838.462117585] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386838.511568317] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.45,-3.37)
+[python3-6] [WARN] [1791386838.512713964] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.4)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386838.563409084] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.45,-3.40)
+[python3-6] [WARN] [1791386838.565439177] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.4)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386838.612689354] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.45,-3.41)
+[python3-6] [WARN] [1791386838.614007728] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.4)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386838.664398321] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.45,-3.40)
+[python3-6] [WARN] [1791386838.665831633] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.4)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386838.711373547] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.45,-3.37)
+[python3-6] [WARN] [1791386838.712181910] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.4)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386838.761486432] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.46,-3.33)
+[python3-6] [WARN] [1791386838.762514545] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386838.814112998] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.47,-3.28)
+[python3-6] [WARN] [1791386838.815743804] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386838.861413519] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.47,-3.23)
+[python3-6] [WARN] [1791386838.861927924] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.2)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386838.911965936] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.48,-3.18)
+[python3-6] [WARN] [1791386838.912935428] [coverage_planner]: 触发避障!激光:True(前0.59m) 视觉:False 左空2.91右空5.53
+[python3-6] [INFO] [1791386838.913206880] [coverage_planner]: 航点25第3次失败
+[python3-6] [WARN] [1791386838.913525061] [coverage_planner]: 🚨 航点25失败3次，跳过
+[python3-6] [WARN] [1791386839.311940748] [coverage_planner]: 触发避障!激光:True(前0.44m) 视觉:False 左空2.91右空5.46
+[python3-6] [INFO] [1791386839.312282640] [coverage_planner]: 航点26第1次失败
+[python3-6] [INFO] [1791386839.312584555] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386839.313067464] [coverage_planner]: 离边界仅-0.05m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386839.362279727] [coverage_planner]: 触发避障!激光:True(前0.43m) 视觉:False 左空2.92右空5.47
+[python3-6] [INFO] [1791386839.362614122] [coverage_planner]: 航点26第2次失败
+[python3-6] [INFO] [1791386839.362920400] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386839.363377547] [coverage_planner]: 离边界仅-0.06m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386839.412376095] [coverage_planner]: 触发避障!激光:True(前0.43m) 视觉:False 左空2.91右空5.49
+[python3-6] [INFO] [1791386839.412724293] [coverage_planner]: 航点26第3次失败
+[python3-6] [WARN] [1791386839.413112386] [coverage_planner]: 🚨 航点26失败3次，跳过
+[python3-6] [WARN] [1791386839.511704624] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.47,-3.17)
+[python3-6] [WARN] [1791386839.564019417] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.46,-3.20)
+[python3-6] [WARN] [1791386839.612211362] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.46,-3.21)
+[python3-6] [WARN] [1791386839.662059763] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.46,-3.21)
+[python3-6] [WARN] [1791386839.712661292] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.46,-3.21)
+[python3-6] [WARN] [1791386839.763141463] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.46,-3.21)
+[python3-6] [WARN] [1791386839.811167380] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.45,-3.21)
+[python3-6] [WARN] [1791386839.861294245] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.45,-3.21)
+[python3-6] [WARN] [1791386839.861891071] [coverage_planner]: 触发避障!激光:True(前0.58m) 视觉:False 左空2.94右空5.50
+[python3-6] [INFO] [1791386839.862058131] [coverage_planner]: 航点27第1次失败
+[python3-6] [INFO] [1791386839.862218674] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386839.862486394] [coverage_planner]: 离边界仅-0.21m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386839.911183256] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.45,-3.22)
+[python3-6] [WARN] [1791386839.911776840] [coverage_planner]: 触发避障!激光:True(前0.58m) 视觉:False 左空2.93右空5.49
+[python3-6] [INFO] [1791386839.911940338] [coverage_planner]: 航点27第2次失败
+[python3-6] [INFO] [1791386839.912101232] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386839.912359046] [coverage_planner]: 离边界仅-0.22m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386839.961247991] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.45,-3.24)
+[python3-6] [WARN] [1791386839.961838739] [coverage_planner]: 触发避障!激光:True(前0.59m) 视觉:False 左空2.93右空5.49
+[python3-6] [INFO] [1791386839.962000795] [coverage_planner]: 航点27第3次失败
+[python3-6] [WARN] [1791386839.962192115] [coverage_planner]: 🚨 航点27失败3次，跳过
+[python3-6] [WARN] [1791386840.011254704] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.45,-3.28)
+[python3-6] [WARN] [1791386840.061424694] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.45,-3.32)
+[python3-6] [WARN] [1791386840.111353954] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.44,-3.35)
+[python3-6] [WARN] [1791386840.161418662] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.44,-3.36)
+[python3-6] [WARN] [1791386840.211457154] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.44,-3.36)
+[yolo_detector-5] [INFO] [1791386840.216808387] [yolo_detector]: 正在加载模型: yolov8n.pt
+[python3-6] [WARN] [1791386840.262091883] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.44,-3.36)
+[yolo_detector-5] [INFO] [1791386840.306430057] [yolo_detector]: ✅ 模型加载成功
+[python3-6] [WARN] [1791386840.311409096] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.43,-3.36)
+[yolo_detector-5] [INFO] [1791386840.328547760] [yolo_detector]: YOLO检测器已启动！
+[python3-6] [WARN] [1791386840.362609113] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.43,-3.36)
+[python3-6] [WARN] [1791386840.415774402] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.43,-3.37)
+[python3-6] [WARN] [1791386840.461917182] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.43,-3.37)
+[python3-6] [WARN] [1791386840.462389210] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.4)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386840.512186499] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.43,-3.36)
+[python3-6] [WARN] [1791386840.512914241] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.4)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386840.561622635] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.43,-3.33)
+[python3-6] [WARN] [1791386840.562249676] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386840.611702646] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.43,-3.29)
+[python3-6] [WARN] [1791386840.612348217] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386840.661735546] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.42,-3.24)
+[python3-6] [WARN] [1791386840.662272750] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.2)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386840.711600397] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.42,-3.19)
+[python3-6] [WARN] [1791386840.712226435] [coverage_planner]: 触发避障!激光:True(前0.59m) 视觉:False 左空2.97右空5.48
+[python3-6] [INFO] [1791386840.712399501] [coverage_planner]: 航点28第1次失败
+[python3-6] [INFO] [1791386840.712568640] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386840.712836530] [coverage_planner]: 离边界仅-0.19m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386840.762238533] [coverage_planner]: 触发避障!激光:True(前0.55m) 视觉:False 左空2.97右空5.45
+[python3-6] [INFO] [1791386840.762437825] [coverage_planner]: 航点28第2次失败
+[python3-6] [INFO] [1791386840.762608264] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386840.762909226] [coverage_planner]: 离边界仅-0.15m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386840.811981548] [coverage_planner]: 触发避障!激光:True(前0.51m) 视觉:False 左空2.97右空5.43
+[python3-6] [INFO] [1791386840.812172224] [coverage_planner]: 航点28第3次失败
+[python3-6] [WARN] [1791386840.812366166] [coverage_planner]: 🚨 航点28失败3次，跳过
+[python3-6] [WARN] [1791386841.315832911] [coverage_planner]: 触发避障!激光:True(前0.48m) 视觉:False 左空3.00右空4.30
+[python3-6] [INFO] [1791386841.316490412] [coverage_planner]: 航点29第1次失败
+[python3-6] [INFO] [1791386841.317020892] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386841.317927174] [coverage_planner]: 离边界仅-0.13m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386841.365614266] [coverage_planner]: 触发避障!激光:True(前0.47m) 视觉:False 左空2.99右空4.30
+[python3-6] [INFO] [1791386841.366217094] [coverage_planner]: 航点29第2次失败
+[python3-6] [INFO] [1791386841.366725618] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386841.367523259] [coverage_planner]: 离边界仅-0.14m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386841.414569463] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.40,-3.16)
+[python3-6] [WARN] [1791386841.416404156] [coverage_planner]: 触发避障!激光:True(前0.48m) 视觉:False 左空3.00右空4.29
+[python3-6] [INFO] [1791386841.416911688] [coverage_planner]: 航点29第3次失败
+[python3-6] [WARN] [1791386841.417476573] [coverage_planner]: 🚨 航点29失败3次，跳过
+[python3-6] [WARN] [1791386841.464799474] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.41,-3.20)
+[python3-6] [WARN] [1791386841.513238386] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.41,-3.24)
+[python3-6] [WARN] [1791386841.514280369] [coverage_planner]: 触发避障!激光:True(前0.56m) 视觉:False 左空2.98右空4.29
+[python3-6] [INFO] [1791386841.514655926] [coverage_planner]: 航点30第1次失败
+[python3-6] [INFO] [1791386841.514988754] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386841.515689144] [coverage_planner]: 离边界仅-0.24m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386841.563719327] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.41,-3.28)
+[python3-6] [WARN] [1791386841.565317193] [coverage_planner]: 触发避障!激光:True(前0.59m) 视觉:False 左空2.98右空4.40
+[python3-6] [INFO] [1791386841.565786226] [coverage_planner]: 航点30第2次失败
+[python3-6] [INFO] [1791386841.566118582] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386841.566654139] [coverage_planner]: 离边界仅-0.28m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386841.613428898] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.41,-3.32)
+[python3-6] [WARN] [1791386841.614505611] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386841.662780251] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.41,-3.37)
+[python3-6] [WARN] [1791386841.663309846] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.4)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386841.712929852] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.41,-3.42)
+[python3-6] [WARN] [1791386841.713669876] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.4)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386841.762866611] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.41,-3.44)
+[python3-6] [WARN] [1791386841.763363490] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.4)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386841.812918166] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.41,-3.45)
+[python3-6] [WARN] [1791386841.813404941] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.5)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386841.863306783] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.41,-3.45)
+[python3-6] [WARN] [1791386841.863811874] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.4)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386841.913020762] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.41,-3.42)
+[python3-6] [WARN] [1791386841.913541568] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.4)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386841.962807955] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.41,-3.38)
+[python3-6] [WARN] [1791386841.963314095] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.4)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386842.012919020] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.40,-3.33)
+[python3-6] [WARN] [1791386842.013412023] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386842.062933873] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.40,-3.28)
+[python3-6] [WARN] [1791386842.063535816] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386842.113173979] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.40,-3.23)
+[python3-6] [WARN] [1791386842.114219689] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.2)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386842.162639258] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.39,-3.18)
+[python3-6] [WARN] [1791386842.163263367] [coverage_planner]: 触发避障!激光:True(前0.57m) 视觉:False 左空2.99右空5.59
+[python3-6] [INFO] [1791386842.163436576] [coverage_planner]: 航点30第3次失败
+[python3-6] [WARN] [1791386842.163636687] [coverage_planner]: 🚨 航点30失败3次，跳过
+[yolo_detector-5] [INFO] [1791386842.188623097] [yolo_detector]: 🖼️ 处理第0帧，原始检测: 0个
+[python3-6] [WARN] [1791386842.313195675] [coverage_planner]: 触发避障!激光:True(前0.43m) 视觉:False 左空3.01右空5.18
+[python3-6] [INFO] [1791386842.313422354] [coverage_planner]: 航点31第1次失败
+[python3-6] [INFO] [1791386842.313598336] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386842.313912866] [coverage_planner]: 离边界仅-0.06m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386842.363270103] [coverage_planner]: 触发避障!激光:True(前0.40m) 视觉:False 左空3.01右空4.96
+[python3-6] [INFO] [1791386842.363474204] [coverage_planner]: 航点31第2次失败
+[python3-6] [INFO] [1791386842.363640134] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386842.363926507] [coverage_planner]: 离边界仅-0.05m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386842.413193422] [coverage_planner]: 触发避障!激光:True(前0.39m) 视觉:False 左空3.00右空4.77
+[python3-6] [INFO] [1791386842.413389000] [coverage_planner]: 航点31第3次失败
+[python3-6] [WARN] [1791386842.413591432] [coverage_planner]: 🚨 航点31失败3次，跳过
+[python3-6] [WARN] [1791386842.513551705] [coverage_planner]: 触发避障!激光:True(前0.43m) 视觉:False 左空3.02右空4.46
+[python3-6] [INFO] [1791386842.513769257] [coverage_planner]: 航点32第1次失败
+[python3-6] [INFO] [1791386842.513956249] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386842.514279371] [coverage_planner]: 离边界仅-0.12m，保守脱困：后退+旋转
+[yolo_detector-5] [INFO] [1791386842.547690150] [yolo_detector]: 🖼️ 处理第30帧，原始检测: 0个
+[python3-6] [WARN] [1791386842.563618349] [coverage_planner]: 触发避障!激光:True(前0.46m) 视觉:False 左空3.01右空4.42
+[python3-6] [INFO] [1791386842.563841705] [coverage_planner]: 航点32第2次失败
+[python3-6] [INFO] [1791386842.564028971] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386842.564344158] [coverage_planner]: 离边界仅-0.14m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386842.613090268] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.39,-3.18)
+[python3-6] [WARN] [1791386842.614040144] [coverage_planner]: 触发避障!激光:True(前0.50m) 视觉:False 左空3.00右空4.42
+[python3-6] [INFO] [1791386842.614298863] [coverage_planner]: 航点32第3次失败
+[python3-6] [WARN] [1791386842.614622068] [coverage_planner]: 🚨 航点32失败3次，跳过
+[python3-6] [WARN] [1791386842.663002798] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.39,-3.23)
+[python3-6] [WARN] [1791386842.713302908] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.39,-3.28)
+[python3-6] [WARN] [1791386842.714324841] [coverage_planner]: 触发避障!激光:True(前0.57m) 视觉:False 左空2.99右空4.78
+[python3-6] [INFO] [1791386842.714665398] [coverage_planner]: 航点33第1次失败
+[python3-6] [INFO] [1791386842.714989254] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386842.715485570] [coverage_planner]: 离边界仅-0.28m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386842.764425772] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.39,-3.32)
+[python3-6] [WARN] [1791386842.765206712] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386842.813431525] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.38,-3.37)
+[python3-6] [WARN] [1791386842.813945949] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.4)，直接朝目标返回边界内
+[python3-6] [INFO] [1791386842.819048304] [coverage_planner]: 🌀 预检:航段44->45被挡，提前插入13个绕障圆弧航点
+[python3-6] [WARN] [1791386842.863420970] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.38,-3.41)
+[python3-6] [WARN] [1791386842.863933429] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.4)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386842.913325445] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.38,-3.43)
+[python3-6] [WARN] [1791386842.913843706] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.4)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386842.963509233] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.38,-3.44)
+[python3-6] [WARN] [1791386842.964148377] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.4)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386843.013949788] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.38,-3.43)
+[python3-6] [WARN] [1791386843.014695553] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.4)，直接朝目标返回边界内
+[yolo_detector-5] [INFO] [1791386843.036622526] [yolo_detector]: 🖼️ 处理第60帧，原始检测: 0个
+[python3-6] [WARN] [1791386843.063893270] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.38,-3.40)
+[python3-6] [WARN] [1791386843.065023109] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.4)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386843.113388541] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.38,-3.36)
+[python3-6] [WARN] [1791386843.114105232] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.4)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386843.163614436] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.38,-3.31)
+[python3-6] [WARN] [1791386843.164536594] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386843.213768148] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.38,-3.26)
+[python3-6] [WARN] [1791386843.214490269] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386843.263881789] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.38,-3.21)
+[python3-6] [WARN] [1791386843.264522216] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.2)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386843.313567154] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.38,-3.16)
+[python3-6] [WARN] [1791386843.314171309] [coverage_planner]: 触发避障!激光:True(前0.56m) 视觉:False 左空3.00右空5.42
+[python3-6] [INFO] [1791386843.314337398] [coverage_planner]: 航点33第2次失败
+[python3-6] [INFO] [1791386843.314498803] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386843.314757990] [coverage_planner]: 离边界仅-0.16m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386843.364034406] [coverage_planner]: 触发避障!激光:True(前0.50m) 视觉:False 左空3.02右空5.41
+[python3-6] [INFO] [1791386843.364232615] [coverage_planner]: 航点33第3次失败
+[python3-6] [WARN] [1791386843.364426493] [coverage_planner]: 🚨 航点33失败3次，跳过
+[python3-6] [WARN] [1791386843.464076494] [coverage_planner]: 触发避障!激光:True(前0.44m) 视觉:False 左空3.01右空5.38
+[python3-6] [INFO] [1791386843.464269431] [coverage_planner]: 航点34第1次失败
+[python3-6] [INFO] [1791386843.464455667] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386843.465040882] [coverage_planner]: 离边界仅-0.08m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386843.514786322] [coverage_planner]: 触发避障!激光:True(前0.43m) 视觉:False 左空3.01右空5.53
+[python3-6] [INFO] [1791386843.515045074] [coverage_planner]: 航点34第2次失败
+[python3-6] [INFO] [1791386843.515251993] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386843.515634581] [coverage_planner]: 离边界仅-0.09m，保守脱困：后退+旋转
+[yolo_detector-5] [INFO] [1791386843.547550230] [yolo_detector]: 🖼️ 处理第90帧，原始检测: 0个
+[python3-6] [WARN] [1791386843.564578498] [coverage_planner]: 触发避障!激光:True(前0.43m) 视觉:False 左空3.02右空5.62
+[python3-6] [INFO] [1791386843.564944644] [coverage_planner]: 航点34第3次失败
+[python3-6] [WARN] [1791386843.565363633] [coverage_planner]: 🚨 航点34失败3次，跳过
+[python3-6] [WARN] [1791386843.613691633] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.37,-3.15)
+[python3-6] [WARN] [1791386843.663963769] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.37,-3.19)
+[python3-6] [WARN] [1791386843.664699596] [coverage_planner]: 触发避障!激光:True(前0.49m) 视觉:False 左空3.01右空5.54
+[python3-6] [INFO] [1791386843.664924135] [coverage_planner]: 航点35第1次失败
+[python3-6] [INFO] [1791386843.665126139] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386843.665456671] [coverage_planner]: 离边界仅-0.19m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386843.714744341] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.37,-3.23)
+[python3-6] [WARN] [1791386843.715821497] [coverage_planner]: 触发避障!激光:True(前0.54m) 视觉:False 左空3.02右空5.42
+[python3-6] [INFO] [1791386843.716139177] [coverage_planner]: 航点35第2次失败
+[python3-6] [INFO] [1791386843.716429883] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386843.716937570] [coverage_planner]: 离边界仅-0.23m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386843.764004681] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.36,-3.27)
+[python3-6] [WARN] [1791386843.764797350] [coverage_planner]: 触发避障!激光:True(前0.57m) 视觉:False 左空3.02右空5.41
+[python3-6] [INFO] [1791386843.765011113] [coverage_planner]: 航点35第3次失败
+[python3-6] [WARN] [1791386843.765329519] [coverage_planner]: 🚨 航点35失败3次，跳过
+[python3-6] [WARN] [1791386843.814871634] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.35,-3.33)
+[python3-6] [WARN] [1791386843.864042521] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.33,-3.39)
+[python3-6] [WARN] [1791386843.914004525] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.33,-3.44)
+[python3-6] [WARN] [1791386843.963930922] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.32,-3.48)
+[python3-6] [WARN] [1791386844.014287842] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.31,-3.50)
+[yolo_detector-5] [INFO] [1791386844.039322619] [yolo_detector]: 🖼️ 处理第120帧，原始检测: 0个
+[python3-6] [WARN] [1791386844.064684404] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.31,-3.51)
+[python3-6] [WARN] [1791386844.114404008] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.30,-3.51)
+[python3-6] [WARN] [1791386844.164318143] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.30,-3.51)
+[python3-6] [WARN] [1791386844.216136671] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.30,-3.51)
+[python3-6] [WARN] [1791386844.264812554] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.30,-3.50)
+[python3-6] [WARN] [1791386844.314858787] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.29,-3.50)
+[python3-6] [WARN] [1791386844.364348802] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.29,-3.51)
+[python3-6] [WARN] [1791386844.414987630] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.29,-3.51)
+[python3-6] [WARN] [1791386844.464516379] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.28,-3.51)
+[python3-6] [WARN] [1791386844.515276241] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.28,-3.51)
+[yolo_detector-5] [INFO] [1791386844.543128138] [yolo_detector]: 🖼️ 处理第150帧，原始检测: 0个
+[python3-6] [WARN] [1791386844.564847025] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.28,-3.51)
+[python3-6] [WARN] [1791386844.565395763] [coverage_planner]: 🚨 机器人越界! 当前(-2.3,-3.5)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386844.614714711] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.28,-3.50)
+[python3-6] [WARN] [1791386844.615226945] [coverage_planner]: 🚨 机器人越界! 当前(-2.3,-3.5)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386844.664617109] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.28,-3.48)
+[python3-6] [WARN] [1791386844.665122187] [coverage_planner]: 🚨 机器人越界! 当前(-2.3,-3.5)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386844.714733176] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.28,-3.43)
+[python3-6] [WARN] [1791386844.715628911] [coverage_planner]: 🚨 机器人越界! 当前(-2.3,-3.4)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386844.765607680] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.28,-3.38)
+[python3-6] [WARN] [1791386844.767119397] [coverage_planner]: 🚨 机器人越界! 当前(-2.3,-3.4)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386844.814815237] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.28,-3.33)
+[python3-6] [WARN] [1791386844.815420979] [coverage_planner]: 🚨 机器人越界! 当前(-2.3,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386844.864846055] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.27,-3.28)
+[python3-6] [WARN] [1791386844.865767124] [coverage_planner]: 🚨 机器人越界! 当前(-2.3,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386844.914971636] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.27,-3.23)
+[python3-6] [WARN] [1791386844.916069239] [coverage_planner]: 🚨 机器人越界! 当前(-2.3,-3.2)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386844.964653488] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.27,-3.18)
+[python3-6] [WARN] [1791386844.965269183] [coverage_planner]: 触发避障!激光:True(前0.57m) 视觉:False 左空3.12右空5.51
+[python3-6] [INFO] [1791386844.965448418] [coverage_planner]: 航点36第1次失败
+[python3-6] [INFO] [1791386844.965614337] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386844.965911838] [coverage_planner]: 离边界仅-0.18m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386845.015672715] [coverage_planner]: 触发避障!激光:True(前0.51m) 视觉:False 左空3.12右空5.45
+[python3-6] [INFO] [1791386845.015991382] [coverage_planner]: 航点36第2次失败
+[python3-6] [INFO] [1791386845.016269471] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386845.016735192] [coverage_planner]: 离边界仅-0.14m，保守脱困：后退+旋转
+[yolo_detector-5] [INFO] [1791386845.040832880] [yolo_detector]: 🖼️ 处理第180帧，原始检测: 0个
+[python3-6] [WARN] [1791386845.066388425] [coverage_planner]: 触发避障!激光:True(前0.48m) 视觉:False 左空3.12右空5.41
+[python3-6] [INFO] [1791386845.066785210] [coverage_planner]: 航点36第3次失败
+[python3-6] [WARN] [1791386845.067230603] [coverage_planner]: 🚨 航点36失败3次，跳过
+[python3-6] [WARN] [1791386845.166199314] [coverage_planner]: 触发避障!激光:True(前0.44m) 视觉:False 左空3.13右空5.61
+[python3-6] [INFO] [1791386845.166435731] [coverage_planner]: 航点37第1次失败
+[python3-6] [INFO] [1791386845.166641592] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386845.166974227] [coverage_planner]: 离边界仅-0.12m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386845.215778789] [coverage_planner]: 触发避障!激光:True(前0.46m) 视觉:False 左空3.12右空5.53
+[python3-6] [INFO] [1791386845.216024422] [coverage_planner]: 航点37第2次失败
+[python3-6] [INFO] [1791386845.216230876] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386845.216580761] [coverage_planner]: 离边界仅-0.12m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386845.265419021] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.26,-3.15)
+[python3-6] [WARN] [1791386845.266048112] [coverage_planner]: 触发避障!激光:True(前0.46m) 视觉:False 左空3.12右空5.52
+[python3-6] [INFO] [1791386845.266224886] [coverage_planner]: 航点37第3次失败
+[python3-6] [WARN] [1791386845.266431553] [coverage_planner]: 🚨 航点37失败3次，跳过
+[python3-6] [WARN] [1791386845.315834065] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.27,-3.19)
+[python3-6] [WARN] [1791386845.366006968] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.26,-3.23)
+[python3-6] [WARN] [1791386845.415200765] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.26,-3.26)
+[python3-6] [WARN] [1791386845.465522929] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.26,-3.27)
+[python3-6] [WARN] [1791386845.515537721] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.26,-3.27)
+[yolo_detector-5] [INFO] [1791386845.538945598] [yolo_detector]: 🖼️ 处理第210帧，原始检测: 0个
+[python3-6] [WARN] [1791386845.565264701] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.26,-3.27)
+[python3-6] [WARN] [1791386845.615100295] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.25,-3.27)
+[python3-6] [WARN] [1791386845.665698356] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.25,-3.27)
+[python3-6] [WARN] [1791386845.714957407] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.25,-3.27)
+[python3-6] [WARN] [1791386845.765848987] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.25,-3.27)
+[python3-6] [WARN] [1791386845.766890177] [coverage_planner]: 触发避障!激光:True(前0.60m) 视觉:False 左空3.14右空5.10
+[python3-6] [INFO] [1791386845.767176007] [coverage_planner]: 航点38第1次失败
+[python3-6] [INFO] [1791386845.767453497] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386845.767916800] [coverage_planner]: 离边界仅-0.27m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386845.815889673] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.25,-3.28)
+[python3-6] [WARN] [1791386845.816400993] [coverage_planner]: 🚨 机器人越界! 当前(-2.2,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386845.866427645] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.25,-3.29)
+[python3-6] [WARN] [1791386845.867633085] [coverage_planner]: 🚨 机器人越界! 当前(-2.2,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386845.916366390] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.25,-3.29)
+[python3-6] [WARN] [1791386845.917371416] [coverage_planner]: 🚨 机器人越界! 当前(-2.2,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386845.965852243] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.25,-3.26)
+[python3-6] [WARN] [1791386845.966769164] [coverage_planner]: 🚨 机器人越界! 当前(-2.2,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386846.015768245] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.24,-3.22)
+[python3-6] [WARN] [1791386846.016561962] [coverage_planner]: 触发避障!激光:True(前0.59m) 视觉:False 左空3.14右空5.08
+[python3-6] [INFO] [1791386846.016783818] [coverage_planner]: 航点38第2次失败
+[python3-6] [INFO] [1791386846.016996012] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386846.017337762] [coverage_planner]: 离边界仅-0.22m，保守脱困：后退+旋转
+[yolo_detector-5] [INFO] [1791386846.051128402] [yolo_detector]: 🖼️ 处理第240帧，原始检测: 1个
+[yolo_detector-5] [INFO] [1791386846.051455300] [yolo_detector]: 检测到: umbrella (0.36)
+[python3-6] [WARN] [1791386846.065547597] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.24,-3.17)
+[python3-6] [WARN] [1791386846.066183732] [coverage_planner]: 触发避障!激光:True(前0.54m) 视觉:False 左空3.15右空5.13
+[python3-6] [INFO] [1791386846.066358734] [coverage_planner]: 航点38第3次失败
+[python3-6] [WARN] [1791386846.066559794] [coverage_planner]: 🚨 航点38失败3次，跳过
+[python3-6] [WARN] [1791386846.166182213] [coverage_planner]: 触发避障!激光:True(前0.48m) 视觉:False 左空3.16右空5.05
+[python3-6] [INFO] [1791386846.166381761] [coverage_planner]: 航点39第1次失败
+[python3-6] [INFO] [1791386846.166550616] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386846.166823102] [coverage_planner]: 离边界仅-0.14m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386846.216241369] [coverage_planner]: 触发避障!激光:True(前0.47m) 视觉:False 左空3.15右空4.98
+[python3-6] [INFO] [1791386846.216433352] [coverage_planner]: 航点39第2次失败
+[python3-6] [INFO] [1791386846.216599344] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386846.216867302] [coverage_planner]: 离边界仅-0.15m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386846.265718392] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.23,-3.17)
+[python3-6] [WARN] [1791386846.266363001] [coverage_planner]: 触发避障!激光:True(前0.49m) 视觉:False 左空3.16右空4.97
+[python3-6] [INFO] [1791386846.266544398] [coverage_planner]: 航点39第3次失败
+[python3-6] [WARN] [1791386846.266749632] [coverage_planner]: 🚨 航点39失败3次，跳过
+[python3-6] [WARN] [1791386846.316158805] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.24,-3.21)
+[python3-6] [WARN] [1791386846.365980669] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.24,-3.25)
+[python3-6] [WARN] [1791386846.415863673] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.24,-3.28)
+[python3-6] [WARN] [1791386846.466046038] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.23,-3.29)
+[python3-6] [WARN] [1791386846.515774394] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.23,-3.29)
+[yolo_detector-5] [INFO] [1791386846.542823250] [yolo_detector]: 🖼️ 处理第270帧，原始检测: 0个
+[python3-6] [WARN] [1791386846.565821311] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.23,-3.30)
+[python3-6] [WARN] [1791386846.616342175] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.23,-3.30)
+[python3-6] [WARN] [1791386846.666113926] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.22,-3.30)
+[python3-6] [WARN] [1791386846.715725073] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.22,-3.30)
+[python3-6] [WARN] [1791386846.765782290] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.22,-3.30)
+[python3-6] [WARN] [1791386846.766279621] [coverage_planner]: 🚨 机器人越界! 当前(-2.2,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386846.816261984] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.22,-3.29)
+[python3-6] [WARN] [1791386846.817033753] [coverage_planner]: 🚨 机器人越界! 当前(-2.2,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386846.866548518] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.22,-3.27)
+[python3-6] [WARN] [1791386846.867377792] [coverage_planner]: 🚨 机器人越界! 当前(-2.2,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386846.917324658] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.21,-3.22)
+[python3-6] [WARN] [1791386846.918720554] [coverage_planner]: 🚨 机器人越界! 当前(-2.2,-3.2)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386846.966086413] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.20,-3.17)
+[python3-6] [WARN] [1791386846.966732883] [coverage_planner]: 触发避障!激光:True(前0.55m) 视觉:False 左空3.18右空4.79
+[python3-6] [INFO] [1791386846.966917962] [coverage_planner]: 航点40第1次失败
+[python3-6] [INFO] [1791386846.967106434] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386846.967413948] [coverage_planner]: 离边界仅-0.17m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386847.018048965] [coverage_planner]: 触发避障!激光:True(前0.51m) 视觉:False 左空3.18右空4.82
+[python3-6] [INFO] [1791386847.018554729] [coverage_planner]: 航点40第2次失败
+[python3-6] [INFO] [1791386847.018904449] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386847.019564845] [coverage_planner]: 离边界仅-0.13m，保守脱困：后退+旋转
+[yolo_detector-5] [INFO] [1791386847.055701610] [yolo_detector]: 🖼️ 处理第300帧，原始检测: 0个
+[python3-6] [WARN] [1791386847.069113177] [coverage_planner]: 触发避障!激光:True(前0.46m) 视觉:False 左空3.18右空4.84
+[python3-6] [INFO] [1791386847.069481364] [coverage_planner]: 航点40第3次失败
+[python3-6] [WARN] [1791386847.069853596] [coverage_planner]: 🚨 航点40失败3次，跳过
+[python3-6] [WARN] [1791386847.166958365] [coverage_planner]: 触发避障!激光:True(前0.43m) 视觉:False 左空3.20右空4.73
+[python3-6] [INFO] [1791386847.167283446] [coverage_planner]: 航点41第1次失败
+[python3-6] [INFO] [1791386847.167586378] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386847.168040034] [coverage_planner]: 离边界仅-0.11m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386847.219436991] [coverage_planner]: 触发避障!激光:True(前0.44m) 视觉:False 左空3.20右空4.66
+[python3-6] [INFO] [1791386847.219975339] [coverage_planner]: 航点41第2次失败
+[python3-6] [INFO] [1791386847.220299377] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386847.220895603] [coverage_planner]: 离边界仅-0.11m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386847.266636825] [coverage_planner]: 触发避障!激光:True(前0.44m) 视觉:False 左空3.20右空4.66
+[python3-6] [INFO] [1791386847.266827309] [coverage_planner]: 航点41第3次失败
+[python3-6] [WARN] [1791386847.267066342] [coverage_planner]: 🚨 航点41失败3次，跳过
+[python3-6] [WARN] [1791386847.316664799] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.20,-3.18)
+[python3-6] [WARN] [1791386847.366509709] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.20,-3.22)
+[python3-6] [WARN] [1791386847.416975564] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.20,-3.24)
+[python3-6] [WARN] [1791386847.466599562] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.20,-3.26)
+[python3-6] [WARN] [1791386847.517283117] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.20,-3.26)
+[yolo_detector-5] [INFO] [1791386847.543327719] [yolo_detector]: 🖼️ 处理第330帧，原始检测: 0个
+[python3-6] [WARN] [1791386847.566760353] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.20,-3.26)
+[python3-6] [WARN] [1791386847.616817849] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.19,-3.26)
+[python3-6] [WARN] [1791386847.667047179] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.19,-3.26)
+[python3-6] [WARN] [1791386847.717310294] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.19,-3.26)
+[python3-6] [WARN] [1791386847.767295436] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.19,-3.26)
+[python3-6] [WARN] [1791386847.768551871] [coverage_planner]: 触发避障!激光:True(前0.59m) 视觉:False 左空3.20右空4.39
+[python3-6] [INFO] [1791386847.768934648] [coverage_planner]: 航点42第1次失败
+[python3-6] [INFO] [1791386847.769312490] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386847.770361021] [coverage_planner]: 离边界仅-0.26m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386847.816897077] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.19,-3.27)
+[python3-6] [WARN] [1791386847.817413764] [coverage_planner]: 🚨 机器人越界! 当前(-2.2,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386847.868661196] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.19,-3.28)
+[python3-6] [WARN] [1791386847.870777372] [coverage_planner]: 🚨 机器人越界! 当前(-2.2,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386847.916619864] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.19,-3.28)
+[python3-6] [WARN] [1791386847.917125479] [coverage_planner]: 🚨 机器人越界! 当前(-2.2,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386847.966664414] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.19,-3.25)
+[python3-6] [WARN] [1791386847.967178318] [coverage_planner]: 🚨 机器人越界! 当前(-2.2,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386848.016961480] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.18,-3.21)
+[python3-6] [WARN] [1791386848.017865267] [coverage_planner]: 触发避障!激光:True(前0.59m) 视觉:False 左空3.20右空4.38
+[python3-6] [INFO] [1791386848.018092483] [coverage_planner]: 航点42第2次失败
+[python3-6] [INFO] [1791386848.018308746] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386848.018717735] [coverage_planner]: 离边界仅-0.21m，保守脱困：后退+旋转
+[yolo_detector-5] [INFO] [1791386848.051473491] [yolo_detector]: 🖼️ 处理第360帧，原始检测: 0个
+[python3-6] [WARN] [1791386848.066810962] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.17,-3.17)
+[python3-6] [WARN] [1791386848.067474636] [coverage_planner]: 触发避障!激光:True(前0.54m) 视觉:False 左空3.21右空4.45
+[python3-6] [INFO] [1791386848.067662908] [coverage_planner]: 航点42第3次失败
+[python3-6] [WARN] [1791386848.067869888] [coverage_planner]: 🚨 航点42失败3次，跳过
+[python3-6] [WARN] [1791386848.267882347] [coverage_planner]: 触发避障!激光:True(前0.47m) 视觉:False 左空3.23右空4.28
+[python3-6] [INFO] [1791386848.268083276] [coverage_planner]: 航点43第1次失败
+[python3-6] [INFO] [1791386848.268248200] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386848.268528162] [coverage_planner]: 离边界仅-0.14m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386848.317769003] [coverage_planner]: 触发避障!激光:True(前0.47m) 视觉:False 左空3.23右空4.26
+[python3-6] [INFO] [1791386848.317969971] [coverage_planner]: 航点43第2次失败
+[python3-6] [INFO] [1791386848.318139080] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386848.318461378] [coverage_planner]: 离边界仅-0.14m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386848.367454292] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.17,-3.17)
+[python3-6] [WARN] [1791386848.368304355] [coverage_planner]: 触发避障!激光:True(前0.48m) 视觉:False 左空3.23右空4.24
+[python3-6] [INFO] [1791386848.368566723] [coverage_planner]: 航点43第3次失败
+[python3-6] [WARN] [1791386848.368867079] [coverage_planner]: 🚨 航点43失败3次，跳过
+[python3-6] [WARN] [1791386848.417089207] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.17,-3.21)
+[python3-6] [WARN] [1791386848.467200631] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.18,-3.25)
+[python3-6] [WARN] [1791386848.518054462] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.18,-3.28)
+[yolo_detector-5] [INFO] [1791386848.553806249] [yolo_detector]: 🖼️ 处理第390帧，原始检测: 0个
+[python3-6] [WARN] [1791386848.567582948] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.18,-3.29)
+[python3-6] [WARN] [1791386848.617907247] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.18,-3.29)
+[python3-6] [WARN] [1791386848.667210242] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.17,-3.29)
+[python3-6] [WARN] [1791386848.717099245] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.17,-3.29)
+[python3-6] [WARN] [1791386848.767223520] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.17,-3.30)
+[python3-6] [WARN] [1791386848.817700112] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.16,-3.30)
+[python3-6] [WARN] [1791386848.867375924] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.16,-3.30)
+[python3-6] [WARN] [1791386848.918122272] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.16,-3.30)
+[python3-6] [WARN] [1791386848.967398870] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.16,-3.30)
+[python3-6] [WARN] [1791386848.967918812] [coverage_planner]: 🚨 机器人越界! 当前(-2.2,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386849.017896224] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.16,-3.29)
+[python3-6] [WARN] [1791386849.018670164] [coverage_planner]: 🚨 机器人越界! 当前(-2.2,-3.3)，直接朝目标返回边界内
+[yolo_detector-5] [INFO] [1791386849.041267214] [yolo_detector]: 🖼️ 处理第420帧，原始检测: 0个
+[python3-6] [WARN] [1791386849.068761889] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.15,-3.27)
+[python3-6] [WARN] [1791386849.070008313] [coverage_planner]: 🚨 机器人越界! 当前(-2.2,-3.3)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386849.117697562] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.14,-3.22)
+[python3-6] [WARN] [1791386849.118302226] [coverage_planner]: 🚨 机器人越界! 当前(-2.1,-3.2)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386849.168738483] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.13,-3.18)
+[python3-6] [WARN] [1791386849.170228694] [coverage_planner]: 触发避障!激光:True(前0.56m) 视觉:False 左空3.24右空3.80
+[python3-6] [INFO] [1791386849.170643516] [coverage_planner]: 航点44第1次失败
+[python3-6] [INFO] [1791386849.171014571] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386849.171588686] [coverage_planner]: 离边界仅-0.18m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386849.218156683] [coverage_planner]: 触发避障!激光:True(前0.51m) 视觉:False 左空3.26右空3.86
+[python3-6] [INFO] [1791386849.218457721] [coverage_planner]: 航点44第2次失败
+[python3-6] [INFO] [1791386849.218643562] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386849.218992370] [coverage_planner]: 离边界仅-0.13m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386849.270450883] [coverage_planner]: 触发避障!激光:True(前0.47m) 视觉:False 左空3.28右空3.88
+[python3-6] [INFO] [1791386849.270862491] [coverage_planner]: 航点44第3次失败
+[python3-6] [WARN] [1791386849.271273663] [coverage_planner]: 🚨 航点44失败3次，跳过
+[yolo_detector-5] [INFO] [1791386849.541751087] [yolo_detector]: 🖼️ 处理第450帧，原始检测: 0个
+[python3-6] [WARN] [1791386849.568348331] [coverage_planner]: 🚨 机器人越界! 当前(-2.1,-3.1)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386849.618679936] [coverage_planner]: 🚨 机器人越界! 当前(-2.1,-3.1)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386849.668308214] [coverage_planner]: 🚨 机器人越界! 当前(-2.1,-3.1)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386849.718391923] [coverage_planner]: 🚨 机器人越界! 当前(-2.1,-3.0)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386849.768677676] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-6] [WARN] [1791386849.818324745] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-6] [WARN] [1791386849.869035204] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空3.36右空3.69
+[python3-6] [INFO] [1791386849.869349410] [coverage_planner]: 航点45第1次失败
+[python3-6] [INFO] [1791386849.869722718] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386849.870225348] [coverage_planner]: 离边界仅0.05m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386849.918351780] [coverage_planner]: 触发避障!激光:True(前0.28m) 视觉:False 左空3.38右空3.80
+[python3-6] [INFO] [1791386849.918565171] [coverage_planner]: 航点45第2次失败
+[python3-6] [INFO] [1791386849.918734868] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386849.919036634] [coverage_planner]: 离边界仅0.05m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386849.969151923] [coverage_planner]: 触发避障!激光:True(前0.27m) 视觉:False 左空3.37右空3.78
+[python3-6] [INFO] [1791386849.969439605] [coverage_planner]: 航点45第3次失败
+[python3-6] [WARN] [1791386849.969768157] [coverage_planner]: 🚨 航点45失败3次，跳过
+[yolo_detector-5] [INFO] [1791386850.048607257] [yolo_detector]: 🖼️ 处理第480帧，原始检测: 0个
+[python3-6] [WARN] [1791386850.519307236] [coverage_planner]: 🚨 机器人越界! 当前(-2.0,-3.0)，直接朝目标返回边界内
+[yolo_detector-5] [INFO] [1791386850.541057530] [yolo_detector]: 🖼️ 处理第510帧，原始检测: 0个
+[python3-6] [WARN] [1791386850.568914442] [coverage_planner]: 🚨 机器人越界! 当前(-2.0,-3.0)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386850.618932238] [coverage_planner]: 🚨 机器人越界! 当前(-2.0,-3.0)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386850.668857422] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-6] [WARN] [1791386850.718886388] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.41右空3.41
+[python3-6] [INFO] [1791386850.719096645] [coverage_planner]: 航点46第1次失败
+[python3-6] [INFO] [1791386850.719271311] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386850.719574938] [coverage_planner]: 离边界仅0.04m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386850.768970070] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.42右空3.51
+[python3-6] [INFO] [1791386850.769173156] [coverage_planner]: 航点46第2次失败
+[python3-6] [INFO] [1791386850.769343883] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386850.769665500] [coverage_planner]: 离边界仅0.04m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386850.819004057] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空3.42右空3.59
+[python3-6] [INFO] [1791386850.819219862] [coverage_planner]: 航点46第3次失败
+[python3-6] [WARN] [1791386850.819414480] [coverage_planner]: 🚨 航点46失败3次，跳过
+[yolo_detector-5] [INFO] [1791386851.047733454] [yolo_detector]: 🖼️ 处理第540帧，原始检测: 0个
+[python3-6] [WARN] [1791386851.269521922] [coverage_planner]: 🚨 机器人越界! 当前(-2.0,-3.0)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386851.319540749] [coverage_planner]: 🚨 机器人越界! 当前(-2.0,-3.0)，直接朝目标返回边界内
+[python3-6] [WARN] [1791386851.369314393] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-6] [WARN] [1791386851.420102738] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-6] [WARN] [1791386851.469768090] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-6] [WARN] [1791386851.519770458] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386851.546935286] [yolo_detector]: 🖼️ 处理第570帧，原始检测: 0个
+[python3-6] [WARN] [1791386851.569589181] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-6] [WARN] [1791386851.620142062] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-6] [WARN] [1791386851.669779359] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-6] [WARN] [1791386851.720227058] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-6] [WARN] [1791386851.770057582] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386851.819956913] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386851.870556674] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386851.920232265] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386851.971010700] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386852.020689046] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386852.043814846] [yolo_detector]: 🖼️ 处理第600帧，原始检测: 0个
+[python3-6] [WARN] [1791386852.070608692] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386852.121009407] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空0.44右空3.23
+[python3-6] [INFO] [1791386852.121378171] [coverage_planner]: 航点47第1次失败
+[python3-6] [INFO] [1791386852.122233136] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386852.123506766] [coverage_planner]: 离边界仅0.03m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386852.170211221] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386852.220761328] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386852.270149154] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386852.320107934] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386852.372159999] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386852.420484575] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386852.470297516] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386852.520390242] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386852.553402876] [yolo_detector]: 🖼️ 处理第630帧，原始检测: 0个
+[python3-6] [WARN] [1791386852.570450554] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空0.42右空3.21
+[python3-6] [INFO] [1791386852.570764420] [coverage_planner]: 航点47第2次失败
+[python3-6] [INFO] [1791386852.570939708] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386852.571261332] [coverage_planner]: 离边界仅0.03m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386852.620142399] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386852.670611373] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386852.720979589] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386852.770361662] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386852.820721069] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386852.871047629] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386852.920968915] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386852.970349454] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386853.020844051] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空0.42右空3.22
+[python3-6] [INFO] [1791386853.021191689] [coverage_planner]: 航点47第3次失败
+[python3-6] [WARN] [1791386853.021606068] [coverage_planner]: 🚨 航点47失败3次，跳过
+[yolo_detector-5] [INFO] [1791386853.052408425] [yolo_detector]: 🖼️ 处理第660帧，原始检测: 0个
+[python3-6] [WARN] [1791386853.471926128] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386853.521123457] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386853.550881629] [yolo_detector]: 🖼️ 处理第690帧，原始检测: 0个
+[python3-6] [WARN] [1791386853.571034385] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386853.621225247] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386853.672315557] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386853.721470104] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386853.771323275] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386853.821628456] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386853.871534775] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386853.921755132] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386853.971806523] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386854.022528002] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386854.054166920] [yolo_detector]: 🖼️ 处理第720帧，原始检测: 0个
+[python3-6] [WARN] [1791386854.071235015] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386854.121152504] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386854.171176170] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386854.221198369] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386854.271481038] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386854.322565705] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386854.371460494] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386854.421726506] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空0.42右空3.10
+[python3-6] [INFO] [1791386854.421995659] [coverage_planner]: 航点48第1次失败
+[python3-6] [INFO] [1791386854.422284796] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386854.422702017] [coverage_planner]: 离边界仅0.02m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386854.471831491] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386854.523527337] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386854.548595860] [yolo_detector]: 🖼️ 处理第750帧，原始检测: 0个
+[python3-6] [WARN] [1791386854.571949782] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386854.621837859] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386854.671841975] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386854.721999622] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386854.772139838] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386854.822157183] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-6] [WARN] [1791386854.872067539] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386854.923273885] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386854.972843076] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386855.022043955] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386855.052307576] [yolo_detector]: 🖼️ 处理第780帧，原始检测: 0个
+[python3-6] [WARN] [1791386855.071977526] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386855.121936480] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386855.172107270] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386855.221888690] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386855.272614302] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386855.324079699] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386855.372594246] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386855.422637000] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386855.472542987] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386855.522427619] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386855.552793566] [yolo_detector]: 🖼️ 处理第810帧，原始检测: 2个
+[yolo_detector-5] [INFO] [1791386855.553146623] [yolo_detector]: 检测到: airplane (0.32)
+[yolo_detector-5] [INFO] [1791386855.553397609] [yolo_detector]: 检测到: stop sign (0.31)
+[python3-6] [WARN] [1791386855.572387910] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386855.622753137] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386855.672116187] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386855.722493123] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386855.772434845] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386855.822740377] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空0.41右空3.17
+[python3-6] [INFO] [1791386855.822957179] [coverage_planner]: 航点48第2次失败
+[python3-6] [INFO] [1791386855.823126264] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [WARN] [1791386855.823430792] [coverage_planner]: 离边界仅0.03m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386855.873297266] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386855.922855012] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386855.972657945] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386856.022723272] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386856.045806918] [yolo_detector]: 🖼️ 处理第840帧，原始检测: 0个
+[python3-6] [WARN] [1791386856.072755862] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386856.123720117] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386856.172867991] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386856.223080938] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386856.272733290] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386856.323103831] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386856.373036111] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386856.423182328] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386856.473335611] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386856.523651991] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386856.558601891] [yolo_detector]: 🖼️ 处理第870帧，原始检测: 0个
+[python3-6] [WARN] [1791386856.572866192] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386856.622998901] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386856.673153845] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386856.723690351] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空0.42右空3.16
+[python3-6] [INFO] [1791386856.723953678] [coverage_planner]: 航点48第3次失败
+[python3-6] [WARN] [1791386856.724221694] [coverage_planner]: 🚨 航点48失败3次，跳过
+[yolo_detector-5] [INFO] [1791386857.061790375] [yolo_detector]: 🖼️ 处理第900帧，原始检测: 1个
+[yolo_detector-5] [INFO] [1791386857.062135350] [yolo_detector]: 检测到: airplane (0.32)
+[python3-6] [WARN] [1791386857.173376365] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386857.223896909] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386857.277330704] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386857.323648203] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386857.373542102] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386857.423855716] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386857.474529301] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386857.523679772] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386857.560877836] [yolo_detector]: 🖼️ 处理第930帧，原始检测: 1个
+[yolo_detector-5] [INFO] [1791386857.561221059] [yolo_detector]: 检测到: airplane (0.28)
+[python3-6] [WARN] [1791386857.573700062] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386857.625381542] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386857.674718839] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386857.723875306] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386857.774497559] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386857.824411149] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386857.876063995] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386857.924779808] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386857.974104399] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386858.024020790] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386858.053162084] [yolo_detector]: 🖼️ 处理第960帧，原始检测: 1个
+[yolo_detector-5] [INFO] [1791386858.054176475] [yolo_detector]: 检测到: airplane (0.29)
+[python3-6] [WARN] [1791386858.074930367] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-6] [WARN] [1791386858.125036712] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386858.174806827] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386858.225120326] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386858.274617966] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386858.324831475] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386858.375409946] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386858.425111738] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386858.475804263] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386858.525386508] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386858.561385147] [yolo_detector]: 🖼️ 处理第990帧，原始检测: 1个
+[yolo_detector-5] [INFO] [1791386858.561787927] [yolo_detector]: 检测到: airplane (0.54)
+[python3-6] [WARN] [1791386858.574803708] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386858.624790221] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386858.675511638] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386858.724434071] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386858.775152506] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386858.824986770] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386858.875025553] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386858.924601851] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386858.974524452] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386859.024936966] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386859.052501367] [yolo_detector]: 🖼️ 处理第1020帧，原始检测: 1个
+[yolo_detector-5] [INFO] [1791386859.052842387] [yolo_detector]: 检测到: airplane (0.41)
+[python3-6] [WARN] [1791386859.075020864] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386859.125099785] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386859.175458949] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[async_slam_toolbox_node-4] WARNING: Logging before InitGoogleLogging() is written to STDERR
+[async_slam_toolbox_node-4] W1007 23:27:39.199159 221001 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[python3-6] [WARN] [1791386859.224933170] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386859.275054707] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386859.326204687] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386859.375706033] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386859.425176724] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386859.478124150] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386859.526108478] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386859.555858986] [yolo_detector]: 🖼️ 处理第1050帧，原始检测: 0个
+[python3-6] [WARN] [1791386859.575184209] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386859.625222557] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386859.675633058] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空0.40右空3.04
+[python3-6] [INFO] [1791386859.675950707] [coverage_planner]: 航点49第1次失败
+[python3-6] [INFO] [1791386859.676247394] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-6] [WARN] [1791386859.676706907] [coverage_planner]: 离边界仅0.02m，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386859.725137405] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386859.775171271] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386859.825226768] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386859.875394690] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386859.925334878] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386859.975727367] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386860.025545713] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386860.048935810] [yolo_detector]: 🖼️ 处理第1080帧，原始检测: 0个
+[python3-6] [WARN] [1791386860.076024545] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386860.125462954] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386860.176525164] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386860.225609750] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386860.276510635] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386860.326028406] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386860.377024327] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386860.425794021] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386860.476040093] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386860.525684403] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386860.552118883] [yolo_detector]: 🖼️ 处理第1110帧，原始检测: 0个
+[python3-6] [WARN] [1791386860.576255518] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386860.626283784] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386860.676470818] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386860.726681829] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386860.775865326] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386860.826707885] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386860.875813052] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386860.926098930] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386860.977127146] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386861.026188136] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386861.053824420] [yolo_detector]: 🖼️ 处理第1140帧，原始检测: 0个
+[python3-6] [WARN] [1791386861.076811674] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386861.126152363] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386861.178082453] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386861.226768654] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386861.276460552] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386861.326420750] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386861.376407688] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386861.426744573] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386861.476508780] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-6] [WARN] [1791386861.526897248] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386861.549755634] [yolo_detector]: 🖼️ 处理第1170帧，原始检测: 0个
+[python3-6] [WARN] [1791386861.576396782] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386861.627130762] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386861.678940155] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386861.726651770] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386861.777036282] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386861.827010732] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386861.876887876] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386861.927400519] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386861.976888019] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386862.027386406] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386862.057010550] [yolo_detector]: 🖼️ 处理第1200帧，原始检测: 0个
+[python3-6] [WARN] [1791386862.077458043] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386862.127344030] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386862.177080401] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386862.227248273] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386862.276946193] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386862.327547025] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386862.379875759] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386862.428415424] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386862.477540690] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386862.527332705] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386862.553174098] [yolo_detector]: 🖼️ 处理第1230帧，原始检测: 0个
+[python3-6] [WARN] [1791386862.577231864] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386862.627186163] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386862.678506994] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386862.728611795] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386862.777391474] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386862.828320462] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386862.877843181] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386862.931014485] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386862.980536045] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386863.029124195] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386863.054740749] [yolo_detector]: 🖼️ 处理第1260帧，原始检测: 0个
+[python3-6] [WARN] [1791386863.078623413] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386863.128318338] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386863.178639567] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386863.227844689] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386863.278557330] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386863.328096945] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386863.377756949] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386863.430657064] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386863.479860266] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386863.528791938] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386863.564202179] [yolo_detector]: 🖼️ 处理第1290帧，原始检测: 1个
+[yolo_detector-5] [INFO] [1791386863.564537463] [yolo_detector]: 检测到: traffic light (0.30)
+[python3-6] [WARN] [1791386863.578462789] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386863.628285335] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386863.678056346] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386863.728809551] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386863.778473847] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386863.828233366] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386863.878109825] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386863.928625094] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386863.978556491] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386864.028245026] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386864.055929968] [yolo_detector]: 🖼️ 处理第1320帧，原始检测: 0个
+[python3-6] [WARN] [1791386864.078496958] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386864.128183372] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-6] [WARN] [1791386864.178328558] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-6] [WARN] [1791386864.228284002] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-6] [WARN] [1791386864.278176658] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-6] [WARN] [1791386864.328455003] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-6] [WARN] [1791386864.378668944] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[async_slam_toolbox_node-4] W1007 23:27:44.403505 221001 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[python3-6] [WARN] [1791386864.428430741] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-6] [WARN] [1791386864.478486054] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-6] [WARN] [1791386864.528560021] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[yolo_detector-5] [INFO] [1791386864.551658933] [yolo_detector]: 🖼️ 处理第1350帧，原始检测: 0个
+[python3-6] [WARN] [1791386864.580411487] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-6] [WARN] [1791386864.629232458] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-6] [WARN] [1791386864.679090062] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-6] [WARN] [1791386864.729068642] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-6] [WARN] [1791386864.778720351] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-6] [WARN] [1791386864.829873763] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-6] [WARN] [1791386864.878776684] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386864.929017301] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386864.978949132] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386865.028812292] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[yolo_detector-5] [INFO] [1791386865.055411111] [yolo_detector]: 🖼️ 处理第1380帧，原始检测: 0个
+[python3-6] [WARN] [1791386865.078782169] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386865.128795457] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386865.179092432] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386865.229105559] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386865.279473082] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386865.329984769] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386865.379454809] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386865.429316105] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386865.478937453] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386865.529724958] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[yolo_detector-5] [INFO] [1791386865.561727531] [yolo_detector]: 🖼️ 处理第1410帧，原始检测: 0个
+[python3-6] [WARN] [1791386865.579169831] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386865.629364449] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386865.679809182] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386865.731479757] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386865.779888934] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386865.831188494] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386865.880220588] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386865.929976343] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386865.979424552] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386866.030241832] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[yolo_detector-5] [INFO] [1791386866.055554584] [yolo_detector]: 🖼️ 处理第1440帧，原始检测: 0个
+[python3-6] [WARN] [1791386866.080571047] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386866.130382352] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386866.180197277] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386866.230038251] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386866.280430860] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-6] [WARN] [1791386866.330139754] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.9)，减速
+[python3-6] [WARN] [1791386866.381347921] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.9)，减速
+[python3-6] [WARN] [1791386866.430701673] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.9)，减速
+[python3-6] [WARN] [1791386866.480923307] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.9)，减速
+[python3-6] [WARN] [1791386866.530047646] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.9)，减速
+[yolo_detector-5] [INFO] [1791386866.564878598] [yolo_detector]: 🖼️ 处理第1470帧，原始检测: 0个
+[python3-6] [WARN] [1791386866.579890636] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.9)，减速
+[python3-6] [WARN] [1791386866.630081188] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.9)，减速
+[python3-6] [WARN] [1791386866.681575795] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.9)，减速
+[python3-6] [WARN] [1791386866.730537874] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.9)，减速
+[async_slam_toolbox_node-4] W1007 23:27:46.759912 221001 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[python3-6] [WARN] [1791386866.781821868] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.8)，减速
+[python3-6] [WARN] [1791386866.830410290] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.8)，减速
+[python3-6] [WARN] [1791386866.880364479] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.8)，减速
+[python3-6] [WARN] [1791386866.930732493] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.8)，减速
+[yolo_detector-5] [INFO] [1791386867.068746753] [yolo_detector]: 🖼️ 处理第1500帧，原始检测: 0个
+[async_slam_toolbox_node-4] W1007 23:27:47.307154 221001 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[async_slam_toolbox_node-4] W1007 23:27:47.557627 221001 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[yolo_detector-5] [INFO] [1791386867.557719390] [yolo_detector]: 🖼️ 处理第1530帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386868.057640106] [yolo_detector]: 🖼️ 处理第1560帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386868.560975082] [yolo_detector]: 🖼️ 处理第1590帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386869.068318357] [yolo_detector]: 🖼️ 处理第1620帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386869.560979347] [yolo_detector]: 🖼️ 处理第1650帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386870.065352206] [yolo_detector]: 🖼️ 处理第1680帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386870.567840653] [yolo_detector]: 🖼️ 处理第1710帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386871.060827918] [yolo_detector]: 🖼️ 处理第1740帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386871.569441083] [yolo_detector]: 🖼️ 处理第1770帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386872.060006997] [yolo_detector]: 🖼️ 处理第1800帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386872.564915918] [yolo_detector]: 🖼️ 处理第1830帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386873.067887986] [yolo_detector]: 🖼️ 处理第1860帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386873.559217687] [yolo_detector]: 🖼️ 处理第1890帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386874.058636790] [yolo_detector]: 🖼️ 处理第1920帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386874.562402061] [yolo_detector]: 🖼️ 处理第1950帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386875.059206309] [yolo_detector]: 🖼️ 处理第1980帧，原始检测: 0个
+[python3-6] [WARN] [1791386875.486966291] [coverage_planner]: ⚠️ 接近边界! 当前(-1.1,-2.8)，减速
+[python3-6] [WARN] [1791386875.536408279] [coverage_planner]: ⚠️ 接近边界! 当前(-1.1,-2.8)，减速
+[yolo_detector-5] [INFO] [1791386875.562217278] [yolo_detector]: 🖼️ 处理第2010帧，原始检测: 0个
+[python3-6] [WARN] [1791386875.586170949] [coverage_planner]: ⚠️ 接近边界! 当前(-1.1,-2.8)，减速
+[python3-6] [WARN] [1791386875.637059507] [coverage_planner]: ⚠️ 接近边界! 当前(-1.1,-2.8)，减速
+[python3-6] [WARN] [1791386875.686332000] [coverage_planner]: ⚠️ 接近边界! 当前(-1.1,-2.8)，减速
+[python3-6] [WARN] [1791386875.736168013] [coverage_planner]: ⚠️ 接近边界! 当前(-1.1,-2.8)，减速
+[python3-6] [WARN] [1791386875.786630491] [coverage_planner]: ⚠️ 接近边界! 当前(-1.1,-2.8)，减速
+[yolo_detector-5] [INFO] [1791386876.076158041] [yolo_detector]: 🖼️ 处理第2040帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386876.571438454] [yolo_detector]: 🖼️ 处理第2070帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386877.066516114] [yolo_detector]: 🖼️ 处理第2100帧，原始检测: 0个
+[python3-6] [WARN] [1791386877.290369915] [coverage_planner]: 触发避障!激光:True(前0.49m) 视觉:False 左空2.79右空5.30
+[python3-6] [INFO] [1791386877.291001561] [coverage_planner]: 航点58第1次失败
+[python3-6] [INFO] [1791386877.291562078] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-6] [INFO] [1791386877.292298150] [coverage_planner]: 离边界0.22m，side_dist限制为0.20m
+[python3-6] [WARN] [1791386877.293370540] [coverage_planner]: 路径在安全边界外，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386877.337987036] [coverage_planner]: 触发避障!激光:True(前0.49m) 视觉:False 左空2.81右空5.33
+[python3-6] [INFO] [1791386877.338310992] [coverage_planner]: 航点58第2次失败
+[python3-6] [INFO] [1791386877.338623498] [coverage_planner]: 连续避障第3次，保持向左绕行
+[python3-6] [INFO] [1791386877.339129169] [coverage_planner]: 离边界0.22m，side_dist限制为0.20m
+[python3-6] [WARN] [1791386877.339884880] [coverage_planner]: 路径在安全边界外，保守脱困：后退+旋转
+[python3-6] [WARN] [1791386877.387943649] [coverage_planner]: 触发避障!激光:True(前0.50m) 视觉:False 左空2.82右空5.35
+[python3-6] [INFO] [1791386877.388188209] [coverage_planner]: 航点58第3次失败
+[python3-6] [WARN] [1791386877.388433299] [coverage_planner]: 🚨 航点58失败3次，跳过
+[yolo_detector-5] [INFO] [1791386877.566244134] [yolo_detector]: 🖼️ 处理第2130帧，原始检测: 1个
+[yolo_detector-5] [INFO] [1791386877.566568735] [yolo_detector]: 检测到: umbrella (0.34)
+[yolo_detector-5] [INFO] [1791386878.073190212] [yolo_detector]: 🖼️ 处理第2160帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386878.577530702] [yolo_detector]: 🖼️ 处理第2190帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386879.079782928] [yolo_detector]: 🖼️ 处理第2220帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386879.561043503] [yolo_detector]: 🖼️ 处理第2250帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386880.063434094] [yolo_detector]: 🖼️ 处理第2280帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386880.562560957] [yolo_detector]: 🖼️ 处理第2310帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386881.067553097] [yolo_detector]: 🖼️ 处理第2340帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386881.568700903] [yolo_detector]: 🖼️ 处理第2370帧，原始检测: 0个
+[async_slam_toolbox_node-4] W1007 23:28:01.676946 221001 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[yolo_detector-5] [INFO] [1791386882.064997163] [yolo_detector]: 🖼️ 处理第2400帧，原始检测: 0个
+[async_slam_toolbox_node-4] W1007 23:28:02.326768 221001 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[yolo_detector-5] [INFO] [1791386882.564884105] [yolo_detector]: 🖼️ 处理第2430帧，原始检测: 0个
+[async_slam_toolbox_node-4] W1007 23:28:02.576577 221001 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[yolo_detector-5] [INFO] [1791386883.076600094] [yolo_detector]: 🖼️ 处理第2460帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386883.563210841] [yolo_detector]: 🖼️ 处理第2490帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386884.081863358] [yolo_detector]: 🖼️ 处理第2520帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386884.565033961] [yolo_detector]: 🖼️ 处理第2550帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386885.079028998] [yolo_detector]: 🖼️ 处理第2580帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386885.565269159] [yolo_detector]: 🖼️ 处理第2610帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386886.070461328] [yolo_detector]: 🖼️ 处理第2640帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386886.572973581] [yolo_detector]: 🖼️ 处理第2670帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386887.066742704] [yolo_detector]: 🖼️ 处理第2700帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386887.571565412] [yolo_detector]: 🖼️ 处理第2730帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386888.075137256] [yolo_detector]: 🖼️ 处理第2760帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386888.568399661] [yolo_detector]: 🖼️ 处理第2790帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386889.083876870] [yolo_detector]: 🖼️ 处理第2820帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386889.568589927] [yolo_detector]: 🖼️ 处理第2850帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386890.080718473] [yolo_detector]: 🖼️ 处理第2880帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386890.583317401] [yolo_detector]: 🖼️ 处理第2910帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386891.070961060] [yolo_detector]: 🖼️ 处理第2940帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386891.571732927] [yolo_detector]: 🖼️ 处理第2970帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386892.070769950] [yolo_detector]: 🖼️ 处理第3000帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386892.570466180] [yolo_detector]: 🖼️ 处理第3030帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386893.082038025] [yolo_detector]: 🖼️ 处理第3060帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386893.573565139] [yolo_detector]: 🖼️ 处理第3090帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386894.071866386] [yolo_detector]: 🖼️ 处理第3120帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386894.587151015] [yolo_detector]: 🖼️ 处理第3150帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386895.084404035] [yolo_detector]: 🖼️ 处理第3180帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386895.586770502] [yolo_detector]: 🖼️ 处理第3210帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386896.074324761] [yolo_detector]: 🖼️ 处理第3240帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386896.579579619] [yolo_detector]: 🖼️ 处理第3270帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386897.080477889] [yolo_detector]: 🖼️ 处理第3300帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386897.577999279] [yolo_detector]: 🖼️ 处理第3330帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386898.074124324] [yolo_detector]: 🖼️ 处理第3360帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386898.575020931] [yolo_detector]: 🖼️ 处理第3390帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386899.079656001] [yolo_detector]: 🖼️ 处理第3420帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386899.585113165] [yolo_detector]: 🖼️ 处理第3450帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386900.088224124] [yolo_detector]: 🖼️ 处理第3480帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386900.576258631] [yolo_detector]: 🖼️ 处理第3510帧，原始检测: 0个
+[async_slam_toolbox_node-4] W1007 23:28:20.992383 221001 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[yolo_detector-5] [INFO] [1791386901.077695388] [yolo_detector]: 🖼️ 处理第3540帧，原始检测: 0个
+[async_slam_toolbox_node-4] W1007 23:28:21.244248 221001 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[yolo_detector-5] [INFO] [1791386901.584846339] [yolo_detector]: 🖼️ 处理第3570帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386902.087126793] [yolo_detector]: 🖼️ 处理第3600帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386902.588977421] [yolo_detector]: 🖼️ 处理第3630帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386903.076749740] [yolo_detector]: 🖼️ 处理第3660帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386903.579739849] [yolo_detector]: 🖼️ 处理第3690帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386904.079472148] [yolo_detector]: 🖼️ 处理第3720帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386904.591403514] [yolo_detector]: 🖼️ 处理第3750帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386905.084012366] [yolo_detector]: 🖼️ 处理第3780帧，原始检测: 0个
+[async_slam_toolbox_node-4] [INFO] [1791386905.405302997] [slam_toolbox]: Message Filter dropping message: frame 'lidar_Link' at time 238.000 for reason 'discarding message because the queue is full'
+[yolo_detector-5] [INFO] [1791386905.586840046] [yolo_detector]: 🖼️ 处理第3810帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386906.086527491] [yolo_detector]: 🖼️ 处理第3840帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386906.583835423] [yolo_detector]: 🖼️ 处理第3870帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386907.079218505] [yolo_detector]: 🖼️ 处理第3900帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386907.583195832] [yolo_detector]: 🖼️ 处理第3930帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386908.082608315] [yolo_detector]: 🖼️ 处理第3960帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386908.582374526] [yolo_detector]: 🖼️ 处理第3990帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386909.094453068] [yolo_detector]: 🖼️ 处理第4020帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386909.583328773] [yolo_detector]: 🖼️ 处理第4050帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386910.082090819] [yolo_detector]: 🖼️ 处理第4080帧，原始检测: 0个
+[async_slam_toolbox_node-4] W1007 23:28:30.253115 221001 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[async_slam_toolbox_node-4] W1007 23:28:30.505405 221001 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[yolo_detector-5] [INFO] [1791386910.586607171] [yolo_detector]: 🖼️ 处理第4110帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386911.097670840] [yolo_detector]: 🖼️ 处理第4140帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386911.596281410] [yolo_detector]: 🖼️ 处理第4170帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386912.083754764] [yolo_detector]: 🖼️ 处理第4200帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386912.597176992] [yolo_detector]: 🖼️ 处理第4230帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386913.094318586] [yolo_detector]: 🖼️ 处理第4260帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386913.596703036] [yolo_detector]: 🖼️ 处理第4290帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386914.089675152] [yolo_detector]: 🖼️ 处理第4320帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386914.589066349] [yolo_detector]: 🖼️ 处理第4350帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386915.087224680] [yolo_detector]: 🖼️ 处理第4380帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386915.600822179] [yolo_detector]: 🖼️ 处理第4410帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386916.091466431] [yolo_detector]: 🖼️ 处理第4440帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386916.592361398] [yolo_detector]: 🖼️ 处理第4470帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386917.101249091] [yolo_detector]: 🖼️ 处理第4500帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386917.588344765] [yolo_detector]: 🖼️ 处理第4530帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386918.090905139] [yolo_detector]: 🖼️ 处理第4560帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386918.594526002] [yolo_detector]: 🖼️ 处理第4590帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386919.101037758] [yolo_detector]: 🖼️ 处理第4620帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386919.587866438] [yolo_detector]: 🖼️ 处理第4650帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386920.090054950] [yolo_detector]: 🖼️ 处理第4680帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386920.605815456] [yolo_detector]: 🖼️ 处理第4710帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386921.108982277] [yolo_detector]: 🖼️ 处理第4740帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386921.590998499] [yolo_detector]: 🖼️ 处理第4770帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386922.092998005] [yolo_detector]: 🖼️ 处理第4800帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386922.601292845] [yolo_detector]: 🖼️ 处理第4830帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386923.091507860] [yolo_detector]: 🖼️ 处理第4860帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386923.594394415] [yolo_detector]: 🖼️ 处理第4890帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386924.096419022] [yolo_detector]: 🖼️ 处理第4920帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386924.611756826] [yolo_detector]: 🖼️ 处理第4950帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386925.099565175] [yolo_detector]: 🖼️ 处理第4980帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386925.607042228] [yolo_detector]: 🖼️ 处理第5010帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386926.097011404] [yolo_detector]: 🖼️ 处理第5040帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386926.594645838] [yolo_detector]: 🖼️ 处理第5070帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386927.096904375] [yolo_detector]: 🖼️ 处理第5100帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386927.607603160] [yolo_detector]: 🖼️ 处理第5130帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386928.096961372] [yolo_detector]: 🖼️ 处理第5160帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386928.596135667] [yolo_detector]: 🖼️ 处理第5190帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386929.099988764] [yolo_detector]: 🖼️ 处理第5220帧，原始检测: 0个
+[async_slam_toolbox_node-4] W1007 23:28:49.174548 221001 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[async_slam_toolbox_node-4] W1007 23:28:49.414279 221001 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[yolo_detector-5] [INFO] [1791386929.602216102] [yolo_detector]: 🖼️ 处理第5250帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386930.100981102] [yolo_detector]: 🖼️ 处理第5280帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386930.602536983] [yolo_detector]: 🖼️ 处理第5310帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386931.109856669] [yolo_detector]: 🖼️ 处理第5340帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386931.608609208] [yolo_detector]: 🖼️ 处理第5370帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386932.103026546] [yolo_detector]: 🖼️ 处理第5400帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386932.596695624] [yolo_detector]: 🖼️ 处理第5430帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386933.107103882] [yolo_detector]: 🖼️ 处理第5460帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386933.602589031] [yolo_detector]: 🖼️ 处理第5490帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386934.109833022] [yolo_detector]: 🖼️ 处理第5520帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386934.600113609] [yolo_detector]: 🖼️ 处理第5550帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386935.112586536] [yolo_detector]: 🖼️ 处理第5580帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386935.612555742] [yolo_detector]: 🖼️ 处理第5610帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386936.114845052] [yolo_detector]: 🖼️ 处理第5640帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386936.606460029] [yolo_detector]: 🖼️ 处理第5670帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386937.110078184] [yolo_detector]: 🖼️ 处理第5700帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386937.611913673] [yolo_detector]: 🖼️ 处理第5730帧，原始检测: 0个
+[async_slam_toolbox_node-4] W1007 23:28:57.692365 221001 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[yolo_detector-5] [INFO] [1791386938.109110322] [yolo_detector]: 🖼️ 处理第5760帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386938.614208600] [yolo_detector]: 🖼️ 处理第5790帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386939.101206777] [yolo_detector]: 🖼️ 处理第5820帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386939.602587303] [yolo_detector]: 🖼️ 处理第5850帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386940.115022813] [yolo_detector]: 🖼️ 处理第5880帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386940.602517081] [yolo_detector]: 🖼️ 处理第5910帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386941.107173682] [yolo_detector]: 🖼️ 处理第5940帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386941.616929952] [yolo_detector]: 🖼️ 处理第5970帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386942.103125724] [yolo_detector]: 🖼️ 处理第6000帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386942.617036024] [yolo_detector]: 🖼️ 处理第6030帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386943.107399495] [yolo_detector]: 🖼️ 处理第6060帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386943.620851290] [yolo_detector]: 🖼️ 处理第6090帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386944.106341544] [yolo_detector]: 🖼️ 处理第6120帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386944.611787407] [yolo_detector]: 🖼️ 处理第6150帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386945.106357186] [yolo_detector]: 🖼️ 处理第6180帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386945.607429858] [yolo_detector]: 🖼️ 处理第6210帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386946.108860839] [yolo_detector]: 🖼️ 处理第6240帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386946.606266018] [yolo_detector]: 🖼️ 处理第6270帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386947.120922455] [yolo_detector]: 🖼️ 处理第6300帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386947.607986095] [yolo_detector]: 🖼️ 处理第6330帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386948.106946428] [yolo_detector]: 🖼️ 处理第6360帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386948.607926451] [yolo_detector]: 🖼️ 处理第6390帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386949.116434032] [yolo_detector]: 🖼️ 处理第6420帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386949.617954849] [yolo_detector]: 🖼️ 处理第6450帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386950.122521318] [yolo_detector]: 🖼️ 处理第6480帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386950.618789665] [yolo_detector]: 🖼️ 处理第6510帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386951.120431289] [yolo_detector]: 🖼️ 处理第6540帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386951.610878638] [yolo_detector]: 🖼️ 处理第6570帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386952.124636455] [yolo_detector]: 🖼️ 处理第6600帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386952.624286578] [yolo_detector]: 🖼️ 处理第6630帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386953.110206887] [yolo_detector]: 🖼️ 处理第6660帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386953.627259563] [yolo_detector]: 🖼️ 处理第6690帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386954.124324819] [yolo_detector]: 🖼️ 处理第6720帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386954.625198214] [yolo_detector]: 🖼️ 处理第6750帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386955.123797601] [yolo_detector]: 🖼️ 处理第6780帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386955.613802250] [yolo_detector]: 🖼️ 处理第6810帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386956.118414820] [yolo_detector]: 🖼️ 处理第6840帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386956.624738401] [yolo_detector]: 🖼️ 处理第6870帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386957.117279000] [yolo_detector]: 🖼️ 处理第6900帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386957.626399973] [yolo_detector]: 🖼️ 处理第6930帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386958.113366983] [yolo_detector]: 🖼️ 处理第6960帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386958.614999889] [yolo_detector]: 🖼️ 处理第6990帧，原始检测: 0个
+[python3-6] [INFO] [1791386958.904557700] [coverage_planner]: 🌀 预检:航段134->135被挡，提前插入13个绕障圆弧航点
+[yolo_detector-5] [INFO] [1791386959.114255233] [yolo_detector]: 🖼️ 处理第7020帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386959.618067146] [yolo_detector]: 🖼️ 处理第7050帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386960.120923737] [yolo_detector]: 🖼️ 处理第7080帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386960.615963223] [yolo_detector]: 🖼️ 处理第7110帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386961.114649122] [yolo_detector]: 🖼️ 处理第7140帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386961.616293087] [yolo_detector]: 🖼️ 处理第7170帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386962.117354820] [yolo_detector]: 🖼️ 处理第7200帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386962.618923522] [yolo_detector]: 🖼️ 处理第7230帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386963.123241352] [yolo_detector]: 🖼️ 处理第7260帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386963.616469854] [yolo_detector]: 🖼️ 处理第7290帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386964.123456665] [yolo_detector]: 🖼️ 处理第7320帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386964.626906937] [yolo_detector]: 🖼️ 处理第7350帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386965.118431929] [yolo_detector]: 🖼️ 处理第7380帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386965.624876392] [yolo_detector]: 🖼️ 处理第7410帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386966.134349072] [yolo_detector]: 🖼️ 处理第7440帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386966.632468883] [yolo_detector]: 🖼️ 处理第7470帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386967.118815189] [yolo_detector]: 🖼️ 处理第7500帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386967.624164517] [yolo_detector]: 🖼️ 处理第7530帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386968.124518808] [yolo_detector]: 🖼️ 处理第7560帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386968.619854872] [yolo_detector]: 🖼️ 处理第7590帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386969.121196678] [yolo_detector]: 🖼️ 处理第7620帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386969.632950302] [yolo_detector]: 🖼️ 处理第7650帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386970.122506847] [yolo_detector]: 🖼️ 处理第7680帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386970.624273699] [yolo_detector]: 🖼️ 处理第7710帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386971.120855279] [yolo_detector]: 🖼️ 处理第7740帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386971.622098016] [yolo_detector]: 🖼️ 处理第7770帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386972.131340171] [yolo_detector]: 🖼️ 处理第7800帧，原始检测: 1个
+[yolo_detector-5] [INFO] [1791386972.131681005] [yolo_detector]: 检测到: stop sign (0.30)
+[yolo_detector-5] [INFO] [1791386972.628810930] [yolo_detector]: 🖼️ 处理第7830帧，原始检测: 0个
+[python3-6] [WARN] [1791386972.750885197] [coverage_planner]: 触发避障!激光:True(前0.58m) 视觉:False 左空6.80右空0.83
+[python3-6] [INFO] [1791386972.751276631] [coverage_planner]: 航点134第1次失败
+[python3-6] [INFO] [1791386972.751917678] [coverage_planner]: 📡 雷达单独检测，左侧空旷(6.80m)且边界安全，向左绕行
+[python3-6] [INFO] [1791386972.752100932] [coverage_planner]: 方向修正：目标在右且右侧安全，改为向右绕
+[python3-6] [INFO] [1791386972.752724407] [coverage_planner]: 开始绕行: (2.01, 1.10)
+[yolo_detector-5] [INFO] [1791386973.122776185] [yolo_detector]: 🖼️ 处理第7860帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386973.627965231] [yolo_detector]: 🖼️ 处理第7890帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386974.124889660] [yolo_detector]: 🖼️ 处理第7920帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386974.625965159] [yolo_detector]: 🖼️ 处理第7950帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386975.129216798] [yolo_detector]: 🖼️ 处理第7980帧，原始检测: 0个
+[python3-6] [WARN] [1791386975.251227276] [coverage_planner]: 前方仍有障碍，跳过航点 134
+[yolo_detector-5] [INFO] [1791386975.624782746] [yolo_detector]: 🖼️ 处理第8010帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386976.138079169] [yolo_detector]: 🖼️ 处理第8040帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386976.634607737] [yolo_detector]: 🖼️ 处理第8070帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386977.127941567] [yolo_detector]: 🖼️ 处理第8100帧，原始检测: 1个
+[yolo_detector-5] [INFO] [1791386977.128267197] [yolo_detector]: 检测到: person (0.28)
+[yolo_detector-5] [INFO] [1791386977.625744341] [yolo_detector]: 🖼️ 处理第8130帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386978.140267426] [yolo_detector]: 🖼️ 处理第8160帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386978.630199818] [yolo_detector]: 🖼️ 处理第8190帧，原始检测: 0个
+[async_slam_toolbox_node-4] [INFO] [1791386978.853569407] [slam_toolbox]: Message Filter dropping message: frame 'lidar_Link' at time 384.800 for reason 'discarding message because the queue is full'
+[yolo_detector-5] [INFO] [1791386979.127000082] [yolo_detector]: 🖼️ 处理第8220帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386979.642801350] [yolo_detector]: 🖼️ 处理第8250帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386980.127151557] [yolo_detector]: 🖼️ 处理第8280帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386980.639970333] [yolo_detector]: 🖼️ 处理第8310帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386981.131907108] [yolo_detector]: 🖼️ 处理第8340帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386981.640122088] [yolo_detector]: 🖼️ 处理第8370帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386982.130862475] [yolo_detector]: 🖼️ 处理第8400帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386982.633000374] [yolo_detector]: 🖼️ 处理第8430帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386983.142647396] [yolo_detector]: 🖼️ 处理第8460帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386983.633048915] [yolo_detector]: 🖼️ 处理第8490帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386984.134572619] [yolo_detector]: 🖼️ 处理第8520帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386984.643919679] [yolo_detector]: 🖼️ 处理第8550帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386985.131477997] [yolo_detector]: 🖼️ 处理第8580帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386985.634823408] [yolo_detector]: 🖼️ 处理第8610帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386986.131027310] [yolo_detector]: 🖼️ 处理第8640帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386986.631510972] [yolo_detector]: 🖼️ 处理第8670帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386987.135899321] [yolo_detector]: 🖼️ 处理第8700帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386987.648833962] [yolo_detector]: 🖼️ 处理第8730帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386988.142602150] [yolo_detector]: 🖼️ 处理第8760帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386988.638203784] [yolo_detector]: 🖼️ 处理第8790帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386989.146259661] [yolo_detector]: 🖼️ 处理第8820帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386989.654649935] [yolo_detector]: 🖼️ 处理第8850帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386990.145721564] [yolo_detector]: 🖼️ 处理第8880帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386990.634559925] [yolo_detector]: 🖼️ 处理第8910帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386991.147796549] [yolo_detector]: 🖼️ 处理第8940帧，原始检测: 0个
+[python3-6] [WARN] [1791386991.213987751] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空7.06右空0.43
+[python3-6] [INFO] [1791386991.214513063] [coverage_planner]: 航点135第1次失败
+[python3-6] [INFO] [1791386991.214876317] [coverage_planner]: 连续避障第1次，保持向右绕行
+[python3-6] [INFO] [1791386991.215527572] [coverage_planner]: 侧向激光约束: 绕行方向空间0.43m，side_dist限制为0.23m
+[python3-6] [INFO] [1791386991.216470821] [coverage_planner]: 开始绕行: (1.99, 1.23)
+[yolo_detector-5] [INFO] [1791386991.648961263] [yolo_detector]: 🖼️ 处理第8970帧，原始检测: 0个
+[python3-6] [WARN] [1791386992.112542279] [coverage_planner]: 前方仍有障碍，跳过航点 135
+[yolo_detector-5] [INFO] [1791386992.142019870] [yolo_detector]: 🖼️ 处理第9000帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386992.635374536] [yolo_detector]: 🖼️ 处理第9030帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386993.137277642] [yolo_detector]: 🖼️ 处理第9060帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386993.645617322] [yolo_detector]: 🖼️ 处理第9090帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386994.156409554] [yolo_detector]: 🖼️ 处理第9120帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386994.639500538] [yolo_detector]: 🖼️ 处理第9150帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386995.151088418] [yolo_detector]: 🖼️ 处理第9180帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386995.643010043] [yolo_detector]: 🖼️ 处理第9210帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386996.150157339] [yolo_detector]: 🖼️ 处理第9240帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386996.639615293] [yolo_detector]: 🖼️ 处理第9270帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386997.138691214] [yolo_detector]: 🖼️ 处理第9300帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386997.642095775] [yolo_detector]: 🖼️ 处理第9330帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386998.149850549] [yolo_detector]: 🖼️ 处理第9360帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386998.651844226] [yolo_detector]: 🖼️ 处理第9390帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386999.152127211] [yolo_detector]: 🖼️ 处理第9420帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791386999.641199433] [yolo_detector]: 🖼️ 处理第9450帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387000.140926869] [yolo_detector]: 🖼️ 处理第9480帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387000.653859768] [yolo_detector]: 🖼️ 处理第9510帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387001.145962274] [yolo_detector]: 🖼️ 处理第9540帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387001.656724419] [yolo_detector]: 🖼️ 处理第9570帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387002.147879449] [yolo_detector]: 🖼️ 处理第9600帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387002.654171019] [yolo_detector]: 🖼️ 处理第9630帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387003.145354530] [yolo_detector]: 🖼️ 处理第9660帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387003.646579345] [yolo_detector]: 🖼️ 处理第9690帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387004.146216913] [yolo_detector]: 🖼️ 处理第9720帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387004.646335649] [yolo_detector]: 🖼️ 处理第9750帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387005.154752827] [yolo_detector]: 🖼️ 处理第9780帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387005.664363410] [yolo_detector]: 🖼️ 处理第9810帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387006.148720939] [yolo_detector]: 🖼️ 处理第9840帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387006.645724529] [yolo_detector]: 🖼️ 处理第9870帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387007.151165961] [yolo_detector]: 🖼️ 处理第9900帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387007.645676969] [yolo_detector]: 🖼️ 处理第9930帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387008.153294968] [yolo_detector]: 🖼️ 处理第9960帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387008.653430004] [yolo_detector]: 🖼️ 处理第9990帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387009.149229006] [yolo_detector]: 🖼️ 处理第10020帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387009.647637619] [yolo_detector]: 🖼️ 处理第10050帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387010.147618736] [yolo_detector]: 🖼️ 处理第10080帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387010.662234452] [yolo_detector]: 🖼️ 处理第10110帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387011.162937924] [yolo_detector]: 🖼️ 处理第10140帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387011.649849656] [yolo_detector]: 🖼️ 处理第10170帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387012.149055244] [yolo_detector]: 🖼️ 处理第10200帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387012.653699552] [yolo_detector]: 🖼️ 处理第10230帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387013.162831621] [yolo_detector]: 🖼️ 处理第10260帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387013.663512768] [yolo_detector]: 🖼️ 处理第10290帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387014.150527607] [yolo_detector]: 🖼️ 处理第10320帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387014.663132643] [yolo_detector]: 🖼️ 处理第10350帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387015.151636509] [yolo_detector]: 🖼️ 处理第10380帧，原始检测: 0个
+[async_slam_toolbox_node-4] [INFO] [1791387015.627624505] [slam_toolbox]: Message Filter dropping message: frame 'lidar_Link' at time 458.300 for reason 'discarding message because the queue is full'
+[yolo_detector-5] [INFO] [1791387015.656015592] [yolo_detector]: 🖼️ 处理第10410帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387016.152282625] [yolo_detector]: 🖼️ 处理第10440帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387016.653862438] [yolo_detector]: 🖼️ 处理第10470帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387017.166162945] [yolo_detector]: 🖼️ 处理第10500帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387017.652905317] [yolo_detector]: 🖼️ 处理第10530帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387018.168235302] [yolo_detector]: 🖼️ 处理第10560帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387018.656577878] [yolo_detector]: 🖼️ 处理第10590帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387019.153136759] [yolo_detector]: 🖼️ 处理第10620帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387019.666146971] [yolo_detector]: 🖼️ 处理第10650帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387020.172272674] [yolo_detector]: 🖼️ 处理第10680帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387020.654770164] [yolo_detector]: 🖼️ 处理第10710帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387021.167746803] [yolo_detector]: 🖼️ 处理第10740帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387021.659004196] [yolo_detector]: 🖼️ 处理第10770帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387022.159518054] [yolo_detector]: 🖼️ 处理第10800帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387022.669056134] [yolo_detector]: 🖼️ 处理第10830帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387023.165911009] [yolo_detector]: 🖼️ 处理第10860帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387023.656241939] [yolo_detector]: 🖼️ 处理第10890帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387024.163516947] [yolo_detector]: 🖼️ 处理第10920帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387024.659451057] [yolo_detector]: 🖼️ 处理第10950帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387025.158636439] [yolo_detector]: 🖼️ 处理第10980帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387025.669094791] [yolo_detector]: 🖼️ 处理第11010帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387026.161194609] [yolo_detector]: 🖼️ 处理第11040帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387026.662911495] [yolo_detector]: 🖼️ 处理第11070帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387027.162994856] [yolo_detector]: 🖼️ 处理第11100帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387027.658997588] [yolo_detector]: 🖼️ 处理第11130帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387028.161337097] [yolo_detector]: 🖼️ 处理第11160帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387028.662862267] [yolo_detector]: 🖼️ 处理第11190帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387029.164880049] [yolo_detector]: 🖼️ 处理第11220帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387029.661042521] [yolo_detector]: 🖼️ 处理第11250帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387030.163545387] [yolo_detector]: 🖼️ 处理第11280帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387030.664602502] [yolo_detector]: 🖼️ 处理第11310帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387031.162280118] [yolo_detector]: 🖼️ 处理第11340帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387031.665476359] [yolo_detector]: 🖼️ 处理第11370帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387032.163564867] [yolo_detector]: 🖼️ 处理第11400帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387032.682460095] [yolo_detector]: 🖼️ 处理第11430帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387033.169383735] [yolo_detector]: 🖼️ 处理第11460帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387033.662986229] [yolo_detector]: 🖼️ 处理第11490帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387034.169902391] [yolo_detector]: 🖼️ 处理第11520帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387034.671491661] [yolo_detector]: 🖼️ 处理第11550帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387035.164153556] [yolo_detector]: 🖼️ 处理第11580帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387035.671538574] [yolo_detector]: 🖼️ 处理第11610帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387036.177310135] [yolo_detector]: 🖼️ 处理第11640帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387036.679432494] [yolo_detector]: 🖼️ 处理第11670帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387037.169967514] [yolo_detector]: 🖼️ 处理第11700帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387037.671037300] [yolo_detector]: 🖼️ 处理第11730帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387038.177550936] [yolo_detector]: 🖼️ 处理第11760帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387038.669896783] [yolo_detector]: 🖼️ 处理第11790帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387039.177756139] [yolo_detector]: 🖼️ 处理第11820帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387039.681206042] [yolo_detector]: 🖼️ 处理第11850帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387040.171764016] [yolo_detector]: 🖼️ 处理第11880帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387040.680157068] [yolo_detector]: 🖼️ 处理第11910帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387041.167961909] [yolo_detector]: 🖼️ 处理第11940帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387041.672397794] [yolo_detector]: 🖼️ 处理第11970帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387042.170263192] [yolo_detector]: 🖼️ 处理第12000帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387042.672053330] [yolo_detector]: 🖼️ 处理第12030帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387043.173724111] [yolo_detector]: 🖼️ 处理第12060帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387043.689508963] [yolo_detector]: 🖼️ 处理第12090帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387044.180524707] [yolo_detector]: 🖼️ 处理第12120帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387044.683420765] [yolo_detector]: 🖼️ 处理第12150帧，原始检测: 0个
+[async_slam_toolbox_node-4] [INFO] [1791387044.696587648] [slam_toolbox]: Message Filter dropping message: frame 'lidar_Link' at time 516.400 for reason 'discarding message because the queue is full'
+[yolo_detector-5] [INFO] [1791387045.170702383] [yolo_detector]: 🖼️ 处理第12180帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387045.674976163] [yolo_detector]: 🖼️ 处理第12210帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387046.179628891] [yolo_detector]: 🖼️ 处理第12240帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387046.676921436] [yolo_detector]: 🖼️ 处理第12270帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387047.177468750] [yolo_detector]: 🖼️ 处理第12300帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387047.686913330] [yolo_detector]: 🖼️ 处理第12330帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387048.183171127] [yolo_detector]: 🖼️ 处理第12360帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387048.688744885] [yolo_detector]: 🖼️ 处理第12390帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387049.174595321] [yolo_detector]: 🖼️ 处理第12420帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387049.675287685] [yolo_detector]: 🖼️ 处理第12450帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387050.173773642] [yolo_detector]: 🖼️ 处理第12480帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387050.676401618] [yolo_detector]: 🖼️ 处理第12510帧，原始检测: 0个
+[yolo_detector-5] [INFO] [1791387051.187725004] [yolo_detector]: 🖼️ 处理第12540帧，原始检测: 0个
+[python3-7] [INFO] [1791387051.301922016] [metrics_recorder]: 📼 收到 /coverage_done, t=529.7
+[python3-6] [INFO] [1791387051.302098043] [coverage_planner]: 🏁 单程覆盖完成，发布 /coverage_done
+[python3-6] [INFO] [1791387051.302949506] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387051.351846720] [coverage_planner]: ✅ 往返覆盖完成
+[python3-7] [INFO] [1791387051.359992138] [metrics_recorder]: 📼 落盘完成: status=done odom=25070 点, 时长=501.6
+[python3-6] [INFO] [1791387051.401511180] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387051.451645644] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387051.502081543] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387051.552092216] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387051.602079220] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387051.652045293] [coverage_planner]: ✅ 往返覆盖完成
+[yolo_detector-5] [INFO] [1791387051.677482248] [yolo_detector]: 🖼️ 处理第12570帧，原始检测: 0个
+[python3-6] [INFO] [1791387051.701911314] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387051.752112074] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387051.802670444] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387051.852536203] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387051.903288026] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387051.953244648] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387052.003695385] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387052.052627710] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387052.102627910] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387052.152563708] [coverage_planner]: ✅ 往返覆盖完成
+[yolo_detector-5] [INFO] [1791387052.183348626] [yolo_detector]: 🖼️ 处理第12600帧，原始检测: 0个
+[python3-6] [INFO] [1791387052.202339108] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387052.252398958] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387052.302311370] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387052.352517160] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387052.402878721] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387052.453465222] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387052.502876473] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387052.553838647] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387052.603305513] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387052.653203828] [coverage_planner]: ✅ 往返覆盖完成
+[yolo_detector-5] [INFO] [1791387052.688601079] [yolo_detector]: 🖼️ 处理第12630帧，原始检测: 0个
+[python3-6] [INFO] [1791387052.704267469] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387052.753018313] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387052.802914432] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387052.853204307] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387052.903000480] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387052.952981616] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387053.003241103] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387053.052841451] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387053.102979052] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387053.152907495] [coverage_planner]: ✅ 往返覆盖完成
+[yolo_detector-5] [INFO] [1791387053.176456813] [yolo_detector]: 🖼️ 处理第12660帧，原始检测: 0个
+[python3-6] [INFO] [1791387053.203280384] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387053.253537071] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387053.305295138] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387053.352992775] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387053.402981794] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387053.453216825] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387053.503355507] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387053.553301417] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387053.603450371] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387053.655199733] [coverage_planner]: ✅ 往返覆盖完成
+[yolo_detector-5] [INFO] [1791387053.676320706] [yolo_detector]: 🖼️ 处理第12690帧，原始检测: 0个
+[python3-6] [INFO] [1791387053.704577987] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387053.753332260] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387053.803742476] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387053.854572910] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387053.904089917] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387053.953488697] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387054.006332053] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387054.053885446] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387054.104175195] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387054.153837106] [coverage_planner]: ✅ 往返覆盖完成
+[yolo_detector-5] [INFO] [1791387054.188244518] [yolo_detector]: 🖼️ 处理第12720帧，原始检测: 0个
+[python3-6] [INFO] [1791387054.203683634] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387054.253793579] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387054.304014173] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387054.354352431] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387054.403885764] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387054.454870714] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387054.505497512] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387054.554380971] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387054.604552965] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791387054.654283882] [coverage_planner]: ✅ 往返覆盖完成
+[yolo_detector-5] [INFO] [1791387054.677431228] [yolo_detector]: 🖼️ 处理第12750帧，原始检测: 0个
+[python3-6] [INFO] [1791387054.704079118] [coverage_planner]: ✅ 往返覆盖完成
