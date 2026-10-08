@@ -1,0 +1,1410 @@
+[INFO] [launch]: All log files can be found below /home/abc/.ros/log/2026-10-08-02-11-52-133121-123-235562
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [235572]
+[INFO] [gzserver-2]: process started with pid [235575]
+[robot_state_publisher-1] [WARN] [1791396712.264617924] [kdl_parser]: The root link base_footprint has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-1] [INFO] [1791396712.264679059] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-1] [INFO] [1791396712.264719462] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-1] [INFO] [1791396712.264722805] [robot_state_publisher]: got segment camera_Link
+[robot_state_publisher-1] [INFO] [1791396712.264725344] [robot_state_publisher]: got segment deco_cover_Link
+[robot_state_publisher-1] [INFO] [1791396712.264727763] [robot_state_publisher]: got segment left_front_wheel_Link
+[robot_state_publisher-1] [INFO] [1791396712.264730328] [robot_state_publisher]: got segment left_rear_wheel_Link
+[robot_state_publisher-1] [INFO] [1791396712.264732702] [robot_state_publisher]: got segment lidar_Link
+[robot_state_publisher-1] [INFO] [1791396712.264735066] [robot_state_publisher]: got segment right_front_wheel_Link
+[robot_state_publisher-1] [INFO] [1791396712.264737409] [robot_state_publisher]: got segment right_rear_wheel_Link
+[gzserver-2] Gazebo multi-robot simulator, version 11.10.2
+[gzserver-2] Copyright (C) 2012 Open Source Robotics Foundation.
+[gzserver-2] Released under the Apache 2 License.
+[gzserver-2] http://gazebosim.org
+[gzserver-2] 
+[gzserver-2] [1;33m[Wrn] [gazebo_ros_init.cpp:178] [0m[1;33m
+[gzserver-2] #     # ####### ####### ###  #####  #######
+[gzserver-2] ##    # #     #    #     #  #     # #
+[gzserver-2] # #   # #     #    #     #  #       #
+[gzserver-2] #  #  # #     #    #     #  #       #####
+[gzserver-2] #   # # #     #    #     #  #       #
+[gzserver-2] #    ## #     #    #     #  #     # #
+[gzserver-2] #     # #######    #    ###  #####  #######
+[gzserver-2] 
+[gzserver-2] This version of Gazebo, now called Gazebo classic, reaches end-of-life
+[gzserver-2] in January 2025. Users are highly encouraged to migrate to the new Gazebo
+[gzserver-2] using our migration guides (https://gazebosim.org/docs/latest/gazebo_classic_migration?utm_source=gazebo_ros_pkgs&utm_medium=cli)
+[gzserver-2] 
+[gzserver-2] [0m[1;33m
+[INFO] [spawn_entity.py-3]: process started with pid [236145]
+[spawn_entity.py-3] [INFO] [1791396715.599914449] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-3] [INFO] [1791396715.600095952] [spawn_entity]: Loading entity published on topic robot_description
+[spawn_entity.py-3] [INFO] [1791396715.601065419] [spawn_entity]: Waiting for entity xml on robot_description
+[spawn_entity.py-3] [INFO] [1791396715.611705413] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-3] [INFO] [1791396715.611874359] [spawn_entity]: Waiting for service /spawn_entity
+[spawn_entity.py-3] [INFO] [1791396715.613589865] [spawn_entity]: Calling service /spawn_entity
+[spawn_entity.py-3] [INFO] [1791396715.904900915] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [auto_mower]
+[gzserver-2] [1;32m[Msg] [0m[1;32mWaiting for master.[0m[1;32m
+[gzserver-2] [0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mConnected to gazebo master @ [0m[1;32mhttp://127.0.0.1:11480[0m[1;32m
+[gzserver-2] [0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mPublicized address: [0m[1;32m192.168.177.7[0m[1;32m
+[gzserver-2] [0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mLoading world file [[0m[1;32m/home/abc/auto_mower_nav_backup_4-11（复件）/论文输出/实验/scripts/worlds/lawn_world_rtf2.world[0m[1;32m][0m[1;32m
+[gzserver-2] [0m[1;33m[0m[1;33m[0m[1;33m[Wrn] [Event.cc:61] [0m[1;33mWarning: Deleting a connection right after creation. [0m[1;33mMake sure to save the ConnectionPtr from a Connect call
+[INFO] [spawn_entity.py-3]: process has finished cleanly [pid 236145]
+[gzserver-2] [0m[INFO] [1791396716.044652140] [camera_controller]: Publishing camera info to [/camera/camera_info]
+[gzserver-2] [1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::body_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::body_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::head_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::head_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg1_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg1_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg2_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg2_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg3_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg3_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg4_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg4_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::tail_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::tail_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[INFO] [1791396716.114143012] [diff_drive]: Wheel pair 1 separation set to [0.526460m]
+[gzserver-2] [INFO] [1791396716.114170320] [diff_drive]: Wheel pair 1 diameter set to [0.176000m]
+[gzserver-2] [INFO] [1791396716.114730684] [diff_drive]: Subscribed to [/cmd_vel]
+[gzserver-2] [INFO] [1791396716.115807763] [diff_drive]: Advertise odometry on [/odom]
+[gzserver-2] [INFO] [1791396716.117044882] [diff_drive]: Publishing odom transforms between [odom] and [base_footprint]
+[gzserver-2] [INFO] [1791396716.122422694] [joint_state_publisher]: Going to publish joint [joint_left_front_wheel_Link]
+[gzserver-2] [INFO] [1791396716.122441096] [joint_state_publisher]: Going to publish joint [joint_right_front_wheel_Link]
+[gzserver-2] [INFO] [1791396716.122452775] [joint_state_publisher]: Going to publish joint [joint_left_rear_wheel_Link]
+[gzserver-2] [INFO] [1791396716.122457025] [joint_state_publisher]: Going to publish joint [joint_right_rear_wheel_Link]
+[gzserver-2] [INFO] [1791396716.122464459] [joint_state_publisher]: Going to publish joint [joint_camera_Link]
+[INFO] [async_slam_toolbox_node-4]: process started with pid [236336]
+[async_slam_toolbox_node-4] [INFO] [1791396718.261582354] [slam_toolbox]: Node using stack size 40000000
+[async_slam_toolbox_node-4] [INFO] [1791396718.273173142] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-4] [INFO] [1791396718.273266156] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[async_slam_toolbox_node-4] Registering sensor: [Custom Described Lidar]
+[INFO] [python3-5]: process started with pid [236454]
+[INFO] [python3-6]: process started with pid [236457]
+[python3-6] [INFO] [1791396720.699235980] [metrics_recorder]: 📼 记录器启动, out_dir=/home/abc/auto_mower_nav_backup_4-11（复件）/论文输出/实验/data/sciB_ablation_rect6_laser_only_r1
+[python3-5] [INFO] [1791396720.747250178] [coverage_planner]: 🌱 CoveragePlanner 已启动
+[python3-5] [INFO] [1791396720.747477735] [coverage_planner]:    边界记录模式: 启动后自动记录 odom，走完后发布 /record_boundary False 即可
+[python3-5] [INFO] [1791396720.749089739] [coverage_planner]: 🧪 实验变体启动: strategy=multi one_pass=True use_vision=False boundary_constraint=True 边界顶点数=4
+[python3-5] [INFO] [1791396720.750469915] [coverage_planner]: 等待 SLAM 地图 ...
+[python3-5] [INFO] [1791396721.342053762] [coverage_planner]: 等待 SLAM 地图 ...
+[python3-5] [INFO] [1791396727.348246414] [coverage_planner]: 🧪 注入边界多边形: 121 点
+[python3-5] [INFO] [1791396727.348798123] [coverage_planner]: 处理边界轨迹，原始点 121 个
+[python3-5] [INFO] [1791396727.349413718] [coverage_planner]: 简化后 121 个点
+[python3-5] [INFO] [1791396727.349943800] [coverage_planner]: 首尾距离: 0.00m
+[python3-5] [INFO] [1791396727.350440225] [coverage_planner]: 已闭合多边形
+[python3-5] [INFO] [1791396727.350944875] [coverage_planner]: ✅ 边界完成: 122 个顶点, x=-3.0~3.0, y=-3.0~3.0
+[python3-5] [INFO] [1791396727.363423732] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-5] [INFO] [1791396727.369334286] [coverage_planner]: 方向 0.0°: 143 航点, 连接代价 5.7m
+[python3-5] [INFO] [1791396727.369772030] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-5] [INFO] [1791396727.379725972] [coverage_planner]: 方向 30.0°: 146 航点, 连接代价 13.7m
+[python3-5] [INFO] [1791396727.380148538] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-5] [INFO] [1791396727.391448324] [coverage_planner]: 方向 60.0°: 146 航点, 连接代价 13.9m
+[python3-5] [INFO] [1791396727.391839287] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-5] [INFO] [1791396727.397498252] [coverage_planner]: 方向 90.0°: 143 航点, 连接代价 5.4m
+[python3-5] [INFO] [1791396727.397904443] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-5] [INFO] [1791396727.407416250] [coverage_planner]: 方向 120.0°: 146 航点, 连接代价 10.3m
+[python3-5] [INFO] [1791396727.407828788] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-5] [INFO] [1791396727.419334843] [coverage_planner]: 方向 150.0°: 146 航点, 连接代价 10.3m
+[python3-5] [INFO] [1791396727.419512181] [coverage_planner]: ✅ [strategy=multi] 选定条纹方向: 90.0° (连接代价 5.4m)
+[python3-5] [INFO] [1791396727.430159593] [coverage_planner]: 🚀 开始覆盖导航，共 143 个航点，从航点0出发
+[python3-5] [INFO] [1791396727.430939814] [coverage_planner]: 🧪 真值障碍过滤航点: 143 -> 123
+[python3-5] [INFO] [1791396727.444621786] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-6] [INFO] [1791396727.445851212] [metrics_recorder]: 📼 覆盖开始: 123 个规划航点, t=26.1
+[python3-5] [INFO] [1791396727.447344351] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791396727.497918109] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791396727.549764544] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791396727.599284623] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791396727.649421551] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791396727.699594523] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791396727.749788963] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791396727.799682901] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791396727.848632478] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791396727.902310021] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791396727.948938356] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791396727.999946872] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791396728.051096584] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791396728.097653041] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791396728.147890581] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791396728.199330413] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791396728.249752546] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791396728.298980150] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791396728.301055443] [coverage_planner]: 🌀 航点0航线被挡，插入10个绕障圆弧航点
+[python3-5] [INFO] [1791396728.348095573] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396728.398025135] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396728.447907794] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396728.499344760] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396728.548384766] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396728.598585891] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396728.648468797] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396728.699389225] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396728.752352291] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396728.800145872] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396728.849801870] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396728.898794309] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396728.949905597] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396729.001596251] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396729.049172802] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396729.099594796] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396729.149796166] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396729.199858456] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396729.250248512] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396729.299889217] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396729.349551967] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396729.400225444] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396729.451530404] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396729.500015427] [coverage_planner]: 状态:ROTATE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396729.550402516] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396729.599813908] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396729.651520173] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396729.700295089] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396729.750530283] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396729.801367898] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396729.850985929] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396729.901578558] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396729.952153265] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396730.001265030] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396730.050575540] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396730.100370457] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396730.151110110] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396730.202208020] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396730.253213146] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396730.300960425] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396730.351419605] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396730.401531491] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396730.452159000] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396730.501248004] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396730.552718849] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396730.601707794] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396730.650948638] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396730.700465843] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396730.751394578] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396730.801540076] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396730.851461899] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396730.900881103] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396730.950755278] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396731.002126046] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396731.051785182] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396731.101241920] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396731.151675458] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396731.201631599] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396731.250971665] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396731.302563990] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396731.350740009] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396731.403314366] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396731.452929506] [coverage_planner]: 状态:MOVE 目标0:(-1.1,-1.4)
+[python3-5] [INFO] [1791396731.502269684] [coverage_planner]: 状态:ROTATE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396731.551174014] [coverage_planner]: 状态:ROTATE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396731.601933055] [coverage_planner]: 状态:ROTATE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396731.653569023] [coverage_planner]: 状态:ROTATE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396731.702020444] [coverage_planner]: 状态:ROTATE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396731.754850282] [coverage_planner]: 状态:ROTATE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396731.803075887] [coverage_planner]: 状态:ROTATE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396731.853175140] [coverage_planner]: 状态:ROTATE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396731.902631933] [coverage_planner]: 状态:ROTATE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396731.954767104] [coverage_planner]: 状态:ROTATE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396732.002033967] [coverage_planner]: 状态:ROTATE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396732.054486637] [coverage_planner]: 状态:ROTATE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396732.103950297] [coverage_planner]: 状态:ROTATE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396732.153066987] [coverage_planner]: 状态:ROTATE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396732.203027979] [coverage_planner]: 状态:ROTATE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396732.252559513] [coverage_planner]: 状态:ROTATE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396732.302684437] [coverage_planner]: 状态:ROTATE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396732.353571914] [coverage_planner]: 状态:ROTATE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396732.403063231] [coverage_planner]: 状态:MOVE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396732.452219325] [coverage_planner]: 状态:MOVE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396732.503351533] [coverage_planner]: 状态:MOVE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396732.552218197] [coverage_planner]: 状态:MOVE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396732.602899581] [coverage_planner]: 状态:MOVE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396732.653768114] [coverage_planner]: 状态:MOVE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396732.702659381] [coverage_planner]: 状态:MOVE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396732.756686351] [coverage_planner]: 状态:MOVE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396732.805340175] [coverage_planner]: 状态:MOVE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396732.853846441] [coverage_planner]: 状态:MOVE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396732.903532323] [coverage_planner]: 状态:MOVE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396732.954029544] [coverage_planner]: 状态:MOVE 目标1:(-1.0,-1.6)
+[python3-5] [INFO] [1791396733.004016330] [coverage_planner]: 状态:MOVE 目标2:(-1.0,-1.8)
+[python3-5] [INFO] [1791396733.055681189] [coverage_planner]: 状态:MOVE 目标2:(-1.0,-1.8)
+[python3-5] [INFO] [1791396733.103178855] [coverage_planner]: 状态:MOVE 目标2:(-1.0,-1.8)
+[python3-5] [INFO] [1791396733.155597958] [coverage_planner]: 状态:MOVE 目标2:(-1.0,-1.8)
+[python3-5] [INFO] [1791396733.203860054] [coverage_planner]: 状态:MOVE 目标2:(-1.0,-1.8)
+[python3-5] [INFO] [1791396733.253957970] [coverage_planner]: 状态:MOVE 目标2:(-1.0,-1.8)
+[python3-5] [INFO] [1791396733.304612592] [coverage_planner]: 状态:MOVE 目标2:(-1.0,-1.8)
+[python3-5] [INFO] [1791396733.354319738] [coverage_planner]: 状态:MOVE 目标2:(-1.0,-1.8)
+[python3-5] [INFO] [1791396733.404290006] [coverage_planner]: 状态:MOVE 目标2:(-1.0,-1.8)
+[python3-5] [INFO] [1791396733.454344565] [coverage_planner]: 状态:MOVE 目标2:(-1.0,-1.8)
+[python3-5] [INFO] [1791396733.503604261] [coverage_planner]: 状态:MOVE 目标2:(-1.0,-1.8)
+[python3-5] [INFO] [1791396733.555190972] [coverage_planner]: 状态:MOVE 目标2:(-1.0,-1.8)
+[python3-5] [INFO] [1791396733.604628463] [coverage_planner]: 状态:MOVE 目标2:(-1.0,-1.8)
+[python3-5] [INFO] [1791396733.653696383] [coverage_planner]: 状态:MOVE 目标2:(-1.0,-1.8)
+[python3-5] [WARN] [1791396762.630882111] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.47
+[python3-5] [INFO] [1791396762.631244818] [coverage_planner]: 航点6第1次失败
+[python3-5] [INFO] [1791396762.631533649] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396762.632039492] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396762.632822690] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791396763.030869510] [coverage_planner]: 前方仍有障碍，跳过航点 6
+[python3-5] [WARN] [1791396773.591344421] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空3.00右空0.51
+[python3-5] [INFO] [1791396773.592040823] [coverage_planner]: 航点7第1次失败
+[python3-5] [INFO] [1791396773.592640165] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396773.593507024] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396773.594695915] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791396774.040739522] [coverage_planner]: 前方仍有障碍，跳过航点 7
+[python3-5] [WARN] [1791396775.442419882] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.07右空6.55
+[python3-5] [INFO] [1791396775.442940432] [coverage_planner]: 航点8第1次失败
+[python3-5] [INFO] [1791396775.443336764] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396775.443989804] [coverage_planner]: 离边界0.69m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396775.445011718] [coverage_planner]: 开始绕行: (-1.04, -2.48)
+[python3-5] [WARN] [1791396775.891118682] [coverage_planner]: 前方仍有障碍，跳过航点 8
+[python3-5] [WARN] [1791396777.042465325] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.13右空6.63
+[python3-5] [INFO] [1791396777.042854846] [coverage_planner]: 航点9第1次失败
+[python3-5] [INFO] [1791396777.043174667] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396777.043710789] [coverage_planner]: 离边界0.75m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396777.044529728] [coverage_planner]: 开始绕行: (-1.02, -2.44)
+[python3-5] [WARN] [1791396777.594438840] [coverage_planner]: 前方仍有障碍，跳过航点 9
+[python3-5] [INFO] [1791396777.643511890] [coverage_planner]: 🌀 航点10航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791396779.047479765] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空3.20右空6.44
+[python3-5] [INFO] [1791396779.047942357] [coverage_planner]: 航点10第1次失败
+[python3-5] [INFO] [1791396779.048414479] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396779.049945414] [coverage_planner]: 开始绕行: (-0.89, -2.69)
+[python3-5] [INFO] [1791396781.645718323] [coverage_planner]: 绕行完成，回到航点 10
+[python3-5] [WARN] [1791396784.199241395] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空7.79
+[python3-5] [INFO] [1791396784.199670386] [coverage_planner]: 航点10第2次失败
+[python3-5] [INFO] [1791396784.200015617] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396784.200593292] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396784.201500349] [coverage_planner]: 开始绕行: (-1.11, -2.61)
+[python3-5] [WARN] [1791396784.699621530] [coverage_planner]: 前方仍有障碍，跳过航点 10
+[python3-5] [WARN] [1791396787.650528047] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.46
+[python3-5] [INFO] [1791396787.650734153] [coverage_planner]: 航点11第1次失败
+[python3-5] [INFO] [1791396787.650927168] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396787.651230457] [coverage_planner]: 离边界0.62m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396787.651715592] [coverage_planner]: 开始绕行: (-1.03, -2.52)
+[python3-5] [WARN] [1791396788.101190227] [coverage_planner]: 前方仍有障碍，跳过航点 11
+[python3-5] [INFO] [1791396788.151879610] [coverage_planner]: 🌀 航点12航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791396797.959898303] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空3.00右空0.47
+[python3-5] [INFO] [1791396797.960337450] [coverage_planner]: 航点12第1次失败
+[python3-5] [INFO] [1791396797.960626448] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396797.961135696] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396797.962058488] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791396798.360104093] [coverage_planner]: 前方仍有障碍，跳过航点 12
+[python3-5] [WARN] [1791396805.164242020] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791396805.164505356] [coverage_planner]: 航点13第1次失败
+[python3-5] [INFO] [1791396805.164674541] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396805.164979348] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396805.165532605] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791396805.564669478] [coverage_planner]: 前方仍有障碍，跳过航点 13
+[python3-5] [INFO] [1791396805.615560717] [coverage_planner]: 🌀 航点14航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791396810.070207605] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.99右空0.45
+[python3-5] [INFO] [1791396810.070720788] [coverage_planner]: 航点14第1次失败
+[python3-5] [INFO] [1791396810.071155105] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396810.071838318] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396810.072881546] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791396810.520659871] [coverage_planner]: 前方仍有障碍，跳过航点 14
+[python3-5] [WARN] [1791396817.626724687] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.47
+[python3-5] [INFO] [1791396817.627169320] [coverage_planner]: 航点15第1次失败
+[python3-5] [INFO] [1791396817.627538736] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396817.628114348] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396817.629070026] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791396818.074758437] [coverage_planner]: 前方仍有障碍，跳过航点 15
+[python3-5] [INFO] [1791396818.128883009] [coverage_planner]: 🌀 航点16航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791396823.681844418] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.47
+[python3-5] [INFO] [1791396823.682371679] [coverage_planner]: 航点16第1次失败
+[python3-5] [INFO] [1791396823.682757732] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396823.683463060] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396823.685127460] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791396824.130325862] [coverage_planner]: 前方仍有障碍，跳过航点 16
+[python3-5] [WARN] [1791396830.336240692] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.45
+[python3-5] [INFO] [1791396830.336861664] [coverage_planner]: 航点17第1次失败
+[python3-5] [INFO] [1791396830.337434088] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396830.338362818] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396830.339776966] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791396830.789442347] [coverage_planner]: 前方仍有障碍，跳过航点 17
+[python3-5] [INFO] [1791396830.837337095] [coverage_planner]: 🌀 航点18航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791396836.843643416] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791396836.844469936] [coverage_planner]: 航点18第1次失败
+[python3-5] [INFO] [1791396836.845031377] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396836.845705130] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396836.846706848] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791396837.240991926] [coverage_planner]: 前方仍有障碍，跳过航点 18
+[python3-5] [WARN] [1791396842.644366959] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.45
+[python3-5] [INFO] [1791396842.644580071] [coverage_planner]: 航点19第1次失败
+[python3-5] [INFO] [1791396842.644742634] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396842.645026237] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396842.645498988] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791396843.046000205] [coverage_planner]: 前方仍有障碍，跳过航点 19
+[python3-5] [INFO] [1791396843.095869548] [coverage_planner]: 🌀 航点20航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791396848.700085812] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.45
+[python3-5] [INFO] [1791396848.700665442] [coverage_planner]: 航点20第1次失败
+[python3-5] [INFO] [1791396848.701205937] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396848.702089424] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396848.703383564] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791396849.151374910] [coverage_planner]: 前方仍有障碍，跳过航点 20
+[python3-5] [WARN] [1791396855.406027997] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791396855.406430609] [coverage_planner]: 航点21第1次失败
+[python3-5] [INFO] [1791396855.406772354] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396855.407338220] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396855.408220124] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791396855.805312889] [coverage_planner]: 前方仍有障碍，跳过航点 21
+[python3-5] [INFO] [1791396855.856426967] [coverage_planner]: 🌀 航点22航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791396860.658827889] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.48
+[python3-5] [INFO] [1791396860.659045271] [coverage_planner]: 航点22第1次失败
+[python3-5] [INFO] [1791396860.659258215] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396860.659597729] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396860.660100049] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791396861.058978913] [coverage_planner]: 前方仍有障碍，跳过航点 22
+[python3-5] [WARN] [1791396866.715019283] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791396866.715424490] [coverage_planner]: 航点23第1次失败
+[python3-5] [INFO] [1791396866.715783947] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396866.716476545] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396866.717240418] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791396867.115956110] [coverage_planner]: 前方仍有障碍，跳过航点 23
+[python3-5] [INFO] [1791396867.164937460] [coverage_planner]: 🌀 航点24航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791396874.319429842] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.97右空0.47
+[python3-5] [INFO] [1791396874.319636976] [coverage_planner]: 航点24第1次失败
+[python3-5] [INFO] [1791396874.319797685] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396874.320069569] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396874.320533977] [coverage_planner]: 开始绕行: (-1.06, -2.56)
+[python3-5] [WARN] [1791396874.769357501] [coverage_planner]: 前方仍有障碍，跳过航点 24
+[python3-5] [WARN] [1791396880.525246078] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791396880.525746935] [coverage_planner]: 航点25第1次失败
+[python3-5] [INFO] [1791396880.526169750] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396880.526918073] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396880.528301199] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791396880.926149761] [coverage_planner]: 前方仍有障碍，跳过航点 25
+[python3-5] [INFO] [1791396880.976058077] [coverage_planner]: 🌀 航点26航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791396886.330277473] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.46
+[python3-5] [INFO] [1791396886.330718226] [coverage_planner]: 航点26第1次失败
+[python3-5] [INFO] [1791396886.331108318] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396886.331824134] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396886.333035487] [coverage_planner]: 开始绕行: (-1.03, -2.53)
+[python3-5] [WARN] [1791396886.731162322] [coverage_planner]: 前方仍有障碍，跳过航点 26
+[python3-5] [WARN] [1791396893.235086434] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.98右空0.47
+[python3-5] [INFO] [1791396893.235313020] [coverage_planner]: 航点27第1次失败
+[python3-5] [INFO] [1791396893.235538494] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396893.235899971] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396893.236501136] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791396893.638904999] [coverage_planner]: 前方仍有障碍，跳过航点 27
+[python3-5] [INFO] [1791396893.689142933] [coverage_planner]: 🌀 航点28航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791396900.192976597] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.46
+[python3-5] [INFO] [1791396900.193440844] [coverage_planner]: 航点28第1次失败
+[python3-5] [INFO] [1791396900.193832625] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396900.194432067] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396900.195379868] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791396900.640773137] [coverage_planner]: 前方仍有障碍，跳过航点 28
+[python3-5] [WARN] [1791396907.249226139] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.46
+[python3-5] [INFO] [1791396907.249872790] [coverage_planner]: 航点29第1次失败
+[python3-5] [INFO] [1791396907.250404230] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396907.251306227] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396907.252818263] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791396907.699877361] [coverage_planner]: 前方仍有障碍，跳过航点 29
+[python3-5] [INFO] [1791396907.748452791] [coverage_planner]: 🌀 航点30航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791396913.104428433] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.98右空0.45
+[python3-5] [INFO] [1791396913.105087259] [coverage_planner]: 航点30第1次失败
+[python3-5] [INFO] [1791396913.105623935] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396913.106581552] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396913.108153219] [coverage_planner]: 开始绕行: (-1.04, -2.55)
+[python3-5] [WARN] [1791396913.505295727] [coverage_planner]: 前方仍有障碍，跳过航点 30
+[python3-5] [WARN] [1791396917.658726457] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.45
+[python3-5] [INFO] [1791396917.659355419] [coverage_planner]: 航点31第1次失败
+[python3-5] [INFO] [1791396917.659876889] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396917.660770373] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396917.662247815] [coverage_planner]: 开始绕行: (-1.03, -2.53)
+[python3-5] [WARN] [1791396918.057943674] [coverage_planner]: 前方仍有障碍，跳过航点 31
+[python3-5] [INFO] [1791396918.109752131] [coverage_planner]: 🌀 航点32航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791396925.015851257] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.97右空0.46
+[python3-5] [INFO] [1791396925.016480132] [coverage_planner]: 航点32第1次失败
+[python3-5] [INFO] [1791396925.017002204] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396925.017833036] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396925.019108486] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791396925.415116954] [coverage_planner]: 前方仍有障碍，跳过航点 32
+[python3-5] [WARN] [1791396930.471376631] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.43
+[python3-5] [INFO] [1791396930.472053520] [coverage_planner]: 航点33第1次失败
+[python3-5] [INFO] [1791396930.472637296] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396930.473624950] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396930.475216946] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791396930.919185925] [coverage_planner]: 前方仍有障碍，跳过航点 33
+[python3-5] [INFO] [1791396930.968701668] [coverage_planner]: 🌀 航点34航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791396936.475640416] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791396936.476246216] [coverage_planner]: 航点34第1次失败
+[python3-5] [INFO] [1791396936.476780175] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396936.477702289] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396936.479231587] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791396936.874806616] [coverage_planner]: 前方仍有障碍，跳过航点 34
+[python3-5] [WARN] [1791396943.431580993] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791396943.432001581] [coverage_planner]: 航点35第1次失败
+[python3-5] [INFO] [1791396943.432414424] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396943.433025140] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396943.433996070] [coverage_planner]: 开始绕行: (-1.04, -2.55)
+[python3-5] [WARN] [1791396943.831162159] [coverage_planner]: 前方仍有障碍，跳过航点 35
+[python3-5] [INFO] [1791396943.879437870] [coverage_planner]: 🌀 航点36航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791396948.534478785] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.47
+[python3-5] [INFO] [1791396948.534812336] [coverage_planner]: 航点36第1次失败
+[python3-5] [INFO] [1791396948.535096389] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396948.535573610] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396948.536306102] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791396948.936157378] [coverage_planner]: 前方仍有障碍，跳过航点 36
+[python3-5] [WARN] [1791396956.640518862] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.98右空0.45
+[python3-5] [INFO] [1791396956.640726711] [coverage_planner]: 航点37第1次失败
+[python3-5] [INFO] [1791396956.640896614] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396956.641178092] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396956.641649097] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791396957.043550783] [coverage_planner]: 前方仍有障碍，跳过航点 37
+[python3-5] [INFO] [1791396957.093545476] [coverage_planner]: 🌀 航点38航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791396963.146669060] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791396963.146970156] [coverage_planner]: 航点38第1次失败
+[python3-5] [INFO] [1791396963.147215882] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396963.147612609] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396963.148241769] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791396963.599466393] [coverage_planner]: 前方仍有障碍，跳过航点 38
+[python3-5] [WARN] [1791396968.952666127] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.47
+[python3-5] [INFO] [1791396968.953242467] [coverage_planner]: 航点39第1次失败
+[python3-5] [INFO] [1791396968.953727636] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396968.954558763] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396968.955917283] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791396969.353124973] [coverage_planner]: 前方仍有障碍，跳过航点 39
+[python3-5] [INFO] [1791396969.403586994] [coverage_planner]: 🌀 航点40航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791396975.559132542] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.97右空0.47
+[python3-5] [INFO] [1791396975.559531345] [coverage_planner]: 航点40第1次失败
+[python3-5] [INFO] [1791396975.559833522] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396975.560402460] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396975.561199297] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791396975.958258265] [coverage_planner]: 前方仍有障碍，跳过航点 40
+[python3-5] [WARN] [1791396981.514116713] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.98右空0.47
+[python3-5] [INFO] [1791396981.514990412] [coverage_planner]: 航点41第1次失败
+[python3-5] [INFO] [1791396981.515795684] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396981.516978002] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396981.518617310] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791396981.911361318] [coverage_planner]: 前方仍有障碍，跳过航点 41
+[python3-5] [INFO] [1791396981.961700188] [coverage_planner]: 🌀 航点42航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791396986.720309698] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791396986.721200635] [coverage_planner]: 航点42第1次失败
+[python3-5] [INFO] [1791396986.721974631] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396986.723182254] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396986.724379032] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791396987.117487799] [coverage_planner]: 前方仍有障碍，跳过航点 42
+[python3-5] [WARN] [1791396993.724206366] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.44
+[python3-5] [INFO] [1791396993.724731778] [coverage_planner]: 航点43第1次失败
+[python3-5] [INFO] [1791396993.725154238] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791396993.725880336] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791396993.726979277] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791396994.125759238] [coverage_planner]: 前方仍有障碍，跳过航点 43
+[python3-5] [INFO] [1791396994.174161647] [coverage_planner]: 🌀 航点44航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397000.979182984] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397000.979500993] [coverage_planner]: 航点44第1次失败
+[python3-5] [INFO] [1791397000.979767165] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397000.980220315] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397000.980933733] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397001.379694832] [coverage_planner]: 前方仍有障碍，跳过航点 44
+[python3-5] [WARN] [1791397006.635599991] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397006.636464020] [coverage_planner]: 航点45第1次失败
+[python3-5] [INFO] [1791397006.637281286] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397006.638433400] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397006.640003657] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791397007.084190747] [coverage_planner]: 前方仍有障碍，跳过航点 45
+[python3-5] [INFO] [1791397007.134734728] [coverage_planner]: 🌀 航点46航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397013.592927721] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397013.593367778] [coverage_planner]: 航点46第1次失败
+[python3-5] [INFO] [1791397013.593716575] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397013.594349596] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397013.595229418] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397013.990343066] [coverage_planner]: 前方仍有障碍，跳过航点 46
+[python3-5] [WARN] [1791397018.694574459] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397018.695003502] [coverage_planner]: 航点47第1次失败
+[python3-5] [INFO] [1791397018.695374538] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397018.696029546] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397018.697050404] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397019.094511836] [coverage_planner]: 前方仍有障碍，跳过航点 47
+[python3-5] [INFO] [1791397019.146131087] [coverage_planner]: 🌀 航点48航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397024.798991664] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.44
+[python3-5] [INFO] [1791397024.799558756] [coverage_planner]: 航点48第1次失败
+[python3-5] [INFO] [1791397024.800055742] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397024.800980303] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397024.802363133] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397025.252547450] [coverage_planner]: 前方仍有障碍，跳过航点 48
+[python3-5] [WARN] [1791397031.107367767] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.99右空0.45
+[python3-5] [INFO] [1791397031.108493514] [coverage_planner]: 航点49第1次失败
+[python3-5] [INFO] [1791397031.109589761] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397031.111173325] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397031.113254536] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791397031.555375073] [coverage_planner]: 前方仍有障碍，跳过航点 49
+[python3-5] [INFO] [1791397031.608692182] [coverage_planner]: 🌀 航点50航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397039.564497069] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.97右空0.46
+[python3-5] [INFO] [1791397039.565388023] [coverage_planner]: 航点50第1次失败
+[python3-5] [INFO] [1791397039.566203429] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397039.567713479] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397039.569788268] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397039.963900203] [coverage_planner]: 前方仍有障碍，跳过航点 50
+[python3-5] [WARN] [1791397044.767855145] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.47
+[python3-5] [INFO] [1791397044.768248250] [coverage_planner]: 航点51第1次失败
+[python3-5] [INFO] [1791397044.768569714] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397044.769098896] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397044.769937669] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397045.167420459] [coverage_planner]: 前方仍有障碍，跳过航点 51
+[python3-5] [INFO] [1791397045.220484312] [coverage_planner]: 🌀 航点52航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397051.872895483] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397051.873206933] [coverage_planner]: 航点52第1次失败
+[python3-5] [INFO] [1791397051.873467052] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397051.873893307] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397051.874513630] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397052.323987619] [coverage_planner]: 前方仍有障碍，跳过航点 52
+[python3-5] [WARN] [1791397059.229810985] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.45
+[python3-5] [INFO] [1791397059.230302090] [coverage_planner]: 航点53第1次失败
+[python3-5] [INFO] [1791397059.230713867] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397059.231416544] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397059.232582531] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397059.629285994] [coverage_planner]: 前方仍有障碍，跳过航点 53
+[python3-5] [INFO] [1791397059.679278515] [coverage_planner]: 🌀 航点54航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397065.234606833] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397065.235071265] [coverage_planner]: 航点54第1次失败
+[python3-5] [INFO] [1791397065.235463941] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397065.236130708] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397065.237179647] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791397065.634252648] [coverage_planner]: 前方仍有障碍，跳过航点 54
+[python3-5] [WARN] [1791397070.538160198] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空3.00右空0.47
+[python3-5] [INFO] [1791397070.538598422] [coverage_planner]: 航点55第1次失败
+[python3-5] [INFO] [1791397070.538862057] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397070.539289643] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397070.539961722] [coverage_planner]: 开始绕行: (-1.03, -2.52)
+[python3-5] [WARN] [1791397070.987470633] [coverage_planner]: 前方仍有障碍，跳过航点 55
+[python3-5] [INFO] [1791397071.040560516] [coverage_planner]: 🌀 航点56航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397076.742936436] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397076.743365016] [coverage_planner]: 航点56第1次失败
+[python3-5] [INFO] [1791397076.743721837] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397076.744315239] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397076.745228338] [coverage_planner]: 开始绕行: (-1.03, -2.53)
+[python3-5] [WARN] [1791397077.142459731] [coverage_planner]: 前方仍有障碍，跳过航点 56
+[python3-5] [WARN] [1791397083.301351257] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.47
+[python3-5] [INFO] [1791397083.302417809] [coverage_planner]: 航点57第1次失败
+[python3-5] [INFO] [1791397083.303350969] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397083.304787236] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397083.306766610] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397083.748788160] [coverage_planner]: 前方仍有障碍，跳过航点 57
+[python3-5] [INFO] [1791397083.798416082] [coverage_planner]: 🌀 航点58航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397091.804542521] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397091.805017402] [coverage_planner]: 航点58第1次失败
+[python3-5] [INFO] [1791397091.805426538] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397091.806194836] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397091.807448073] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397092.204224208] [coverage_planner]: 前方仍有障碍，跳过航点 58
+[python3-5] [WARN] [1791397097.508733967] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397097.509083851] [coverage_planner]: 航点59第1次失败
+[python3-5] [INFO] [1791397097.509456274] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397097.509993932] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397097.510913341] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397097.910058307] [coverage_planner]: 前方仍有障碍，跳过航点 59
+[python3-5] [INFO] [1791397097.959901445] [coverage_planner]: 🌀 航点60航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397104.965007561] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397104.965484293] [coverage_planner]: 航点60第1次失败
+[python3-5] [INFO] [1791397104.965789110] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397104.966300459] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397104.967031704] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397105.364461717] [coverage_planner]: 前方仍有障碍，跳过航点 60
+[python3-5] [WARN] [1791397110.873271274] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.97右空0.47
+[python3-5] [INFO] [1791397110.874275813] [coverage_planner]: 航点61第1次失败
+[python3-5] [INFO] [1791397110.875154689] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397110.876491685] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397110.878342330] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397111.272075226] [coverage_planner]: 前方仍有障碍，跳过航点 61
+[python3-5] [INFO] [1791397111.319630914] [coverage_planner]: 🌀 航点62航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397115.873798802] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397115.874176157] [coverage_planner]: 航点62第1次失败
+[python3-5] [INFO] [1791397115.874498727] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397115.875023523] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397115.875799045] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791397116.273034391] [coverage_planner]: 前方仍有障碍，跳过航点 62
+[python3-5] [WARN] [1791397121.828696588] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.47
+[python3-5] [INFO] [1791397121.829015552] [coverage_planner]: 航点63第1次失败
+[python3-5] [INFO] [1791397121.829308422] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397121.829765842] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397121.830457183] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397122.278266760] [coverage_planner]: 前方仍有障碍，跳过航点 63
+[python3-5] [INFO] [1791397122.329057797] [coverage_planner]: 🌀 航点64航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397127.283816395] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.99右空0.47
+[python3-5] [INFO] [1791397127.284264583] [coverage_planner]: 航点64第1次失败
+[python3-5] [INFO] [1791397127.284636186] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397127.285226135] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397127.286190990] [coverage_planner]: 开始绕行: (-1.05, -2.56)
+[python3-5] [WARN] [1791397127.735650284] [coverage_planner]: 前方仍有障碍，跳过航点 64
+[python3-5] [WARN] [1791397134.336835859] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397134.337027992] [coverage_planner]: 航点65第1次失败
+[python3-5] [INFO] [1791397134.337189110] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397134.337468815] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397134.337920674] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397134.736578481] [coverage_planner]: 前方仍有障碍，跳过航点 65
+[python3-5] [INFO] [1791397134.786879369] [coverage_planner]: 🌀 航点66航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397139.692449600] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397139.692934925] [coverage_planner]: 航点66第1次失败
+[python3-5] [INFO] [1791397139.693367431] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397139.694131539] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397139.695323764] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791397140.144062697] [coverage_planner]: 前方仍有障碍，跳过航点 66
+[python3-5] [WARN] [1791397148.300256630] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397148.300744811] [coverage_planner]: 航点67第1次失败
+[python3-5] [INFO] [1791397148.301120132] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397148.301746289] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397148.302762455] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397148.699073804] [coverage_planner]: 前方仍有障碍，跳过航点 67
+[python3-5] [INFO] [1791397148.749972013] [coverage_planner]: 🌀 航点68航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397154.458297466] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397154.459023902] [coverage_planner]: 航点68第1次失败
+[python3-5] [INFO] [1791397154.459609834] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397154.460754997] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397154.462253527] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397154.855487229] [coverage_planner]: 前方仍有障碍，跳过航点 68
+[python3-5] [WARN] [1791397160.358795952] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.45
+[python3-5] [INFO] [1791397160.359174564] [coverage_planner]: 航点69第1次失败
+[python3-5] [INFO] [1791397160.359503791] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397160.360028595] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397160.360814168] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397160.808978977] [coverage_planner]: 前方仍有障碍，跳过航点 69
+[python3-5] [INFO] [1791397160.861777301] [coverage_planner]: 🌀 航点70航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397167.764725420] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397167.765145028] [coverage_planner]: 航点70第1次失败
+[python3-5] [INFO] [1791397167.765500758] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397167.766080869] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397167.766956213] [coverage_planner]: 开始绕行: (-1.03, -2.52)
+[python3-5] [WARN] [1791397168.166562468] [coverage_planner]: 前方仍有障碍，跳过航点 70
+[python3-5] [WARN] [1791397176.272637200] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.47
+[python3-5] [INFO] [1791397176.273274795] [coverage_planner]: 航点71第1次失败
+[python3-5] [INFO] [1791397176.273805592] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397176.274732050] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397176.276169796] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397176.670321839] [coverage_planner]: 前方仍有障碍，跳过航点 71
+[python3-5] [INFO] [1791397176.721102406] [coverage_planner]: 🌀 航点72航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397181.876602610] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空3.01右空0.46
+[python3-5] [INFO] [1791397181.877229247] [coverage_planner]: 航点72第1次失败
+[python3-5] [INFO] [1791397181.877767977] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397181.878680035] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397181.880014357] [coverage_planner]: 开始绕行: (-1.03, -2.53)
+[python3-5] [WARN] [1791397182.326582037] [coverage_planner]: 前方仍有障碍，跳过航点 72
+[python3-5] [WARN] [1791397190.632478731] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.44
+[python3-5] [INFO] [1791397190.632933653] [coverage_planner]: 航点73第1次失败
+[python3-5] [INFO] [1791397190.633347203] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397190.633912138] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397190.634678194] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397191.033182246] [coverage_planner]: 前方仍有障碍，跳过航点 73
+[python3-5] [INFO] [1791397191.083683026] [coverage_planner]: 🌀 航点74航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397198.540332785] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397198.540845008] [coverage_planner]: 航点74第1次失败
+[python3-5] [INFO] [1791397198.541253664] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397198.541939915] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397198.542935435] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397198.990892841] [coverage_planner]: 前方仍有障碍，跳过航点 74
+[python3-5] [WARN] [1791397205.294468883] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.45
+[python3-5] [INFO] [1791397205.294793942] [coverage_planner]: 航点75第1次失败
+[python3-5] [INFO] [1791397205.295061400] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397205.295485565] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397205.296177494] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791397205.746129354] [coverage_planner]: 前方仍有障碍，跳过航点 75
+[python3-5] [INFO] [1791397205.794723018] [coverage_planner]: 🌀 航点76航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397213.049153401] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397213.049419764] [coverage_planner]: 航点76第1次失败
+[python3-5] [INFO] [1791397213.049656576] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397213.050091521] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397213.050791305] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397213.450652363] [coverage_planner]: 前方仍有障碍，跳过航点 76
+[python3-5] [WARN] [1791397220.057193007] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.47
+[python3-5] [INFO] [1791397220.057811810] [coverage_planner]: 航点77第1次失败
+[python3-5] [INFO] [1791397220.058380395] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397220.059341222] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397220.060729742] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397220.506485390] [coverage_planner]: 前方仍有障碍，跳过航点 77
+[python3-5] [INFO] [1791397220.557039708] [coverage_planner]: 🌀 航点78航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397225.209689873] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397225.210054779] [coverage_planner]: 航点78第1次失败
+[python3-5] [INFO] [1791397225.210333637] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397225.210794127] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397225.211550354] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791397225.659586599] [coverage_planner]: 前方仍有障碍，跳过航点 78
+[python3-5] [WARN] [1791397232.716592046] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397232.717097009] [coverage_planner]: 航点79第1次失败
+[python3-5] [INFO] [1791397232.717559360] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397232.718348977] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397232.719651322] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397233.115989460] [coverage_planner]: 前方仍有障碍，跳过航点 79
+[python3-5] [INFO] [1791397233.167945034] [coverage_planner]: 🌀 航点80航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397238.973449938] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397238.974145688] [coverage_planner]: 航点80第1次失败
+[python3-5] [INFO] [1791397238.974761305] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397238.975786373] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397238.977380298] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397239.371154903] [coverage_planner]: 前方仍有障碍，跳过航点 80
+[python3-5] [WARN] [1791397244.824726224] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.45
+[python3-5] [INFO] [1791397244.825050142] [coverage_planner]: 航点81第1次失败
+[python3-5] [INFO] [1791397244.825316411] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397244.825759538] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397244.826474586] [coverage_planner]: 开始绕行: (-1.03, -2.53)
+[python3-5] [WARN] [1791397245.276511378] [coverage_planner]: 前方仍有障碍，跳过航点 81
+[python3-5] [INFO] [1791397245.325456683] [coverage_planner]: 🌀 航点82航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397251.181138510] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397251.181752632] [coverage_planner]: 航点82第1次失败
+[python3-5] [INFO] [1791397251.182268516] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397251.183143860] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397251.184586282] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397251.631717768] [coverage_planner]: 前方仍有障碍，跳过航点 82
+[python3-5] [WARN] [1791397258.886465884] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397258.886989658] [coverage_planner]: 航点83第1次失败
+[python3-5] [INFO] [1791397258.887296874] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397258.887842555] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397258.889068815] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397259.287369744] [coverage_planner]: 前方仍有障碍，跳过航点 83
+[python3-5] [INFO] [1791397259.337227240] [coverage_planner]: 🌀 航点84航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397264.542329751] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.45
+[python3-5] [INFO] [1791397264.542971450] [coverage_planner]: 航点84第1次失败
+[python3-5] [INFO] [1791397264.543513705] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397264.544420564] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397264.545841289] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397264.992438287] [coverage_planner]: 前方仍有障碍，跳过航点 84
+[python3-5] [WARN] [1791397274.400145977] [coverage_planner]: 触发避障!激光:True(前0.28m) 视觉:False 左空2.98右空0.47
+[python3-5] [INFO] [1791397274.400781295] [coverage_planner]: 航点85第1次失败
+[python3-5] [INFO] [1791397274.401310779] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397274.402211310] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397274.403670516] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397274.849507790] [coverage_planner]: 前方仍有障碍，跳过航点 85
+[python3-5] [INFO] [1791397274.900577164] [coverage_planner]: 🌀 航点86航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397279.904861177] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.48
+[python3-5] [INFO] [1791397279.905429798] [coverage_planner]: 航点86第1次失败
+[python3-5] [INFO] [1791397279.906120193] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397279.907411714] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397279.908865805] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397280.355891407] [coverage_planner]: 前方仍有障碍，跳过航点 86
+[python3-5] [WARN] [1791397286.109498524] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397286.110181321] [coverage_planner]: 航点87第1次失败
+[python3-5] [INFO] [1791397286.110762774] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397286.111705914] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397286.113037525] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397286.560076019] [coverage_planner]: 前方仍有障碍，跳过航点 87
+[python3-5] [INFO] [1791397286.610309560] [coverage_planner]: 🌀 航点88航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397293.315117228] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.44
+[python3-5] [INFO] [1791397293.315771526] [coverage_planner]: 航点88第1次失败
+[python3-5] [INFO] [1791397293.316315182] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397293.317287401] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397293.318915368] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397293.763992929] [coverage_planner]: 前方仍有障碍，跳过航点 88
+[python3-5] [WARN] [1791397301.421860800] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.48
+[python3-5] [INFO] [1791397301.422436319] [coverage_planner]: 航点89第1次失败
+[python3-5] [INFO] [1791397301.422970200] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397301.423860156] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397301.425252569] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397301.821509325] [coverage_planner]: 前方仍有障碍，跳过航点 89
+[python3-5] [INFO] [1791397301.871550478] [coverage_planner]: 🌀 航点90航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397307.226414918] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.99右空0.48
+[python3-5] [INFO] [1791397307.226975761] [coverage_planner]: 航点90第1次失败
+[python3-5] [INFO] [1791397307.227429508] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397307.228209063] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397307.229402477] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397307.626093629] [coverage_planner]: 前方仍有障碍，跳过航点 90
+[python3-5] [WARN] [1791397312.678848574] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.46
+[python3-5] [INFO] [1791397312.679043399] [coverage_planner]: 航点91第1次失败
+[python3-5] [INFO] [1791397312.679201680] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397312.679465795] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397312.679897076] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791397313.081587055] [coverage_planner]: 前方仍有障碍，跳过航点 91
+[python3-5] [INFO] [1791397313.134798013] [coverage_planner]: 🌀 航点92航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397318.536991657] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.45
+[python3-5] [INFO] [1791397318.537876822] [coverage_planner]: 航点92第1次失败
+[python3-5] [INFO] [1791397318.538614549] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397318.539685504] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397318.541283886] [coverage_planner]: 开始绕行: (-1.03, -2.53)
+[python3-5] [WARN] [1791397318.986001328] [coverage_planner]: 前方仍有障碍，跳过航点 92
+[python3-5] [WARN] [1791397328.392983482] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.45
+[python3-5] [INFO] [1791397328.393533175] [coverage_planner]: 航点93第1次失败
+[python3-5] [INFO] [1791397328.394006815] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397328.394865677] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397328.396074068] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397328.794001414] [coverage_planner]: 前方仍有障碍，跳过航点 93
+[python3-5] [INFO] [1791397328.844646924] [coverage_planner]: 🌀 航点94航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397334.897568654] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.47
+[python3-5] [INFO] [1791397334.897909275] [coverage_planner]: 航点94第1次失败
+[python3-5] [INFO] [1791397334.898180960] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397334.898634857] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397334.899385557] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397335.298790338] [coverage_planner]: 前方仍有障碍，跳过航点 94
+[python3-5] [WARN] [1791397341.305860738] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397341.306416948] [coverage_planner]: 航点95第1次失败
+[python3-5] [INFO] [1791397341.306870958] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397341.307621817] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397341.308794786] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397341.702922216] [coverage_planner]: 前方仍有障碍，跳过航点 95
+[python3-5] [INFO] [1791397341.757405935] [coverage_planner]: 🌀 航点96航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397347.309388927] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.44
+[python3-5] [INFO] [1791397347.310046370] [coverage_planner]: 航点96第1次失败
+[python3-5] [INFO] [1791397347.310550371] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397347.311400915] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397347.312653784] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397347.708863344] [coverage_planner]: 前方仍有障碍，跳过航点 96
+[python3-5] [WARN] [1791397353.913701326] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397353.914092006] [coverage_planner]: 航点97第1次失败
+[python3-5] [INFO] [1791397353.914535225] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397353.915098303] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397353.916077802] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397354.315110907] [coverage_planner]: 前方仍有障碍，跳过航点 97
+[python3-5] [INFO] [1791397354.365433712] [coverage_planner]: 🌀 航点98航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397360.470568326] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.47
+[python3-5] [INFO] [1791397360.471181518] [coverage_planner]: 航点98第1次失败
+[python3-5] [INFO] [1791397360.471724984] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397360.472623148] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397360.474011215] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397360.918503399] [coverage_planner]: 前方仍有障碍，跳过航点 98
+[python3-5] [WARN] [1791397367.925532172] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397367.925860415] [coverage_planner]: 航点99第1次失败
+[python3-5] [INFO] [1791397367.926143407] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397367.926968991] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397367.927896312] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397368.326904538] [coverage_planner]: 前方仍有障碍，跳过航点 99
+[python3-5] [INFO] [1791397368.378251460] [coverage_planner]: 🌀 航点100航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397371.930799075] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.47
+[python3-5] [INFO] [1791397371.931414013] [coverage_planner]: 航点100第1次失败
+[python3-5] [INFO] [1791397371.932072703] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397371.932745519] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397371.933578267] [coverage_planner]: 开始绕行: (-1.03, -2.52)
+[python3-5] [WARN] [1791397372.331654327] [coverage_planner]: 前方仍有障碍，跳过航点 100
+[python3-5] [WARN] [1791397378.335617235] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.45
+[python3-5] [INFO] [1791397378.336154680] [coverage_planner]: 航点101第1次失败
+[python3-5] [INFO] [1791397378.336647861] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397378.337337431] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397378.338293289] [coverage_planner]: 开始绕行: (-1.03, -2.52)
+[python3-5] [WARN] [1791397378.786785397] [coverage_planner]: 前方仍有障碍，跳过航点 101
+[python3-5] [INFO] [1791397378.837060345] [coverage_planner]: 🌀 航点102航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397386.291907281] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397386.292309507] [coverage_planner]: 航点102第1次失败
+[python3-5] [INFO] [1791397386.292693113] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397386.293396982] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397386.294549164] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397386.740925071] [coverage_planner]: 前方仍有障碍，跳过航点 102
+[python3-5] [WARN] [1791397390.694888911] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.46
+[python3-5] [INFO] [1791397390.695203360] [coverage_planner]: 航点103第1次失败
+[python3-5] [INFO] [1791397390.695495371] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397390.695938223] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397390.696618125] [coverage_planner]: 开始绕行: (-1.03, -2.52)
+[python3-5] [WARN] [1791397391.147026607] [coverage_planner]: 前方仍有障碍，跳过航点 103
+[python3-5] [INFO] [1791397391.197223684] [coverage_planner]: 🌀 航点104航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397398.752348921] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.47
+[python3-5] [INFO] [1791397398.752682894] [coverage_planner]: 航点104第1次失败
+[python3-5] [INFO] [1791397398.752970137] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397398.753475924] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397398.754362681] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397399.204336943] [coverage_planner]: 前方仍有障碍，跳过航点 104
+[python3-5] [WARN] [1791397406.360873383] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397406.361483672] [coverage_planner]: 航点105第1次失败
+[python3-5] [INFO] [1791397406.362002206] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397406.362909132] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397406.364380587] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397406.762313438] [coverage_planner]: 前方仍有障碍，跳过航点 105
+[python3-5] [INFO] [1791397406.812229585] [coverage_planner]: 🌀 航点106航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397412.316017980] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.47
+[python3-5] [INFO] [1791397412.316682762] [coverage_planner]: 航点106第1次失败
+[python3-5] [INFO] [1791397412.317211291] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397412.318116575] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397412.319624573] [coverage_planner]: 开始绕行: (-1.04, -2.55)
+[python3-5] [WARN] [1791397412.713701827] [coverage_planner]: 前方仍有障碍，跳过航点 106
+[python3-5] [WARN] [1791397418.069665090] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.47
+[python3-5] [INFO] [1791397418.070169874] [coverage_planner]: 航点107第1次失败
+[python3-5] [INFO] [1791397418.070628534] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397418.071392469] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397418.072604819] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397418.518901290] [coverage_planner]: 前方仍有障碍，跳过航点 107
+[python3-5] [INFO] [1791397418.571900450] [coverage_planner]: 🌀 航点108航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397427.277201817] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.45
+[python3-5] [INFO] [1791397427.277835641] [coverage_planner]: 航点108第1次失败
+[python3-5] [INFO] [1791397427.278367259] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397427.279229057] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397427.280613331] [coverage_planner]: 开始绕行: (-1.05, -2.56)
+[python3-5] [WARN] [1791397427.675690365] [coverage_planner]: 前方仍有障碍，跳过航点 108
+[python3-5] [WARN] [1791397432.180026532] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397432.180308990] [coverage_planner]: 航点109第1次失败
+[python3-5] [INFO] [1791397432.180653694] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397432.181098386] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397432.181766376] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397432.580820132] [coverage_planner]: 前方仍有障碍，跳过航点 109
+[python3-5] [INFO] [1791397432.630048195] [coverage_planner]: 🌀 航点110航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397439.286621287] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.45
+[python3-5] [INFO] [1791397439.287126731] [coverage_planner]: 航点110第1次失败
+[python3-5] [INFO] [1791397439.287508944] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397439.288143536] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397439.289071412] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397439.687114560] [coverage_planner]: 前方仍有障碍，跳过航点 110
+[python3-5] [WARN] [1791397445.943753613] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.45
+[python3-5] [INFO] [1791397445.944377238] [coverage_planner]: 航点111第1次失败
+[python3-5] [INFO] [1791397445.944915968] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397445.945787807] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397445.946996484] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397446.394747923] [coverage_planner]: 前方仍有障碍，跳过航点 111
+[python3-5] [INFO] [1791397446.444197246] [coverage_planner]: 🌀 航点112航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397453.549461923] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397453.550096185] [coverage_planner]: 航点112第1次失败
+[python3-5] [INFO] [1791397453.550659726] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397453.551573236] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397453.552854796] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397453.949976663] [coverage_planner]: 前方仍有障碍，跳过航点 112
+[python3-5] [WARN] [1791397459.253098257] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.43
+[python3-5] [INFO] [1791397459.253570677] [coverage_planner]: 航点113第1次失败
+[python3-5] [INFO] [1791397459.253906004] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397459.254512464] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397459.255471026] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397459.652951719] [coverage_planner]: 前方仍有障碍，跳过航点 113
+[python3-5] [INFO] [1791397459.704826639] [coverage_planner]: 🌀 航点114航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397465.059325379] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397465.059953119] [coverage_planner]: 航点114第1次失败
+[python3-5] [INFO] [1791397465.060498118] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397465.061381916] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397465.062825929] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791397465.459486943] [coverage_planner]: 前方仍有障碍，跳过航点 114
+[python3-5] [WARN] [1791397471.614766253] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.99右空0.45
+[python3-5] [INFO] [1791397471.615392267] [coverage_planner]: 航点115第1次失败
+[python3-5] [INFO] [1791397471.615932348] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397471.616860692] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397471.618247543] [coverage_planner]: 开始绕行: (-1.04, -2.55)
+[python3-5] [WARN] [1791397472.012829673] [coverage_planner]: 前方仍有障碍，跳过航点 115
+[python3-5] [INFO] [1791397472.065130258] [coverage_planner]: 🌀 航点116航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397476.219942424] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.45
+[python3-5] [INFO] [1791397476.220608024] [coverage_planner]: 航点116第1次失败
+[python3-5] [INFO] [1791397476.221179205] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397476.222144068] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397476.223495345] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397476.618688083] [coverage_planner]: 前方仍有障碍，跳过航点 116
+[python3-5] [WARN] [1791397482.975161614] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397482.975789163] [coverage_planner]: 航点117第1次失败
+[python3-5] [INFO] [1791397482.976309589] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397482.977162907] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397482.978480437] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397483.374378859] [coverage_planner]: 前方仍有障碍，跳过航点 117
+[python3-5] [INFO] [1791397483.425182268] [coverage_planner]: 🌀 航点118航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397486.976221404] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.47
+[python3-5] [INFO] [1791397486.976667331] [coverage_planner]: 航点118第1次失败
+[python3-5] [INFO] [1791397486.977043438] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397486.977666961] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397486.978812206] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397487.376783553] [coverage_planner]: 前方仍有障碍，跳过航点 118
+[python3-5] [WARN] [1791397493.082462071] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.47
+[python3-5] [INFO] [1791397493.083088250] [coverage_planner]: 航点119第1次失败
+[python3-5] [INFO] [1791397493.083622871] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397493.084527087] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397493.085988113] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397493.481494596] [coverage_planner]: 前方仍有障碍，跳过航点 119
+[python3-5] [INFO] [1791397493.530477978] [coverage_planner]: 🌀 航点120航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397499.337576364] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.45
+[python3-5] [INFO] [1791397499.338178047] [coverage_planner]: 航点120第1次失败
+[python3-5] [INFO] [1791397499.338695386] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397499.339558371] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397499.340995508] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397499.788139448] [coverage_planner]: 前方仍有障碍，跳过航点 120
+[python3-5] [WARN] [1791397506.193789257] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.47
+[python3-5] [INFO] [1791397506.194404147] [coverage_planner]: 航点121第1次失败
+[python3-5] [INFO] [1791397506.194932735] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397506.195825653] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397506.197131269] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397506.594100977] [coverage_planner]: 前方仍有障碍，跳过航点 121
+[python3-5] [INFO] [1791397506.642500100] [coverage_planner]: 🌀 航点122航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397512.949993879] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.45
+[python3-5] [INFO] [1791397512.950537667] [coverage_planner]: 航点122第1次失败
+[python3-5] [INFO] [1791397512.951009908] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397512.951722407] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397512.952765759] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397513.350893233] [coverage_planner]: 前方仍有障碍，跳过航点 122
+[python3-5] [WARN] [1791397516.953476653] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397516.954083698] [coverage_planner]: 航点123第1次失败
+[python3-5] [INFO] [1791397516.954639374] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397516.955560917] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397516.957028054] [coverage_planner]: 开始绕行: (-1.03, -2.53)
+[python3-5] [WARN] [1791397517.402684484] [coverage_planner]: 前方仍有障碍，跳过航点 123
+[python3-5] [INFO] [1791397517.453712295] [coverage_planner]: 🌀 航点124航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397523.758597998] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.45
+[python3-5] [INFO] [1791397523.759242072] [coverage_planner]: 航点124第1次失败
+[python3-5] [INFO] [1791397523.759825884] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397523.760827132] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397523.762214007] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791397524.157678456] [coverage_planner]: 前方仍有障碍，跳过航点 124
+[python3-5] [WARN] [1791397530.061301330] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.48
+[python3-5] [INFO] [1791397530.061498079] [coverage_planner]: 航点125第1次失败
+[python3-5] [INFO] [1791397530.061658642] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397530.061927690] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397530.062364741] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397530.561888000] [coverage_planner]: 前方仍有障碍，跳过航点 125
+[python3-5] [INFO] [1791397530.613612163] [coverage_planner]: 🌀 航点126航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397534.316241394] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.45
+[python3-5] [INFO] [1791397534.316534962] [coverage_planner]: 航点126第1次失败
+[python3-5] [INFO] [1791397534.316780099] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397534.317191131] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397534.317796959] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791397534.767269910] [coverage_planner]: 前方仍有障碍，跳过航点 126
+[python3-5] [WARN] [1791397541.525086161] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.45
+[python3-5] [INFO] [1791397541.525814866] [coverage_planner]: 航点127第1次失败
+[python3-5] [INFO] [1791397541.526426818] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397541.527460954] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397541.528930672] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397541.973861859] [coverage_planner]: 前方仍有障碍，跳过航点 127
+[python3-5] [INFO] [1791397542.027320269] [coverage_planner]: 🌀 航点128航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397546.929818350] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.47
+[python3-5] [INFO] [1791397546.930514018] [coverage_planner]: 航点128第1次失败
+[python3-5] [INFO] [1791397546.931056062] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397546.932056739] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397546.933412328] [coverage_planner]: 开始绕行: (-1.03, -2.53)
+[python3-5] [WARN] [1791397547.328116215] [coverage_planner]: 前方仍有障碍，跳过航点 128
+[python3-5] [WARN] [1791397552.432640285] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.46
+[python3-5] [INFO] [1791397552.433104410] [coverage_planner]: 航点129第1次失败
+[python3-5] [INFO] [1791397552.433500301] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397552.434110998] [coverage_planner]: 离边界0.62m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397552.435035051] [coverage_planner]: 开始绕行: (-1.03, -2.51)
+[python3-5] [WARN] [1791397552.833742184] [coverage_planner]: 前方仍有障碍，跳过航点 129
+[python3-5] [INFO] [1791397552.883875590] [coverage_planner]: 🌀 航点130航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397558.838336200] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.48
+[python3-5] [INFO] [1791397558.838982665] [coverage_planner]: 航点130第1次失败
+[python3-5] [INFO] [1791397558.839739110] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397558.840620917] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397558.841889215] [coverage_planner]: 开始绕行: (-1.03, -2.53)
+[python3-5] [WARN] [1791397559.288331128] [coverage_planner]: 前方仍有障碍，跳过航点 130
+[python3-5] [WARN] [1791397567.394435413] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.45
+[python3-5] [INFO] [1791397567.395063488] [coverage_planner]: 航点131第1次失败
+[python3-5] [INFO] [1791397567.395620613] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397567.396611647] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397567.398073312] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791397567.795084065] [coverage_planner]: 前方仍有障碍，跳过航点 131
+[python3-5] [INFO] [1791397567.845674698] [coverage_planner]: 🌀 航点132航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397573.898760197] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397573.899138957] [coverage_planner]: 航点132第1次失败
+[python3-5] [INFO] [1791397573.899484877] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397573.900047840] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397573.900959078] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397574.351173264] [coverage_planner]: 前方仍有障碍，跳过航点 132
+[python3-5] [WARN] [1791397581.655855778] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397581.656409579] [coverage_planner]: 航点133第1次失败
+[python3-5] [INFO] [1791397581.656918938] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397581.657767070] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397581.659230422] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397582.105549156] [coverage_planner]: 前方仍有障碍，跳过航点 133
+[python3-5] [INFO] [1791397582.158224969] [coverage_planner]: 🌀 航点134航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397588.463989113] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397588.464658952] [coverage_planner]: 航点134第1次失败
+[python3-5] [INFO] [1791397588.465196107] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397588.466141910] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397588.467630084] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397588.863939939] [coverage_planner]: 前方仍有障碍，跳过航点 134
+[python3-5] [WARN] [1791397591.016416700] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.02右空0.44
+[python3-5] [INFO] [1791397591.017043273] [coverage_planner]: 航点135第1次失败
+[python3-5] [INFO] [1791397591.017586584] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397591.018485289] [coverage_planner]: 离边界0.62m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397591.019944310] [coverage_planner]: 开始绕行: (-1.02, -2.50)
+[python3-5] [WARN] [1791397591.416481839] [coverage_planner]: 前方仍有障碍，跳过航点 135
+[python3-5] [INFO] [1791397591.467630412] [coverage_planner]: 🌀 航点136航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397599.119939737] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.45
+[python3-5] [INFO] [1791397599.120133818] [coverage_planner]: 航点136第1次失败
+[python3-5] [INFO] [1791397599.120295390] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397599.120564076] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397599.121006881] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791397599.523946197] [coverage_planner]: 前方仍有障碍，跳过航点 136
+[python3-5] [WARN] [1791397606.580030362] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397606.580679860] [coverage_planner]: 航点137第1次失败
+[python3-5] [INFO] [1791397606.581216251] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397606.582178880] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397606.583623826] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397606.981940231] [coverage_planner]: 前方仍有障碍，跳过航点 137
+[python3-5] [INFO] [1791397607.030078332] [coverage_planner]: 🌀 航点138航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397615.635414420] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.97右空0.47
+[python3-5] [INFO] [1791397615.635621881] [coverage_planner]: 航点138第1次失败
+[python3-5] [INFO] [1791397615.635798671] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397615.636084546] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397615.636555457] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397616.085979270] [coverage_planner]: 前方仍有障碍，跳过航点 138
+[python3-5] [WARN] [1791397621.741268053] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397621.741848027] [coverage_planner]: 航点139第1次失败
+[python3-5] [INFO] [1791397621.742367916] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397621.743202098] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397621.744433254] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397622.140118427] [coverage_planner]: 前方仍有障碍，跳过航点 139
+[python3-5] [INFO] [1791397622.192850649] [coverage_planner]: 🌀 航点140航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397630.147205231] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.47
+[python3-5] [INFO] [1791397630.147438041] [coverage_planner]: 航点140第1次失败
+[python3-5] [INFO] [1791397630.147637516] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397630.147985784] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397630.148607601] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397630.550044710] [coverage_planner]: 前方仍有障碍，跳过航点 140
+[python3-5] [WARN] [1791397635.151709258] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397635.151903221] [coverage_planner]: 航点141第1次失败
+[python3-5] [INFO] [1791397635.152063754] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397635.152341139] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397635.152798376] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397635.554824355] [coverage_planner]: 前方仍有障碍，跳过航点 141
+[python3-5] [INFO] [1791397635.603951332] [coverage_planner]: 🌀 航点142航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397640.808195493] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397640.808739664] [coverage_planner]: 航点142第1次失败
+[python3-5] [INFO] [1791397640.809199004] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397640.809891704] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397640.810934683] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397641.259811242] [coverage_planner]: 前方仍有障碍，跳过航点 142
+[python3-5] [WARN] [1791397645.661068110] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.46
+[python3-5] [INFO] [1791397645.661288727] [coverage_planner]: 航点143第1次失败
+[python3-5] [INFO] [1791397645.661482326] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397645.661802553] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397645.662336442] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791397646.064371119] [coverage_planner]: 前方仍有障碍，跳过航点 143
+[python3-5] [INFO] [1791397646.114645405] [coverage_planner]: 🌀 航点144航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397654.071058219] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.97右空0.46
+[python3-5] [INFO] [1791397654.071644584] [coverage_planner]: 航点144第1次失败
+[python3-5] [INFO] [1791397654.072140981] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397654.072942712] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397654.074116708] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397654.520885432] [coverage_planner]: 前方仍有障碍，跳过航点 144
+[python3-5] [WARN] [1791397660.273878153] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.47
+[python3-5] [INFO] [1791397660.274259625] [coverage_planner]: 航点145第1次失败
+[python3-5] [INFO] [1791397660.274584837] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397660.275146219] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397660.276186696] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397660.673404894] [coverage_planner]: 前方仍有障碍，跳过航点 145
+[python3-5] [INFO] [1791397660.723480398] [coverage_planner]: 🌀 航点146航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397664.878531418] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.45
+[python3-5] [INFO] [1791397664.879154679] [coverage_planner]: 航点146第1次失败
+[python3-5] [INFO] [1791397664.879655588] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397664.880487386] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397664.881778645] [coverage_planner]: 开始绕行: (-1.03, -2.53)
+[python3-5] [WARN] [1791397665.329147329] [coverage_planner]: 前方仍有障碍，跳过航点 146
+[python3-5] [WARN] [1791397672.835233540] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.47
+[python3-5] [INFO] [1791397672.835863079] [coverage_planner]: 航点147第1次失败
+[python3-5] [INFO] [1791397672.836390673] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397672.837284214] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397672.838741742] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397673.234442361] [coverage_planner]: 前方仍有障碍，跳过航点 147
+[python3-5] [INFO] [1791397673.287426684] [coverage_planner]: 🌀 航点148航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397677.841927194] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.98右空0.44
+[python3-5] [INFO] [1791397677.842568738] [coverage_planner]: 航点148第1次失败
+[python3-5] [INFO] [1791397677.843106959] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397677.844029156] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397677.845546318] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397678.289697591] [coverage_planner]: 前方仍有障碍，跳过航点 148
+[python3-5] [WARN] [1791397684.045170174] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.47
+[python3-5] [INFO] [1791397684.045785506] [coverage_planner]: 航点149第1次失败
+[python3-5] [INFO] [1791397684.046315452] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397684.047188326] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397684.048468549] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791397684.444745375] [coverage_planner]: 前方仍有障碍，跳过航点 149
+[python3-5] [INFO] [1791397684.495746385] [coverage_planner]: 🌀 航点150航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397690.501758992] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.47
+[python3-5] [INFO] [1791397690.502311883] [coverage_planner]: 航点150第1次失败
+[python3-5] [INFO] [1791397690.502720735] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397690.503466378] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397690.504463563] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397690.900542007] [coverage_planner]: 前方仍有障碍，跳过航点 150
+[python3-5] [WARN] [1791397696.303421013] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.47
+[python3-5] [INFO] [1791397696.303697845] [coverage_planner]: 航点151第1次失败
+[python3-5] [INFO] [1791397696.303971721] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397696.304362474] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397696.305094057] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397696.754115599] [coverage_planner]: 前方仍有障碍，跳过航点 151
+[python3-5] [INFO] [1791397696.806160714] [coverage_planner]: 🌀 航点152航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397701.960171941] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.47
+[python3-5] [INFO] [1791397701.960796793] [coverage_planner]: 航点152第1次失败
+[python3-5] [INFO] [1791397701.961296553] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397701.962074842] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397701.963240310] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791397702.409892201] [coverage_planner]: 前方仍有障碍，跳过航点 152
+[python3-5] [WARN] [1791397709.967561534] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.45
+[python3-5] [INFO] [1791397709.968110514] [coverage_planner]: 航点153第1次失败
+[python3-5] [INFO] [1791397709.968551185] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397709.969278501] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397709.970372550] [coverage_planner]: 开始绕行: (-1.04, -2.55)
+[python3-5] [WARN] [1791397710.417280687] [coverage_planner]: 前方仍有障碍，跳过航点 153
+[python3-5] [INFO] [1791397710.467267025] [coverage_planner]: 🌀 航点154航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397716.720653007] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.45
+[python3-5] [INFO] [1791397716.720861650] [coverage_planner]: 航点154第1次失败
+[python3-5] [INFO] [1791397716.721018682] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397716.721290752] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397716.721741058] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397717.174809352] [coverage_planner]: 前方仍有障碍，跳过航点 154
+[python3-5] [WARN] [1791397723.427619385] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.48
+[python3-5] [INFO] [1791397723.427986252] [coverage_planner]: 航点155第1次失败
+[python3-5] [INFO] [1791397723.428312472] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397723.428883740] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397723.429866634] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397723.877776678] [coverage_planner]: 前方仍有障碍，跳过航点 155
+[python3-5] [INFO] [1791397723.929435778] [coverage_planner]: 🌀 航点156航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397731.586782578] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397731.587536355] [coverage_planner]: 航点156第1次失败
+[python3-5] [INFO] [1791397731.588058784] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397731.588858746] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397731.590139188] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397732.035930154] [coverage_planner]: 前方仍有障碍，跳过航点 156
+[python3-5] [WARN] [1791397737.839511281] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397737.839868678] [coverage_planner]: 航点157第1次失败
+[python3-5] [INFO] [1791397737.840176855] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397737.840667708] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397737.841423732] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397738.238881683] [coverage_planner]: 前方仍有障碍，跳过航点 157
+[python3-5] [INFO] [1791397738.289207324] [coverage_planner]: 🌀 航点158航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397744.948001229] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397744.948643605] [coverage_planner]: 航点158第1次失败
+[python3-5] [INFO] [1791397744.949210358] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397744.950193822] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397744.951711556] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397745.349418172] [coverage_planner]: 前方仍有障碍，跳过航点 158
+[python3-5] [WARN] [1791397750.201685756] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.47
+[python3-5] [INFO] [1791397750.202298814] [coverage_planner]: 航点159第1次失败
+[python3-5] [INFO] [1791397750.202839738] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397750.203741990] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397750.205186057] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791397750.650238536] [coverage_planner]: 前方仍有障碍，跳过航点 159
+[python3-5] [INFO] [1791397750.700483378] [coverage_planner]: 🌀 航点160航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397759.009236959] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397759.009878438] [coverage_planner]: 航点160第1次失败
+[python3-5] [INFO] [1791397759.010408634] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397759.011336039] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397759.012808390] [coverage_planner]: 开始绕行: (-1.04, -2.55)
+[python3-5] [WARN] [1791397759.459053313] [coverage_planner]: 前方仍有障碍，跳过航点 160
+[python3-5] [WARN] [1791397766.914287871] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.47
+[python3-5] [INFO] [1791397766.914855081] [coverage_planner]: 航点161第1次失败
+[python3-5] [INFO] [1791397766.915396304] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397766.916349200] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397766.917909792] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397767.364758852] [coverage_planner]: 前方仍有障碍，跳过航点 161
+[python3-5] [INFO] [1791397767.415181886] [coverage_planner]: 🌀 航点162航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397774.220980958] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.98右空0.47
+[python3-5] [INFO] [1791397774.221568347] [coverage_planner]: 航点162第1次失败
+[python3-5] [INFO] [1791397774.222062572] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397774.222921910] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397774.224265379] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397774.620301291] [coverage_planner]: 前方仍有障碍，跳过航点 162
+[python3-5] [WARN] [1791397779.124543002] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.44
+[python3-5] [INFO] [1791397779.124898417] [coverage_planner]: 航点163第1次失败
+[python3-5] [INFO] [1791397779.125194641] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397779.125710157] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397779.126606455] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791397779.575897366] [coverage_planner]: 前方仍有障碍，跳过航点 163
+[python3-5] [INFO] [1791397779.627316339] [coverage_planner]: 🌀 航点164航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397786.980738977] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.45
+[python3-5] [INFO] [1791397786.981202775] [coverage_planner]: 航点164第1次失败
+[python3-5] [INFO] [1791397786.981622614] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397786.982333327] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397786.983564461] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397787.482171843] [coverage_planner]: 前方仍有障碍，跳过航点 164
+[python3-5] [WARN] [1791397795.939190877] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397795.939878618] [coverage_planner]: 航点165第1次失败
+[python3-5] [INFO] [1791397795.940694393] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397795.941815980] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397795.943184966] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791397796.337261769] [coverage_planner]: 前方仍有障碍，跳过航点 165
+[python3-5] [INFO] [1791397796.388042638] [coverage_planner]: 🌀 航点166航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397803.894392456] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.47
+[python3-5] [INFO] [1791397803.894862033] [coverage_planner]: 航点166第1次失败
+[python3-5] [INFO] [1791397803.895219205] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397803.895839694] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397803.896759163] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397804.293366999] [coverage_planner]: 前方仍有障碍，跳过航点 166
+[python3-5] [WARN] [1791397811.901214833] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397811.901647599] [coverage_planner]: 航点167第1次失败
+[python3-5] [INFO] [1791397811.901985733] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397811.902559920] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397811.903427822] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397812.299422825] [coverage_planner]: 前方仍有障碍，跳过航点 167
+[python3-5] [INFO] [1791397812.351977466] [coverage_planner]: 🌀 航点168航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397817.303098343] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.98右空0.45
+[python3-5] [INFO] [1791397817.303289128] [coverage_planner]: 航点168第1次失败
+[python3-5] [INFO] [1791397817.303450304] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397817.303721653] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397817.304213108] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397817.753753367] [coverage_planner]: 前方仍有障碍，跳过航点 168
+[python3-5] [WARN] [1791397824.859147689] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397824.859417612] [coverage_planner]: 航点169第1次失败
+[python3-5] [INFO] [1791397824.859648195] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397824.860042695] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397824.860740281] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397825.261281622] [coverage_planner]: 前方仍有障碍，跳过航点 169
+[python3-5] [INFO] [1791397825.309686868] [coverage_planner]: 🌀 航点170航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397831.215748262] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.47
+[python3-5] [INFO] [1791397831.216227500] [coverage_planner]: 航点170第1次失败
+[python3-5] [INFO] [1791397831.216660400] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397831.217407354] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397831.218879743] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397831.616631127] [coverage_planner]: 前方仍有障碍，跳过航点 170
+[python3-5] [WARN] [1791397836.971871200] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397836.972517956] [coverage_planner]: 航点171第1次失败
+[python3-5] [INFO] [1791397836.973125139] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397836.974073700] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397836.975502496] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397837.421591335] [coverage_planner]: 前方仍有障碍，跳过航点 171
+[python3-5] [INFO] [1791397837.473137836] [coverage_planner]: 🌀 航点172航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397842.975842107] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.46
+[python3-5] [INFO] [1791397842.976497985] [coverage_planner]: 航点172第1次失败
+[python3-5] [INFO] [1791397842.977029669] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397842.977953499] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397842.979441144] [coverage_planner]: 开始绕行: (-1.03, -2.53)
+[python3-5] [WARN] [1791397843.375479405] [coverage_planner]: 前方仍有障碍，跳过航点 172
+[python3-5] [WARN] [1791397850.383961417] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.48
+[python3-5] [INFO] [1791397850.384836181] [coverage_planner]: 航点173第1次失败
+[python3-5] [INFO] [1791397850.385605231] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397850.386749572] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397850.388592248] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397850.782019470] [coverage_planner]: 前方仍有障碍，跳过航点 173
+[python3-5] [INFO] [1791397850.830618296] [coverage_planner]: 🌀 航点174航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397856.386851979] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.45
+[python3-5] [INFO] [1791397856.387419012] [coverage_planner]: 航点174第1次失败
+[python3-5] [INFO] [1791397856.387911721] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397856.388682160] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397856.390100757] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397856.834791448] [coverage_planner]: 前方仍有障碍，跳过航点 174
+[python3-5] [WARN] [1791397863.642976624] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397863.643590835] [coverage_planner]: 航点175第1次失败
+[python3-5] [INFO] [1791397863.644107454] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397863.645004273] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397863.646392929] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397864.041867658] [coverage_planner]: 前方仍有障碍，跳过航点 175
+[python3-5] [INFO] [1791397864.093890706] [coverage_planner]: 🌀 航点176航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397870.248541887] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.99右空0.45
+[python3-5] [INFO] [1791397870.249155901] [coverage_planner]: 航点176第1次失败
+[python3-5] [INFO] [1791397870.249707875] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397870.250607089] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397870.252094162] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397870.696405225] [coverage_planner]: 前方仍有障碍，跳过航点 176
+[python3-5] [WARN] [1791397876.103254531] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397876.103849422] [coverage_planner]: 航点177第1次失败
+[python3-5] [INFO] [1791397876.104288114] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397876.105056947] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397876.106217866] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397876.552373149] [coverage_planner]: 前方仍有障碍，跳过航点 177
+[python3-5] [INFO] [1791397876.603796625] [coverage_planner]: 🌀 航点178航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397883.209024359] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.45
+[python3-5] [INFO] [1791397883.209660350] [coverage_planner]: 航点178第1次失败
+[python3-5] [INFO] [1791397883.210186848] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397883.210975004] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397883.212209614] [coverage_planner]: 开始绕行: (-1.03, -2.52)
+[python3-5] [WARN] [1791397883.609517625] [coverage_planner]: 前方仍有障碍，跳过航点 178
+[python3-5] [WARN] [1791397891.264393845] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.97右空0.47
+[python3-5] [INFO] [1791397891.265029677] [coverage_planner]: 航点179第1次失败
+[python3-5] [INFO] [1791397891.265566551] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397891.266481342] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397891.267909608] [coverage_planner]: 开始绕行: (-1.05, -2.55)
+[python3-5] [WARN] [1791397891.664344780] [coverage_planner]: 前方仍有障碍，跳过航点 179
+[python3-5] [INFO] [1791397891.715792512] [coverage_planner]: 🌀 航点180航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397896.667528362] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.98右空0.45
+[python3-5] [INFO] [1791397896.667720637] [coverage_planner]: 航点180第1次失败
+[python3-5] [INFO] [1791397896.667949133] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397896.668438449] [coverage_planner]: 离边界0.61m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397896.669217863] [coverage_planner]: 开始绕行: (-1.04, -2.53)
+[python3-5] [WARN] [1791397897.119292278] [coverage_planner]: 前方仍有障碍，跳过航点 180
+[python3-5] [WARN] [1791397903.973152333] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.00右空0.45
+[python3-5] [INFO] [1791397903.973473590] [coverage_planner]: 航点181第1次失败
+[python3-5] [INFO] [1791397903.973762132] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397903.974247982] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397903.975072713] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397904.424949593] [coverage_planner]: 前方仍有障碍，跳过航点 181
+[python3-5] [INFO] [1791397904.474293229] [coverage_planner]: 🌀 航点182航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397911.480276214] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.98右空0.46
+[python3-5] [INFO] [1791397911.480837736] [coverage_planner]: 航点182第1次失败
+[python3-5] [INFO] [1791397911.481290928] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397911.482014002] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397911.483116309] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397911.878523951] [coverage_planner]: 前方仍有障碍，跳过航点 182
+[python3-5] [WARN] [1791397917.987796233] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.98右空0.45
+[python3-5] [INFO] [1791397917.988757518] [coverage_planner]: 航点183第1次失败
+[python3-5] [INFO] [1791397917.989588158] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397917.990765791] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397917.992240314] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397918.383823460] [coverage_planner]: 前方仍有障碍，跳过航点 183
+[python3-5] [INFO] [1791397918.436253394] [coverage_planner]: 🌀 航点184航线被挡，插入2个绕障圆弧航点
+[python3-5] [WARN] [1791397925.593234974] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空2.99右空0.45
+[python3-5] [INFO] [1791397925.593889328] [coverage_planner]: 航点184第1次失败
+[python3-5] [INFO] [1791397925.594389219] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397925.595281099] [coverage_planner]: 离边界0.59m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397925.596584517] [coverage_planner]: 开始绕行: (-1.05, -2.56)
+[python3-5] [WARN] [1791397926.042519906] [coverage_planner]: 前方仍有障碍，跳过航点 184
+[python3-6] [WARN] [1791397928.843567532] [metrics_recorder]: 📼 超时，强制结束记录
+[python3-6] [INFO] [1791397929.158471002] [metrics_recorder]: 📼 落盘完成: status=timeout odom=120041 点, 时长=2400.9
+[python3-5] [WARN] [1791397931.495317883] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空2.99右空0.46
+[python3-5] [INFO] [1791397931.495553751] [coverage_planner]: 航点185第1次失败
+[python3-5] [INFO] [1791397931.495751572] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397931.496071011] [coverage_planner]: 离边界0.60m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397931.496621888] [coverage_planner]: 开始绕行: (-1.04, -2.54)
+[python3-5] [WARN] [1791397931.946588905] [coverage_planner]: 前方仍有障碍，跳过航点 185
+[python3-5] [INFO] [1791397931.997229092] [coverage_planner]: 🌀 航点186航线被挡，插入2个绕障圆弧航点
